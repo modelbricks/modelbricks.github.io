@@ -8,7 +8,7 @@ permalink: /ModelBrick_PDGF_Src
 
 ## PDGF signaling resulting in Src activation
 
-### Downloads xxxxx
+### Downloads
 
  <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;
  <a href="/modelbricks/PDGF SBGN-ML.sbgn">SBGN-ML</a>

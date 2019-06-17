@@ -18,7 +18,7 @@ permalink: /ModelBrick_PDGF_Src
 
 ### Publication
 
-PMID:  [24034255](https://www.ncbi.nlm.nih.gov/pubmed/24034255) </a> DOI: [10.1016/j.cell.2013.08.026](https://doi.org/10.1016/j.cell.2013.08.026)
+PMID:  [24034255](https://www.ncbi.nlm.nih.gov/pubmed/24034255) </a> &ensp; DOI: [10.1016/j.cell.2013.08.026](https://doi.org/10.1016/j.cell.2013.08.026)
 
 ### Description
 

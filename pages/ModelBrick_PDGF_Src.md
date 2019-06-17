@@ -32,8 +32,8 @@ This model represents the activation of Src kinase, which is stimulated by the g
  </tr>
   <tr>
   <td align="center"> SBGN visualization </td>
-  <td> VCell: Reaction diagram</td>
-  <td> VCell: Pathway diagram</td>
+  <td align="center"> VCell: Reaction diagram</td>
+  <td align="center"> VCell: Pathway diagram</td>
  </tr>
  </table>
 

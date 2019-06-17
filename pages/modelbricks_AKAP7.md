@@ -5,21 +5,17 @@ permalink: /modelbricks_AKAP7/
 ---
 ### AKAP7 PLN Binding and PKA links
 
-### Downloads 2
-
+### Downloads 
 <a href="/modelbricks/cAMP_prod.graphml">SBGN-PD brick cAMP production </a> &ensp; 
   <a href="/modelbricks/PKA_act.graphml">SBGN-PD brick PKA activation </a> &ensp; 
- <a href="/modelbricks/AKAP7_PLB.graphml">SBGN-PD brick AKAP7_PLB interaction </a> &ensp;
- 
-<br />
+ <a href="/modelbricks/AKAP7_PLB.graphml">SBGN-PD brick AKAP7_PLB interaction </a><br />
 
 ### Publication 
-<div class="img" style="font-size:90%; text-align:center;"><br />
- <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">PMID: 26027516</a> <br />
- <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">DOI: 10.1016/j.cellsig.2015.05.016</a><br />
+<div class="img" style="font-size:90%; text-align:right;"><br />
+ PMDI:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">  26027516</a> <br />
+ DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-
 This model is comprised of two modules 1) the production of cAMP and the activation of PKA and 2) The binding and phosphorilation of PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this multiplex brick.
 
 <table>

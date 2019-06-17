@@ -10,11 +10,9 @@ permalink: /ModelBrick_PDGF_Src
 
 ### Downloads
 
-
- 
  <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;
- <a href="/modelbricks/PDGF ModelBrick.vcml">VCell </a> &ensp; 
  <a href="/modelbricks/PDGF SBGN-ML.sbgn">SBGN-ML</a>
+ <a href="/modelbricks/PDGF ModelBrick.vcml">VCML </a> &ensp; 
 
 ### Publication
 
@@ -40,10 +38,10 @@ This model represents the activation of Src kinase, which is stimulated by the g
  </tr>
   <tr>
   <td>
-   <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> SBGN visualization
+   SBGN visualization
   </td>
   <td>
-   <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> Reaction diagram
+   VCell: Reaction diagram
   </td>
   <td>
    VCell: Pathway diagram

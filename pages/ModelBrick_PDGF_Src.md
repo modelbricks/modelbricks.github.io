@@ -10,7 +10,7 @@ permalink: /ModelBrick_PDGF_Src
 
 ### Downloads
 
- <div class="img" style="font-size:90%; text-align:center;">
+
  
  <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;
  <a href="/modelbricks/PDGF ModelBrick.vcml">VCell </a> &ensp; 

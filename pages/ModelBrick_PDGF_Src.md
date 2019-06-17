@@ -14,7 +14,7 @@ permalink: /ModelBrick_PDGF_Src
  
  <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;
  <a href="/modelbricks/PDGF ModelBrick.vcml">VCell download</a> &ensp; 
- <a href="/modelbricks/Tyson_2003_1a.xml">TEST</a></div>
+ <a href="/modelbricks/PDGF SBGN-ML.sbgn">TEST</a></div>
 
 ### Publication
 

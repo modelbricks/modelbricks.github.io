@@ -24,11 +24,11 @@ This model represents the activation of Src kinase, which is stimulated by the g
 
 ### Images
  
- <table border="1" width="100%">
+ <table width="100%">
  <tr>
-  <td width="33%"><img align="center" src="/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"/></td>
-  <td width="33%"><img align="center" src="/images/modelbricks/PDGF_ModelBrick_ReactionDiagram.PNG"/></td>
-  <td width="33%"><img align="center" src="/images/modelbricks/PDGF_ModelBrick_PathwayDiagram.PNG"/></td>
+  <td width="30%"><img align="center" src="/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"/></td>
+  <td width="30%"><img align="center" src="/images/modelbricks/PDGF_ModelBrick_ReactionDiagram.PNG"/></td>
+  <td width="30%"><img align="center" src="/images/modelbricks/PDGF_ModelBrick_PathwayDiagram.PNG"/></td>
  </tr>
   <tr>
   <td align="center"> SBGN visualization </td>

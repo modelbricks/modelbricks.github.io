@@ -13,8 +13,8 @@ permalink: /ModelBrick_PDGF_Src
  <div class="img" style="font-size:90%; text-align:center;">
  
  <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;
- <a href="/modelbricks/PDGF ModelBrick.vcml">VCell download</a> &ensp; 
- <a href="/modelbricks/PDGF SBGN-ML.sbgn">TEST</a></div>
+ <a href="/modelbricks/PDGF ModelBrick.vcml">VCell </a> &ensp; 
+ <a href="/modelbricks/PDGF SBGN-ML.sbgn">SBGN-ML</a></div>
 
 ### Publication
 

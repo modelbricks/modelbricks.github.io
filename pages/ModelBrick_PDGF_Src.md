@@ -6,7 +6,7 @@ permalink: /ModelBrick_PDGF_Src
 
 
 
-## PDGF signaling resulting in Src activation
+## PDGF signaling resulting in Src activation JA
 
 ### Downloads
 
@@ -28,7 +28,7 @@ This model represents the activation of Src kinase, which is stimulated by the g
  <tr>
   
   
-  <td width="30%"><a href="/modelbricks/PDGF graphML.graphml"></a><img align="center" src="/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"/></td>
+  <td width="30%"><a href="/modelbricks/PDGF graphML.graphml"><img align="center" src="/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"/></a></td>
   
   
   

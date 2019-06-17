@@ -18,11 +18,11 @@ permalink: /ModelBrick_PDGF_Src
 
 ### Publication
 
-PMID:  [24034255](https://www.ncbi.nlm.nih.gov/pubmed/24034255) </a> &ensp; DOI: [10.1016/j.cell.2013.08.026](https://doi.org/10.1016/j.cell.2013.08.026)
+PMID:  [24034255](https://www.ncbi.nlm.nih.gov/pubmed/24034255) &ensp; DOI: [10.1016/j.cell.2013.08.026](https://doi.org/10.1016/j.cell.2013.08.026)
 
 ### Description
 
-This model represents the activation of Src kinase, which is stimulated by the growth factor PDGF. Protein tyrosine phosphatase (PTP) catalyzes Src activation, while active Csk modulates the rate at which Src deactivation takes place.
+This model represents the activation of Src kinase, which is stimulated by the growth factor PDGF. Protein tyrosine phosphatase (PTP) catalyzes Src activation, while activated Csk modulates the rate at which Src deactivation takes place.
 
 ### Images
  

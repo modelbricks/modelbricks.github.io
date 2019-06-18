@@ -27,10 +27,9 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
   <td align="center"> Vcell: reaction diagram module 2</td>
   <td align="center"> VCell: Pathway diagram</td>
  </tr>
- <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module1_cAMPprod.png"><img align="center" src="/images/modelbricks/AKAP_module1_cAMPprod.PNG"/></a></td>
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/blob/master/images/modelbricks/AKAP_module1_PKAact.png
-"><img align="center" src="/images/modelbricks/AKAP_module1_PKAact.PNG"/></a></td>
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module2_AKAP-PLB.png"><img align="center" src="/images/modelbricks/AKAP_module2_AKAP-PLB"/></a></td>
+ <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module1_cAMPprod.png"><img align="center" src="/images/modelbricks/AKAP_module1_cAMPprod.png"/></a></td>
+  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module1_PKAact.png"><img align="center" src="/images/modelbricks/AKAP_module1_PKAact.png"/></a></td>
+  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module2_AKAP-PLB.png"><img align="center" src="/images/modelbricks/AKAP_module2_AKAP-PLB.png"/></a></td>
  <tr>
   <td align="center"> SBGN-PD: cAMP production</td>
   <td align="center"> SBGN-PD: PKA activation</td>

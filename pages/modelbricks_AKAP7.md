@@ -6,9 +6,10 @@ permalink: /modelbricks_AKAP7/
 ## AKAP7 PLN Binding and PKA links
 
 ### Downloads 
-<a href="/modelbricks/module1_cAMPprod.graphml">SBGN-PD brick cAMP_production.graphml </a> &ensp; 
-<a href="/modelbricks/module1_PKAact.graphml">SBGN-PD brick PKA_activation.graphml </a> &ensp; 
-<a href="/modelbricks/module2_AKAP7-PLB.graphml">SBGN-PD brick AKAP7_PLB interaction.graphml </a><br />
+SBGN-PD bricks
+cAMP production <a href="/modelbricks/module1_cAMPprod.graphml"> graphml </a> &ensp; <br />
+PKA_activation <a href="/modelbricks/module1_PKAact.graphml">graphml </a> &ensp; <br />
+AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml"> graphml </a><br />
 
 ### Publication 
 <div class="img" style="font-size:90%; text-align:left;"><br />

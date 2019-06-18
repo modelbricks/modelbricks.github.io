@@ -36,13 +36,13 @@ This model is comprised of two modules 1) the production of cAMP and the activat
  </tr>
   <tr>
   <td>
-   <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> reaction diagram: Production of cAMP and activation of PKA
+   <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> Vcell: reaction diagram module 1
   </td>
   <td>
-   <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> reaction diagram: Binding and phosphorilation of PLB
+   <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> Vcell: reaction diagram module 2
   </td>
   <td>
-   VCell: Pathway diagram
+    <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> VCell: Pathway diagram
   </td>
  </tr>
  </table>

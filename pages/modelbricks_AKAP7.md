@@ -31,9 +31,9 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
   <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module1_PKAact.png"><img align="center" src="/images/modelbricks/AKAP_module1_PKAact.png"/></a></td>
   <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module2_AKAP-PLB.png"><img align="center" src="/images/modelbricks/AKAP_module2_AKAP-PLB.png"/></a></td>
  <tr>
-  <td align="center"> SBGN-PD: cAMP production</td>
-  <td align="center"> SBGN-PD: PKA activation</td>
-  <td align="center"> SBGN-PD: AKAP-PLB interaction</td>
+  <td align="center"> SBGN-PD: module 1 cAMP production</td>
+  <td align="center"> SBGN-PD: module 1 PKA activation</td>
+  <td align="center"> SBGN-PD: module 2 AKAP-PLB interaction</td>
  </tr>
  </table>
 

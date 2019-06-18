@@ -6,17 +6,19 @@ permalink: /modelbricks_Ubiquitination/
 ## UBIQUITINATION
 
 
-
 ### DOWNLOADS
 
- <div class="img" style="font-size:90%; text-align:center;"> <img src="/images/modelbricks/LinearSBGN.PNG" width="400" > &ensp; 
- <br><img src="/images/modelbricks/LinearResponse.PNG" width="200"/><br />  </div> 
- The VCell model <a href="/modelbricks/Tyson_2003_1a.vcml">Tyson_2003_1a.vcml</a> provides an executable counterpart for this multiplex brick.
-
- <div class="img" style="font-size:90%; text-align:center;"><br /><a href="/modelbricks/LinearResponse.graphml">SBGN-PD brick</a> &ensp; <a href="/modelbricks/Tyson_2003_1a.vcml">VCell brick</a> &ensp; <a href="/modelbricks/Tyson_2003_1a.xml">SBML brick</a></div>
+ <div class="img" style="font-size:90%; text-align:center;"> </div>
+ 
 ### PUBLICATION
 
+[PMID: 24459094] <a href="https://www.ncbi.nlm.nih.gov/pubmed/24459094"></a> <br />
+[DOI:  10.1002/anie.201307761] <a href="https://doi.org/10.1002/anie.201307761"></a> <br />
+[KEGG PATHWAY: map04120] <a href="https://www.kegg.jp/entry/map04120"></a> <br />
+
 ### DESCRIPTION
+
+The Ubiquitin model is composed of 3 modules, a) the process of ubiquitin tagging, b) the process of degradation by proteoseomes and c) the proccess of deubiquitination.
 
 <div class="img" style="font-size:90%; text-align:center;"> 
  <img src="/images/modelbricks/PhosphorylationSBGN.PNG" width="400" > &ensp; 
@@ -27,18 +29,5 @@ her a <strong>hyperbolic</strong> or a <strong>sigmoidal response</strong>.  VCe
 
 ### Contributors
 
- <div class="img" style="font-size:90%; text-align:center;"><br />
- <a href="/modelbricks/PhosphorylationSBGN.graphml">SBGN-PD brick</a> &ensp; 
- <a href="/modelbricks/Tyson_2003_1b.vcml">VCell brick Hyperbolic</a> &ensp; 
- <a href="/modelbricks/Tyson_2003_1c.vcml">VCell brick Sigmoidal</a> &ensp;
- <a href="/modelbricks/Tyson_2003_1b.xml">SBML brick Hyperbolic</a> &ensp;
-<a href="/modelbricks/Tyson_2003_1c.xml">SBML brick Sigmoidal</a>
-</div>
-
-# Perfectly adapted signal-response
-
-<div class="img" style="font-size:90%; text-align:center;"> 
- <img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400" > &ensp; 
- <img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/><br />  </div>
-
+ Maria del Carmen Heredia , Michael Blinov
 

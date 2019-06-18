@@ -19,23 +19,24 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
 ### Description
 <div class="img" style="font-size:90%; text-align:left;"><br />
 This model is comprised of two modules 1) the production of cAMP and the activation of PKA and 2) The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this multiplex brick.
-</div>   
-
+ 
 <table>
- <tr>
+  <tr>
   <td><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact.PNG"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="300" /></td>
   <td><a href="https://modelbricks.github.io/images/modelbricks/PLB_binding_phosph.PNG"></a><img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300" /></td>
   <td><a href="https://modelbricks.github.io/images/modelbricks/Pathways-AKAP7.PNG"> <img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG" > </td>
- </tr>
+  </tr>
   <tr>
   <td> <text-align:center> Vcell: reaction diagram module 1  </td>
   <td> <text-align:center> Vcell: reaction diagram module 2  </td>
   <td> <text-align:center> VCell: Pathway diagram  </td>
- </tr>
+  </tr>
  </table>
 
+</div> 
 
 ### Contributors
+
 <div class="img" style="font-size:90%; text-align:left;"><br />
   María Heredia, Michael Blinov
 </div>   

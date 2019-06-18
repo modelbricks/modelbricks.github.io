@@ -12,9 +12,9 @@ permalink: /modelbricks_Ubiquitination/
  
 ### PUBLICATION
 
-[PMID: 24459094] <a href="https://www.ncbi.nlm.nih.gov/pubmed/24459094"></a> <br />
-[DOI:  10.1002/anie.201307761] <a href="https://doi.org/10.1002/anie.201307761"></a> <br />
-[KEGG PATHWAY: map04120] <a href="https://www.kegg.jp/entry/map04120"></a> <br />
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24459094">24459094 </a> <br />
+DOI:  <a href="https://doi.org/10.1002/anie.201307761">10.1002/anie.201307761 </a> <br />
+KEGG PATHWAY: <a href="https://www.kegg.jp/entry/map04120">map04120 </a> <br />
 
 ### DESCRIPTION
 

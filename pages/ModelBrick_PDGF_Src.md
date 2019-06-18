@@ -22,12 +22,12 @@ PMID:  [24034255](https://www.ncbi.nlm.nih.gov/pubmed/24034255) &ensp; DOI: [10.
 This model represents the activation of Src kinase, which is stimulated by the growth factor PDGF. Protein tyrosine phosphatase (PTP) catalyzes Src activation, while activated Csk modulates the rate at which Src deactivation takes place.
 
 ### Images
- 
+
  <table width="100%">
  <tr>
-  <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"><img width="100%" src="/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"/></a></td> 
-  <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_ReactionDiagram.PNG"><img width="100%" src="/images/modelbricks/PDGF_ModelBrick_ReactionDiagram.PNG"/></a></td>
-  <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_PathwayDiagram.PNG"><img width="100%" src="/images/modelbricks/PDGF_ModelBrick_PathwayDiagram.PNG"/></a></td>
+  <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"><img width="96%" src="/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"/></a></td> 
+  <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_ReactionDiagram.PNG"><img width="96%" src="/images/modelbricks/PDGF_ModelBrick_ReactionDiagram.PNG"/></a></td>
+  <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_PathwayDiagram.PNG"><img width="96%" src="/images/modelbricks/PDGF_ModelBrick_PathwayDiagram.PNG"/></a></td>
  </tr>
   <tr>
   <td align="center"> SBGN visualization </td>

@@ -14,7 +14,7 @@ permalink: /modelbricks_AKAP7/
 <div class="img" style="font-size:90%; text-align:left;"><br />
  PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">  26027516</a> <br />
  DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
-  
+</div>   
   
 ### Description
 
@@ -23,10 +23,10 @@ This model is comprised of two modules 1) the production of cAMP and the activat
 <table>
  <tr>
   <td>
-   <img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="250" >
+   <img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="250" />
   </td>
   <td>
-   <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="250">
+   <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="250" />
   </td>
   <td>
    <img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG" >

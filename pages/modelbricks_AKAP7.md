@@ -19,10 +19,10 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
 
 ### Images
  
-<table>
+  <table>
   <tr>
-  <td><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact.PNG"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="300"></a></td>
-  <td><a href="https://modelbricks.github.io/images/modelbricks/PLB_binding_phosph.PNG"></a><img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300"></a></td>
+  <td><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact.PNG"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="400"></a></td>
+  <td><a href="https://modelbricks.github.io/images/modelbricks/PLB_binding_phosph.PNG"><img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300"></a></td>
   <td><a href="https://modelbricks.github.io/images/modelbricks/Pathways-AKAP7.PNG"><img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG"></a></td>
   </tr>
   <tr>
@@ -30,7 +30,7 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
   <td>Vcell: reaction diagram module 2</td>
   <td>VCell: Pathway diagram</td>
   </tr>
-</table>
+  </table>
  
  ### Contributors
  María Heredia, Michael Blinov 

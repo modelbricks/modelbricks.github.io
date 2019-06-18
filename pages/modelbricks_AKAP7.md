@@ -25,9 +25,7 @@ This model is comprised of two modules 1) the production of cAMP and the activat
  <tr>
   <td>
    <img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="300" />
-   <a href="/images/modelbricks/cCAMPprod_PKAact.PNG">
-   
-   
+   <a href="/images/modelbricks/cCAMPprod_PKAact.PNG"> 
   </td>
   <td>
    <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300" />

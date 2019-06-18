@@ -23,13 +23,13 @@ This model represents the activation of Src kinase, which is stimulated by the g
 
 ### Images
 
- <table width="100%">
- <tr>
+ <table>
+ <tr align="center">
   <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"><img width="96%" align="center" src="/images/modelbricks/PDGF_ModelBrick_SBGN.PNG"/></a></td> 
   <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_ReactionDiagram.PNG"><img width="96%" align="center" src="/images/modelbricks/PDGF_ModelBrick_ReactionDiagram.PNG"/></a></td>
   <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PDGF_ModelBrick_PathwayDiagram.PNG"><img width="96%" src="/images/modelbricks/PDGF_ModelBrick_PathwayDiagram.PNG"/></a></td>
  </tr>
-  <tr>
+  <tr align="center">
   <td align="center"> SBGN visualization </td>
   <td align="center"> VCell: Reaction diagram</td>
   <td align="center"> VCell: Pathway diagram</td>

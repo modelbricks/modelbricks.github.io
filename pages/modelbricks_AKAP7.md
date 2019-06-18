@@ -29,7 +29,7 @@ This model is comprised of two modules 1) the production of cAMP and the activat
   <tr>
   <td>Vcell: reaction diagram module 1</td>
   <td>Vcell: reaction diagram module 2</td>
-  <td>>VCell: Pathway diagram</td>
+  <td>VCell: Pathway diagram</td>
   </tr>
 </table>
  

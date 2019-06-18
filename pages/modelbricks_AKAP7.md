@@ -14,7 +14,7 @@ Module 1: cAMP production <a href="/modelbricks/module1_cAMPprod.graphml"> graph
 Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml"> graphml </a><br />
 
 ### Publication 
- PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">26027516</a> DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
+ PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">26027516</a>     DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Images
  
@@ -31,8 +31,8 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
   </tr>
   </table>
  
+ <div class="img" style="font-size:90%; text-align:left;"><br />
  
  ### Contributors
- <div class="img" style="font-size:90%; text-align:left;"><br />
  María Heredia, Michael Blinov </div>
  

@@ -30,9 +30,8 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
    <td>VCell: Pathway diagram</td>
   </tr>
   </table>
- 
- <div class="img" style="font-size:90%; text-align:left;"><br />
- 
+
  ### Contributors
+ <div class="img" style="font-size:90%; text-align:left;"><br />
  María Heredia, Michael Blinov </div>
  

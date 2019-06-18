@@ -17,8 +17,9 @@ permalink: /modelbricks_AKAP7/
 </div>   
   
 ### Description
-
+<div class="img" style="font-size:90%; text-align:left;"><br />
 This model is comprised of two modules 1) the production of cAMP and the activation of PKA and 2) The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this multiplex brick.
+</div>   
 
 <table>
  <tr>
@@ -46,7 +47,7 @@ This model is comprised of two modules 1) the production of cAMP and the activat
  </table>
 
 ### Contributors
-
+<div class="img" style="font-size:90%; text-align:left;"><br />
   María Heredia, Michael Blinov
-
+</div>   
  

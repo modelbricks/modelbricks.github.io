@@ -14,21 +14,20 @@ Module 1: cAMP production <a href="/modelbricks/module1_cAMPprod.graphml"> graph
 Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml"> graphml </a><br />
 
 ### Publication 
- PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">  26027516</a><br />
- DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
+ PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">26027516</a> DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Images
  
   <table>
   <tr>
-  <td><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact.PNG"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="400"></a></td>
-  <td><a href="https://modelbricks.github.io/images/modelbricks/PLB_binding_phosph.PNG"><img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300"></a></td>
-  <td><a href="https://modelbricks.github.io/images/modelbricks/Pathways-AKAP7.PNG"><img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG"></a></td>
+   <td><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact.PNG"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="400"></a></td>
+   <td><a href="https://modelbricks.github.io/images/modelbricks/PLB_binding_phosph.PNG"><img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300"></a></td>
+   <td><a href="https://modelbricks.github.io/images/modelbricks/Pathways-AKAP7.PNG"><img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG"></a></td>
   </tr>
   <tr>
-  <td>Vcell: reaction diagram module 1</td>
-  <td>Vcell: reaction diagram module 2</td>
-  <td>VCell: Pathway diagram</td>
+   <td>Vcell: reaction diagram module 1</td>
+   <td>Vcell: reaction diagram module 2</td>
+   <td>VCell: Pathway diagram</td>
   </tr>
   </table>
  

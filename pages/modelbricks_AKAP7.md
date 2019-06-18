@@ -29,6 +29,7 @@ This model is comprised of two modules 1) the production of cAMP and the activat
   </td>
   <td>
    <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="250" />
+   <a href="https://modelbricks.github.io/images/modelbricks/PLB_binding_phosph.PNG"></a>
   </td>
   <td>
    <img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG" >
@@ -36,13 +37,13 @@ This model is comprised of two modules 1) the production of cAMP and the activat
  </tr>
   <tr>
   <td>
-   <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> Vcell: reaction diagram module 1
+  Vcell: reaction diagram module 1
   </td>
   <td>
-   <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> Vcell: reaction diagram module 2
+  Vcell: reaction diagram module 2
   </td>
   <td>
-    <a href="AKAP7_PLB_Binding_2PKA_links.vcml">AKAP7_PLB_Binding_2PKA_links.vcml</a> VCell: Pathway diagram
+  VCell: Pathway diagram
   </td>
  </tr>
  </table>

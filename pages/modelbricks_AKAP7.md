@@ -22,13 +22,13 @@ permalink: /modelbricks_AKAP7/
 <table>
  <tr>
   <td>
-   <img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="250" >
+   <img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="400" >
   </td>
   <td>
-   <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="250">
+   <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="400">
   </td>
   <td>
-   <img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG" width="400">
+   <img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG" width="250">
   </td>
  </tr>
   <tr>

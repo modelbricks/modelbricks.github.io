@@ -32,6 +32,8 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
   </tr>
   </table>
  
+ 
  ### Contributors
- María Heredia, Michael Blinov 
+ <div class="img" style="font-size:90%; text-align:left;"><br />
+ María Heredia, Michael Blinov </div>
  

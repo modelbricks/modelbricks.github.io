@@ -25,11 +25,13 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
    <td><a href="https://modelbricks.github.io/images/modelbricks/Pathways-AKAP7.PNG"><img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG"></a></td>
   </tr>
   <tr>
-   <td>Vcell: reaction diagram module 1</td>
-   <td>Vcell: reaction diagram module 2</td>
-   <td>VCell: Pathway diagram</td>
+   <td><text-align:center> Vcell: reaction diagram module 1</td>
+   <td><text-align:center>Vcell: reaction diagram module 2</td>
+   <td><text-align:center>VCell: Pathway diagram</td>
   </tr>
   </table>
+
+
 
  ### Contributors
  <div class="img" style="font-size:90%; text-align:left;"><br />

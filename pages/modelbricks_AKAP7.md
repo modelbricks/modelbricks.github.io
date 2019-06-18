@@ -24,12 +24,14 @@ This model is comprised of two modules 1) the production of cAMP and the activat
 <table>
  <tr>
   <td>
-   <img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="250" />
+   <img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="300" />
+   <a href="/images/modelbricks/cCAMPprod_PKAact.PNG">
+   
    
   </td>
   <td>
-   <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="250" />
-   <a href="https://modelbricks.github.io/images/modelbricks/PLB_binding_phosph.PNG"></a>
+   <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300" />
+   <a href="/images/modelbricks/PLB_binding_phosph.PNG"></a>
   </td>
   <td>
    <img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG" >

@@ -23,30 +23,17 @@ This model is comprised of two modules 1) the production of cAMP and the activat
 
 <table>
  <tr>
-  <td>
-   <img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="300" />
-   <a href="/images/modelbricks/cCAMPprod_PKAact.PNG"> 
-  </td>
-  <td>
-   <img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300" />
-   <a href="/images/modelbricks/PLB_binding_phosph.PNG"></a>
-  </td>
-  <td>
-   <img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG" >
-  </td>
+  <td><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact.PNG"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact.PNG" width="300" /></td>
+  <td><a href="https://modelbricks.github.io/images/modelbricks/PLB_binding_phosph.PNG"></a><img align="center" src="/images/modelbricks/PLB_binding_phosph.PNG" width="300" /></td>
+  <td><a href="https://modelbricks.github.io/images/modelbricks/Pathways-AKAP7.PNG"> <img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG" > </td>
  </tr>
   <tr>
-  <td>
-  Vcell: reaction diagram module 1
-  </td>
-  <td>
-  Vcell: reaction diagram module 2
-  </td>
-  <td>
-  VCell: Pathway diagram
-  </td>
+  <td> <text-align:center> Vcell: reaction diagram module 1  </td>
+  <td> <text-align:center> Vcell: reaction diagram module 2  </td>
+  <td> <text-align:center> VCell: Pathway diagram  </td>
  </tr>
  </table>
+
 
 ### Contributors
 <div class="img" style="font-size:90%; text-align:left;"><br />

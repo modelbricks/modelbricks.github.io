@@ -24,16 +24,16 @@ Note that the topology of the network alone cannot provide the exact response pa
 ### Images
 
 <table> 
- <td align="center" width="50%"> <a href="http://modelbricks.org/images/modelbricks/PhosphorylationSBGN.PNG"><img src="/images/modelbricks/PhosphorylationSBGN.PNG" /></a></td>
- <td align="center" width="50%"><a href="https://modelbricks.github.io/images/modelbricks/Vcell_phosphorilation.PNG"><img src="/images/modelbricks/Vcell_phosphorilation.PNG" /></a></td>
+ <td align="center" width="30%"> <a href="http://modelbricks.org/images/modelbricks/PhosphorylationSBGN.PNG"><img src="/images/modelbricks/PhosphorylationSBGN.PNG" /></a></td>
+ <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/Vcell_phosphorilation.PNG"><img src="/images/modelbricks/Vcell_phosphorilation.PNG" /></a></td>
  <tr>
   <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: reaction diagram</td>
  </table>
 
 <table> 
-  <td align="center" width="50%"><a href="https://modelbricks.github.io/images/modelbricks/HyperbolicResponse.PNG"><img src="/images/modelbricks/HyperbolicResponse.PNG"/></a></td>
- <td align="center" width="50%"><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG"/></a></td>
+  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/HyperbolicResponse.PNG"><img src="/images/modelbricks/HyperbolicResponse.PNG"/></a></td>
+ <td align="center" width="30%"><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG"/></a></td>
  <tr>
    <td align="center"> VCell: Simulation Hyperbolic</td>
   <td align="center"> VCell: Simulation Sigmoidal</td>
@@ -41,24 +41,18 @@ Note that the topology of the network alone cannot provide the exact response pa
  </table>
  
 ### Downloads
-table> 
+<table> 
+   <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1b.vcml">VCML Hyperbolic</a>designed with <a href="http://vcell.org"> VCell </a></td> 
+   <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1c.vcml">VCML Sigmoidal</a>designed with <a href="http://vcell.org"> VCell </a></td>
  <tr>
-  <td><a href="/modelbricks/Tyson_2003_1b.vcml">VCML Hyperbolic</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
- <td align="center" width="33%"><a href="/modelbricks/Tyson_2003_1b.xml">SBML Hyperbolic</a> exported from <a href="http://vcell.org"> VCell</a></td>
+ <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1b.xml">SBML Hyperbolic</a>exported from <a href="http://vcell.org"> VCell</a></td>
+  <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1c.xml">SBML Sigmoidal</a>exported from <a href="http://vcell.org"> VCell</a></td>
  </tr>
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/PhosphorylationSBGN.graphml">GraphML </a>  designed with <a href="https://www.yworks.com/yed">yED</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/LinearResponse.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN">ySBGN</a></td>
+    <td align="center" width="50%"><a href="/modelbricks/PhosphorylationSBGN.graphml">GraphML </a>  designed with <a href="https://www.yworks.com/yed">yED</a></td>
+    <td align="center" width="50%"><a href="/modelbricks/...">SBGN-ML</a> converted with <b>RED <a href="https://github.com/sbgn/ySBGN">ySBGN</a></td>
  </tr>
- </table>
-
-
-  <a href="/modelbricks/Tyson_2003_1c.vcml">VCML Sigmoidal</a> (designed with [VCell](http://vcell.org)) &ensp; <br>
- (exported by [VCell](http://vcell.org)) &ensp; 
-  <a href="/modelbricks/Tyson_2003_1c.xml">SBML Sigmoidal</a> (exported by [VCell](http://vcell.org)) &ensp; <br>
-
- <a href="/modelbricks/...">SBGN-ML</a> (exported with ...) <b>RED</b> &ensp;
-
+ </table> 
 
 ### Contributors
 

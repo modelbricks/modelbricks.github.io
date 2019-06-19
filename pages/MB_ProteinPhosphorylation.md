@@ -22,11 +22,19 @@ Note that the topology of the network alone cannot provide the exact response pa
 <a href="/modelbricks/Tyson_2003_1b.vcml">Tyson_2003_1b.vcml</a> provides an executable counterpart for this multiplex brick for a sigmoidal response, while VCell model <a href="/modelbricks/Tyson_2003_1c.vcml">Tyson_2003_1c.vcml</a> provides an executable counterpart for a hyperbolic response.
 
 ### Images
-<div class="img" style="font-size:90%; text-align:center;"> 
- <img src="/images/modelbricks/PhosphorylationSBGN.PNG" width="400"/> &ensp; 
- <img src="/images/modelbricks/HyperbolicResponse.PNG" width="200"/> &ensp; 
- <img src="/images/modelbricks/SigmoidalResponse.PNG" width="180"/> 
-</div>
+
+<table> 
+ <td align="center" width="33%"> <a href="http://modelbricks.org/images/modelbricks/PhosphorylationSBGN.PNG"><img src="/images/modelbricks/PhosphorylationSBGN.PNG" width="400"/></a></td>
+ <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/HyperbolicResponse.PNG.PNG"><img src="/images/modelbricks/HyperbolicResponse.PNG" width="200"/></a></td>
+ <td align="center" width="33%"><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG" width="180"/></a></td>
+ <tr>
+   <td align="center"> SBGN visualization</td>
+  <td align="center"> VCell: Reaction diagram</td>
+  <td align="center"> VCell: Simulation</td>
+ </tr>
+ </table>
+
+
  
 ### Downloads
 

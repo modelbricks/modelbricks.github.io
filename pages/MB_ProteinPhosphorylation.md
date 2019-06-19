@@ -21,12 +21,7 @@ is characterised by either a <strong>hyperbolic</strong> or a <strong>sigmoidal 
 Note that the topology of the network alone cannot provide the exact response pattern, as it depends on the kinetics of phosphorylation and dephosphorylation reactions. Below is SBGN brick that includes visualisation of this motif. This network topology corresponds to two different executable bricks reproducing both signal-response patterns: VCell model 
 <a href="/modelbricks/Tyson_2003_1b.vcml">Tyson_2003_1b.vcml</a> provides an executable counterpart for this multiplex brick for a sigmoidal response, while VCell model <a href="/modelbricks/Tyson_2003_1c.vcml">Tyson_2003_1c.vcml</a> provides an executable counterpart for a hyperbolic response.
 
-### Images
-<div class="img" style="font-size:90%; text-align:center;"> 
- <img src="/images/modelbricks/PhosphorylationSBGN.PNG" width="400"/> &ensp; 
- <img src="/images/modelbricks/HyperbolicResponse.PNG" width="200"/> &ensp; 
- <img src="/images/modelbricks/SigmoidalResponse.PNG" width="180"/> 
-</div>
+
  
  ### Downloads
 

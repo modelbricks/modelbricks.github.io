@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PDGF Regulated Activation of Src
-permalink: /MB_PDGF_Src
+permalink: /MB_PDGF_Src/
 ---
 
 ## PDGF Regulated Activation of Src

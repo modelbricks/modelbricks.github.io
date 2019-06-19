@@ -37,7 +37,7 @@ Note that the topology of the network alone cannot provide the exact response pa
  </table> 
  
 ### Downloads
-
+<center>
 <table>
    <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1b.vcml">VCML Hyperbolic</a> designed with <a href="http://vcell.org"> VCell &ensp; &ensp; &ensp; &ensp; </a></td> 
    <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1c.vcml">VCML Sigmoidal</a> designed with <a href="http://vcell.org"> VCell &ensp; &ensp; &ensp; &ensp;</a></td>
@@ -50,7 +50,7 @@ Note that the topology of the network alone cannot provide the exact response pa
     <td align="center" width="50%"><a href="/modelbricks/PhosphorylationSBGN.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN"> ySBGN &ensp; &ensp; &ensp; &ensp;</a></td>
  </tr>
  </table> 
-
+</center>
 
 ### Contributors
 

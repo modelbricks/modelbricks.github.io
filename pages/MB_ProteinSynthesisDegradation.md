@@ -20,8 +20,8 @@ linear response: the amount of R is directly proportional to the strength of sig
 
 ### Images
 
- <div class="img" style="font-size:90%; text-align:center;"> 
- <img src="/images/modelbricks/LinearSBGN.PNG" width="400" > &ensp; 
+<div class="img" style="font-size:90%; text-align:center;"> 
+ <img src="/images/modelbricks/LinearSBGN.PNG" width="400"/> &ensp; 
  <img src="/images/modelbricks/LinearResponse.PNG" width="200"/><br />  
 </div> 
  

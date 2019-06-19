@@ -31,7 +31,7 @@ linear response: the amount of R is directly proportional to the strength of sig
 <a href="/modelbricks/Tyson_2003_1a.vcml">VCML </a> (designed with [VCell](http://vcell.org)) &ensp;  
 <a href="/modelbricks/Tyson_2003_1a.xml">SBML</a> (exported from [VCell](http://vcell.org)) <br />
 <a href="/modelbricks/LinearResponse.graphml">GraphML </a> (designed with [yED](https://www.yworks.com/yed)) &ensp; 
-<a href="/modelbricks/...">SBGN-ML</a> (exported from ...) <b>RED</b> &ensp;
+<a href="/modelbricks/LinearResponse.sbgn">SBGN-ML</a> (converted with [ySBGN](https://github.com/sbgn/ySBGN)) &ensp;
 
 
 ### Contributors

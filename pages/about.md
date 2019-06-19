@@ -45,7 +45,7 @@ To contribute and discuss the project please use this email address: [modelbrick
 <table>
 <tr>
 <td style="width: 200px;"><p style="margin:4px;"><br /><img src="/images/team/MichaelBlinov.jpg" height="120"/></p></td>
-<td style="width: 200px;"><p style="margin:4px;"><br /><img src="/images/team/ann.png" height="120"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><br /><img src="/images/team/JackAlbanese.jpg" height="120"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"> </p></td>
  <td style="width: 200px;"><p style="margin:4px;"> </p></td>
 </tr>

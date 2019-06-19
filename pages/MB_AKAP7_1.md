@@ -18,15 +18,15 @@ This model is comprised of two modules 1) the production of cAMP and the activat
 
 ### Downloads 
 SBGN-PD bricks <br />
-Module 1: cAMP production <a href="/modelbricks/module1_cAMPprod.graphml"> graphml </a> &ensp; PKA activation <a href="/modelbricks/module1_PKAact.graphml">graphml </a> &ensp;<br />
-Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml"> graphml </a><br />
+Module 1: cAMP production <a href="/modelbricks/AKAP_SBGN_module1.graphml"> graphml <br />
+Module 2: AKAP7-PLB interaction<a href="/modelbricks/AKAP_SBGN_module2.graphml"> graphml </a><br />
 
 
 
 ### Images
 <table> 
  <tr>
-<td align="center" width="80%"><a href="https://modelbricks.github.io/images/modelbricks/Pathways-AKAP7.PNG"><img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG"/></a></td>
+<td align="center" width="80%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathways.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathways.PNG"/></a></td>
  </tr>
  <tr>
  <td align="center"> VCell: Pathway diagram</td>

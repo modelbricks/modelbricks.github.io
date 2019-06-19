@@ -29,7 +29,7 @@ Note that the topology of the network alone cannot provide the exact response pa
  <td align="center" width="33%"><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG" width="180"/></a></td>
  <tr>
    <td align="center"> SBGN visualization</td>
-  <td align="center"> VCell: Reaction diagram</td>
+  <td align="center"> VCell: Simulation</td>
   <td align="center"> VCell: Simulation</td>
  </tr>
  </table>

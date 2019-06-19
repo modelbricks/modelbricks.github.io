@@ -16,10 +16,12 @@ PMID:  [20055671](https://www.ncbi.nlm.nih.gov/pubmed/20055671) &ensp; DOI: [10.
 ### Description
 
 ### Images
- <div class="img" style="font-size:90%; text-align:center;"><br />
- <a href="/modelbricks/LinearResponse.graphml">SBGN-PD brick</a> &ensp; 
- <a href="/modelbricks/Tyson_2003_1a.vcml">VCell brick</a> &ensp; 
- <a href="/modelbricks/Tyson_2003_1a.xml">SBML brick</a></div>
+
+ <div class="img" style="font-size:90%; text-align:center;"> 
+ <img src="/images/modelbricks/LinearSBGN.PNG" width="400" > &ensp; 
+ <img src="/images/modelbricks/LinearResponse.PNG" width="200"/><br />  
+</div> 
+ 
  
  ### Downloads
 

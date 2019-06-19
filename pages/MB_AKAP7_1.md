@@ -17,12 +17,12 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
 This model is comprised of two modules 1) the production of cAMP and the activation of PKA and 2) The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this multiplex brick.
 
 ### Downloads 
-SBGN-PD bricks <br />
-Module 1: cAMP production and PKA activation (designed with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.graphml"> graphml <br />
-Module 1: cAMP production and PKA activation (Exported with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.sbgn"> SBGN-ML <br />
+SBGN-PD bricks <br/>
+Module 1: cAMP production and PKA activation (designed with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.graphml"> graphml <br/>
+Module 1: cAMP production and PKA activation (Exported with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.sbgn"> SBGN-ML <br/>
 
-Module 2: AKAP7-PLB interaction (designed with VANTEN) <a href="/modelbricks/AKAP_SBGN_module2.graphml"> graphml </a><br />
-Module 2: AKAP7-PLB interaction (Exported with VANTEN) <a href="/modelbricks/AKAP_SBGN_module2.sbgn"> SBGN-ML </a><br />
+Module 2: AKAP7-PLB interaction (designed with VANTEN) <a href="/modelbricks/AKAP_SBGN_module2.graphml"> graphml </a><br/>
+Module 2: AKAP7-PLB interaction (Exported with VANTEN) <a href="/modelbricks/AKAP_SBGN_module2.sbgn"> SBGN-ML </a><br/>
 
 ### Images
 <table> 

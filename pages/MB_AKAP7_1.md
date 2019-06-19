@@ -1,9 +1,9 @@
 ---
 layout: default
 title: AKAP7
-permalink: /MB_AKAP7/
+permalink: /MB_AKAP7_1/
 ---
-## AKAP7 PLN Binding and PKA links
+## AKAP7 regulated cAMP activation
 
 ### Publication 
 

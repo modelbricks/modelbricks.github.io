@@ -40,10 +40,9 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
   <td align="center"> Vcell: reaction diagram module 1</td>
   <td align="center"> Vcell: reaction diagram module 2</td>
    </tr>
- <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module1.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module1.png"/></a></td>
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module2.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module2.png"/></a></td>
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module2_AKAP-PLB.png"><img align="center" src="/images/modelbricks/AKAP_module2_AKAP-PLB.png"/></a></td>
- <tr>
+ <td align="center" width="50%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module1.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module1.png"/></a></td>
+  <td align="center" width="50%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module2.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module2.png"/></a></td>
+   <tr>
   <td align="center"> SBGN-PD: module 1 cAMP production and PKA activation</td>
   <td align="center"> SBGN-PD: module 2 AKAP-PLB phosphorilation</td>
   </tr>

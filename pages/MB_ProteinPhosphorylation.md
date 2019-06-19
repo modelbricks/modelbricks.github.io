@@ -22,35 +22,20 @@ Note that the topology of the network alone cannot provide the exact response pa
 
 ### Images
 <div class="img" style="font-size:90%; text-align:center;"> 
- <img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400" > &ensp; 
- <img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/><br />  </div>
+ <img src="/images/modelbricks/PhosphorylationSBGN.PNG" width="400" > &ensp; 
+ <img src="/images/modelbricks/HyperbolicResponse.PNG" width="200"/> &ensp; 
+ <img src="/images/modelbricks/SigmoidalResponse.PNG" width="180"/><br />  </div>
  
  ### Downloads
 
- <a href="/modelbricks/Tyson_2003_1d.vcml">VCML </a> (designed with [VCell](http://vcell.org) &ensp;  
- <a href="/modelbricks/Tyson_2003_1d.xml">VCML </a> (exported by [VCell](http://vcell.org) &ensp; 
- <a href="/modelbricks/LinearResponse.graphml">GraphML </a> (designed with [yED](https://www.yworks.com/yed) &ensp; 
+ <a href="/modelbricks/Tyson_2003_1b.vcml">VCML Hyperbolic</a> (designed with [VCell](http://vcell.org) &ensp;  
+  <a href="/modelbricks/Tyson_2003_1c.vcml">VCML Sigmoidal</a> (designed with [VCell](http://vcell.org) &ensp; 
+ <a href="/modelbricks/Tyson_2003_1b.xml">SBML Hyperbolic</a> (exported by [VCell](http://vcell.org) &ensp;
+  <a href="/modelbricks/Tyson_2003_1c.xml">SBML Sigmoidal</a> (exported by [VCell](http://vcell.org) &ensp; 
+ <a href="/modelbricks/PhosphorylationSBGN.graphml">GraphML </a> (designed with [yED](https://www.yworks.com/yed) &ensp; 
  <a href="/modelbricks/...">SBGN-ML</a> (exported with ...) <b>###</b> &ensp;
 
 
 # Contributors
-
-Michael L Blinov
-<div class="img" style="font-size:90%; text-align:center;"> 
- <img src="/images/modelbricks/PhosphorylationSBGN.PNG" width="400" > &ensp; 
- <img src="/images/modelbricks/HyperbolicResponse.PNG" width="200"/> &ensp; 
- <img src="/images/modelbricks/SigmoidalResponse.PNG" width="180"/><br />  </div>
-
-The visualisation cannot provide the exact response pattern, as it depends on the kinetics of phosphorylation and dephosphorylation reactions. Below is SBGN brick that includes visualisation of this motif. This Multiplex Brick corresponds to two different executable bricks reproducing both signal-response patterns: VCell model <a href="/modelbricks/Tyson_2003_1b.vcml">Tyson_2003_1b.vcml</a> provides an executable counterpart for this multiplex brick for a sigmoidal response, while VCell model <a href="/modelbricks/Tyson_2003_1c.vcml">Tyson_2003_1c.vcml</a> provides an executable counterpart for a hyperbolic response.
-
- <div class="img" style="font-size:90%; text-align:center;"><br />
- <a href="/modelbricks/PhosphorylationSBGN.graphml">SBGN-PD brick</a> &ensp; 
- <a href="/modelbricks/Tyson_2003_1b.vcml">VCell brick Hyperbolic</a> &ensp; 
- <a href="/modelbricks/Tyson_2003_1c.vcml">VCell brick Sigmoidal</a> &ensp;
- <a href="/modelbricks/Tyson_2003_1b.xml">SBML brick Hyperbolic</a> &ensp;
-<a href="/modelbricks/Tyson_2003_1c.xml">SBML brick Sigmoidal</a>
-</div>
-
-## Contributors
 
 Michael L Blinov

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Protein Phosphorylation
-permalink: /ProteinPhosphorylation/
+permalink: /MB_ProteinPhosphorylation/
 ---
 
-### Protein Phosphorylation
+## Protein Phosphorylation
 
 <div class="img" style="font-size:90%; text-align:center;"> 
  <img src="/images/modelbricks/PhosphorylationSBGN.PNG" width="400" > &ensp; 
@@ -21,3 +21,6 @@ If phosphorylation of a protein R is regulated by a signal S, then the amount of
 <a href="/modelbricks/Tyson_2003_1c.xml">SBML brick Sigmoidal</a>
 </div>
 
+## Contributors
+
+Michael L Blinov

@@ -4,14 +4,7 @@ title: PDGF Regulated Activation of Src
 permalink: /MB_PDGF_Src
 ---
 
-
-
 ## PDGF Regulated Activation of Src
-### Downloads
-
- <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;
- <a href="/modelbricks/PDGF SBGN-ML.sbgn">SBGN-ML</a> &ensp;
- <a href="/modelbricks/PDGF ModelBrick.vcml">VCML </a>  
 
 ### Publication
 
@@ -33,6 +26,12 @@ This model represents the activation of Src kinase, which is stimulated by the g
   <td align="center"> VCell: Pathway diagram</td>
  </tr>
  </table>
+ 
+### Downloads
 
+ <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;
+ <a href="/modelbricks/PDGF SBGN-ML.sbgn">SBGN-ML</a> &ensp;
+ <a href="/modelbricks/PDGF ModelBrick.vcml">VCML </a>  
+ 
 ### Contributors
 John Albanese, Michael Blinov

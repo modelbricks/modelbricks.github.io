@@ -44,12 +44,6 @@ The human sense of smell operates the same way.
     <td align="center" width="33%"><a href="/modelbricks/PerfectlyAdaptedSBGN.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN">ySBGN</a></td>
  </tr>
  </table>
- 
- <a href="/modelbricks/Tyson_2003_1d.vcml">VCML </a> (designed with [VCell](http://vcell.org) &ensp;  
- <a href="/modelbricks/Tyson_2003_1d.xml">VCML </a> (exported by [VCell](http://vcell.org) &ensp; 
- <a href="/modelbricks/LinearResponse.graphml">GraphML </a> (designed with [yED](https://www.yworks.com/yed) &ensp; 
- <a href="/modelbricks/...">SBGN-ML</a> (exported with ...) <b>###</b> &ensp;
-
 
 ### Contributors
 

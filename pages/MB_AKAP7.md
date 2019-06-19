@@ -1,9 +1,17 @@
 ---
 layout: default
-title: Model Bricks AKAP7
-permalink: /modelbricks_AKAP7/
+title: AKAP7
+permalink: /MB_AKAP7/
 ---
 ## AKAP7 PLN Binding and PKA links
+
+### Publication 
+
+Rigatti, M., Le, A.V., Gerber, C., Moraru, I.I. and Dodge-Kafka, K.L., 2015. Phosphorylation state-dependent interaction between 
+AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular signalling, 27(9), pp.1807-1815.
+
+ PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">26027516</a>&ensp; 
+ DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
 This model is comprised of two modules 1) the production of cAMP and the activation of PKA and 2) The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this multiplex brick.
@@ -13,8 +21,7 @@ SBGN-PD bricks <br />
 Module 1: cAMP production <a href="/modelbricks/module1_cAMPprod.graphml"> graphml </a> &ensp; PKA activation <a href="/modelbricks/module1_PKAact.graphml">graphml </a> &ensp;<br />
 Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml"> graphml </a><br />
 
-### Publication 
- PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">26027516</a>&ensp; DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
+
 
 ### Images
 

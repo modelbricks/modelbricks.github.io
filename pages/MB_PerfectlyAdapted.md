@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Perfectly adapted signal-response
-permalink: /PerfectlyAdapted/
+permalink: /MB_PerfectlyAdapted/
 ---
 
 ## Perfectly adapted signal-response

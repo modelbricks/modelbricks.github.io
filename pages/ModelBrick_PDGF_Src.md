@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Model Brick PDGF Src
-permalink: /ModelBrick_PDGF_Src
+title: PDGF Regulated Activation of Src
+permalink: /MB_PDGF_Src
 ---
 
 
 
-## PDGF signaling resulting in Src activation
+## PDGF Regulated Activation of Src
 ### Downloads
 
  <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;

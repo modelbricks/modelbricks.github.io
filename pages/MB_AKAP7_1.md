@@ -18,8 +18,8 @@ This model is comprised of two modules 1) the production of cAMP and the activat
 
 ### Downloads 
 SBGN-PD bricks <br/>
-Module 1: cAMP production and PKA activation (designed with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.graphml"> graphml <br/>
-Module 1: cAMP production and PKA activation (Exported with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.sbgn"> SBGN-ML <br/>
+Module 1: cAMP production and PKA activation (designed with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.graphml"> graphml</a><br/>
+Module 1: cAMP production and PKA activation (Exported with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.sbgn"> SBGN-ML</a><br/>
 
 Module 2: AKAP7-PLB interaction (designed with VANTEN) <a href="/modelbricks/AKAP_SBGN_module2.graphml"> graphml </a><br/>
 Module 2: AKAP7-PLB interaction (Exported with VANTEN) <a href="/modelbricks/AKAP_SBGN_module2.sbgn"> SBGN-ML </a><br/>

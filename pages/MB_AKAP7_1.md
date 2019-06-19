@@ -26,16 +26,16 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/module2_AKAP7-PLB.graphml">
 ### Images
 
  <table> 
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module1.PNG"><img align="center" src="/images/modelbricks/AKAP_module1.PNG"/></a></td>
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module2.PNG"><img align="center" src="/images/modelbricks/AKAP_module2.PNG"/></a></td>
+  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module1.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_module1.PGN"/></a></td>
+  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module2.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_module2.PGN"/></a></td>
   <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/Pathways-AKAP7.PNG"><img align="center" src="/images/modelbricks/Pathways-AKAP7.PNG"/></a></td>
  <tr>
   <td align="center"> Vcell: reaction diagram module 1</td>
   <td align="center"> Vcell: reaction diagram module 2</td>
   <td align="center"> VCell: Pathway diagram</td>
  </tr>
- <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module1_cAMPprod.png"><img align="center" src="/images/modelbricks/AKAP_module1_cAMPprod.png"/></a></td>
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module1_PKAact.png"><img align="center" src="/images/modelbricks/AKAP_module1_PKAact.png"/></a></td>
+ <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module1.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module1.png"/></a></td>
+  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module2.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module2.png"/></a></td>
   <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_module2_AKAP-PLB.png"><img align="center" src="/images/modelbricks/AKAP_module2_AKAP-PLB.png"/></a></td>
  <tr>
   <td align="center"> SBGN-PD: module 1 cAMP production</td>

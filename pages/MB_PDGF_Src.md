@@ -32,9 +32,9 @@ This model represents the activation of Src kinase, which is stimulated by the g
  
 ### Downloads
 
- <a href="/modelbricks/PDGF graphML.graphml">GraphML </a> &ensp;
- <a href="/modelbricks/PDGF SBGN-ML.sbgn">SBGN-ML</a> &ensp;
- <a href="/modelbricks/PDGF ModelBrick.vcml">VCML </a>  
+<a href="/modelbricks/PDGF ModelBrick.vcml">VCML </a> (designed with [VCell](http://vcell.org)) &ensp;
+<a href="/modelbricks/PDGF graphML.graphml">GraphML </a> (designed with [VANTED (SBGN-ED)](https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/)) &ensp;
+<a href="/modelbricks/PDGF SBGN-ML.vcm">SBGN-ML </a> (exported with [VANTED (SBGN-ED)](https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/)) &ensp;
  
 ### Contributors
 John Albanese, Michael Blinov

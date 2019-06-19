@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Protein Synthesis and Degradation
-permalink: /ProteinSynthesisDegradation/
+permalink: /MB_ProteinSynthesisDegradation/
 ---
 
 ### Protein synthesis and degradation

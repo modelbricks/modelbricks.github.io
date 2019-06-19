@@ -33,9 +33,9 @@ Note that the topology of the network alone cannot provide the exact response pa
  <a href="/modelbricks/Tyson_2003_1b.xml">SBML Hyperbolic</a> (exported by [VCell](http://vcell.org)) &ensp; 
   <a href="/modelbricks/Tyson_2003_1c.xml">SBML Sigmoidal</a> (exported by [VCell](http://vcell.org)) &ensp; <br>
  <a href="/modelbricks/PhosphorylationSBGN.graphml">GraphML </a> (designed with [yED](https://www.yworks.com/yed)) &ensp; 
- <a href="/modelbricks/...">SBGN-ML</a> (exported with ...) <b>###</b> &ensp;
+ <a href="/modelbricks/...">SBGN-ML</a> (exported with ...) <b>RED</b> &ensp;
 
 
-# Contributors
+### Contributors
 
 Michael L Blinov

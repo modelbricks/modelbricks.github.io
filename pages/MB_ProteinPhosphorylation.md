@@ -38,11 +38,11 @@ Note that the topology of the network alone cannot provide the exact response pa
  
 ### Downloads
 <table> 
-   <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1b.vcml">VCML Hyperbolic</a> designed with <a href="http://vcell.org"> VCell </a></td> 
-   <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1c.vcml">VCML Sigmoidal</a> designed with <a href="http://vcell.org"> VCell </a></td>
+   <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1b.vcml">VCML Hyperbolic</a> designed with <a href="http://vcell.org"> VCell &ensp; </a></td> 
+   <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1c.vcml">VCML Sigmoidal</a> designed with <a href="http://vcell.org"> VCell &ensp;</a></td>
  <tr>
- <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1b.xml">SBML Hyperbolic</a> exported from <a href="http://vcell.org"> VCell</a></td>
-  <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1c.xml">SBML Sigmoidal</a> exported from <a href="http://vcell.org"> VCell</a></td>
+ <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1b.xml">SBML Hyperbolic</a> exported from <a href="http://vcell.org"> VCell &ensp;</a></td>
+  <td align="center" width="50%"><a href="/modelbricks/Tyson_2003_1c.xml">SBML Sigmoidal</a> exported from <a href="http://vcell.org"> VCell &ensp; </a></td>
  </tr>
  <tr>
     <td align="center" width="50%"><a href="/modelbricks/PhosphorylationSBGN.graphml">GraphML </a> designed with <a href="https://www.yworks.com/yed"> yED </a></td>

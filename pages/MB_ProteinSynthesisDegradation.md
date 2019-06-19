@@ -15,6 +15,9 @@ PMID:  [20055671](https://www.ncbi.nlm.nih.gov/pubmed/20055671) &ensp; DOI: [10.
 
 ### Description
 
+If synthesis of a protein R is regulated by a signal S, with a constant degradation, then R is characterised by a 
+linear response: the amount of R is directly proportional to the strength of signal S. 
+
 ### Images
 
  <div class="img" style="font-size:90%; text-align:center;"> 

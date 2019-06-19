@@ -8,9 +8,9 @@ permalink: /list/
 
 This list includes the developed ModelBricks. 
 
-1. <a href="ProteinSynthesisDegradation">Protein Synthesis and Degradation</a> (ModelBricks: Michael Blinov)
-1. <a href="/mevalonate/">Regulation of mevalonate biosynthesis</a> (James Greene, Michael Blinov, Alexander Mazein)
-1. <a href="/eicosanoids/">Regulation of eicosanoid production</a> (Alexander Mazein)
+1. <a href="/MB_ProteinSynthesisDegradation">Protein Synthesis and Degradation</a>
+1. <a href="/MB_ProteinPhosphorylation/">Protein Phiosphorylation</a>
+1. <a href="/MB_PerfectlyAdapted/">Perfectly Adapted Sigal Response</a>
 1. <a href="/glycogen/">Regulation of glycogen metabolism</a> (Tatiana Serebriyskaya, Valeriya Berzhitskaya, Vasundra Touré)
 1. <a href="/srebp/">Regulation of cholesterol metabolism via SREBP</a> (Tatiana Serebriyskaya, Valeriya Berzhitskaya)
 1. <a href="/acly/">Regulation of acetyl-CoA synthesis</a> (Adrien Rougny)

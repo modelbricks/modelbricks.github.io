@@ -10,7 +10,7 @@ permalink: /MB_PerfectlyAdapted/
 
 Tyson, J. J., & Novák, B. (2010). 
 <br>Functional motifs in biochemical reaction networks. 
-<br><i>Annual review of physical chemistry</i>, 61, 219-240.
+<br><i>Annual review of physical chemistry</i>, <i>61</i>, 219-240.
 
 PMID:  [20055671](https://www.ncbi.nlm.nih.gov/pubmed/20055671) &ensp; DOI: [10.1146/annurev.physchem.012809.103457](https://doi.org/10.1146/annurev.physchem.012809.103457)
 

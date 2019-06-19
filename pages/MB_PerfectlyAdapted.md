@@ -23,8 +23,9 @@ The human sense of smell operates the same way.
 
 ### Images
 <div class="img" style="font-size:90%; text-align:center;"> 
- <img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400" > &ensp; 
- <img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/><br />  </div>
+ <img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400" /> &ensp; 
+ <img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/><br />  
+</div>
  
  ### Downloads
 
@@ -34,6 +35,6 @@ The human sense of smell operates the same way.
  <a href="/modelbricks/...">SBGN-ML</a> (exported with ...) <b>###</b> &ensp;
 
 
-# Contributors
+### Contributors
 
 Michael L Blinov

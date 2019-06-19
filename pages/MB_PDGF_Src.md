@@ -37,7 +37,7 @@ This model represents the activation of Src kinase, which is stimulated by the g
  <td align="center" width="33%"><a href="/modelbricks/PDGF ModelBrick.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
     <td align="center" width="33%"><a href="/modelbricks/PDGF graphML.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/PDGF SBGN-ML.vcm">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED(SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/PDGF SBGN-ML.vcm">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
  

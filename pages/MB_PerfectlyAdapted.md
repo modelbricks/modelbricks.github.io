@@ -22,10 +22,17 @@ which respond to an abrupt change in attractants or repellents, but then adapt t
 The human sense of smell operates the same way. 
 
 ### Images
-<div class="img" style="font-size:90%; text-align:center;"> 
- <img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400" /> &ensp; 
- <img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/><br />  
-</div>
+
+ <table> 
+ <td align="center" width="33%"> <a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedSBGN.PNG"><img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400"/></a></td>
+ <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/LinearResponseVCell.PNG"><img src="/images/modelbricks/LinearResponseVCell.PNG"/></a></td>
+ <td align="center" width="33%"><a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedResponse.PNG"><img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/></a></td>
+ <tr>
+   <td align="center"> SBGN visualization</td>
+  <td align="center"> VCell: Reaction diagram</td>
+  <td align="center"> VCell: Simulation</td>
+ </tr>
+ </table>
  
  ### Downloads
 

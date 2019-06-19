@@ -4,7 +4,7 @@ title: PDGF Regulated Activation of Src
 permalink: /MB_PDGF_Src/
 ---
 
-## PDGF Regulated Activation of Src
+## PDGF regulated activation of Src
 
 ### Publication
 Rangamani, P., Lipshtat, A., Azeloglu, E. U., Calizo, R. C., Hu, M., Ghassemi, S., ... & Iyengar, R. (2013). <br />
@@ -32,10 +32,14 @@ This model represents the activation of Src kinase, which is stimulated by the g
  
 ### Downloads
 
-<a href="/modelbricks/PDGF ModelBrick.vcml">VCML </a> (designed with [VCell](http://vcell.org)) &ensp;
-<a href="/modelbricks/PDGF ModelBrick.xml">SBML </a> (exported from [VCell](http://vcell.org)) <br />
-<a href="/modelbricks/PDGF graphML.graphml">GraphML </a> (designed with [VANTED (SBGN-ED)](https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/)) &ensp;
-<a href="/modelbricks/PDGF SBGN-ML.vcm">SBGN-ML </a> (exported from [VANTED (SBGN-ED)](https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/)) <br />
+ <table> 
+ <td align="center" width="33%"><a href="/modelbricks/PDGF ModelBrick.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
+ <td align="center" width="33%"><a href="/modelbricks/PDGF ModelBrick.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
+ <tr>
+    <td align="center" width="33%"><a href="/modelbricks/PDGF graphML.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/PDGF SBGN-ML.vcm">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED(SBGN-ED)</a></td>
+ </tr>
+ </table>
  
 ### Contributors
 John Albanese, Michael Blinov

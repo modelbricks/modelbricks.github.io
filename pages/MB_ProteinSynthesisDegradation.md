@@ -23,11 +23,9 @@ PMID:  [20055671](https://www.ncbi.nlm.nih.gov/pubmed/20055671) &ensp; DOI: [10.
  
  ### Downloads
 
- <a href="/modelbricks/Tyson_2003_1b.vcml">VCML Hyperbolic</a> (designed with [VCell](http://vcell.org)) &ensp;  
-  <a href="/modelbricks/Tyson_2003_1c.vcml">VCML Sigmoidal</a> (designed with [VCell](http://vcell.org)) &ensp; <br>
- <a href="/modelbricks/Tyson_2003_1b.xml">SBML Hyperbolic</a> (exported by [VCell](http://vcell.org)) &ensp; 
-  <a href="/modelbricks/Tyson_2003_1c.xml">SBML Sigmoidal</a> (exported by [VCell](http://vcell.org)) &ensp; <br>
- <a href="/modelbricks/PhosphorylationSBGN.graphml">GraphML </a> (designed with [yED](https://www.yworks.com/yed)) &ensp; 
+ <a href="/modelbricks/Tyson_2003_1a.vcml">VCML </a> (designed with [VCell](http://vcell.org)) &ensp;  
+ <a href="/modelbricks/Tyson_2003_1a.xml">SBML</a> (exported by [VCell](http://vcell.org)) &ensp; 
+ <a href="/modelbricks/LinearResponse.graphml">GraphML </a> (designed with [yED](https://www.yworks.com/yed)) &ensp; 
  <a href="/modelbricks/...">SBGN-ML</a> (exported with ...) <b>RED</b> &ensp;
 
 

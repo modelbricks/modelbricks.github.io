@@ -26,7 +26,7 @@ linear response: the amount of R is directly proportional to the strength of sig
 </div> 
  
  
- ### Downloads
+### Downloads
 
  <a href="/modelbricks/Tyson_2003_1a.vcml">VCML </a> (designed with [VCell](http://vcell.org)) &ensp;  
  <a href="/modelbricks/Tyson_2003_1a.xml">SBML</a> (exported by [VCell](http://vcell.org)) &ensp; 

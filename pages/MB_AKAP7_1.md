@@ -26,7 +26,7 @@ Module 2: AKAP7-PLB interaction<a href="/modelbricks/AKAP_SBGN_module2.graphml">
 ### Images
 <table> 
  <tr>
-<td align="center" width="80%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathways.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathways.PNG"/></a></td>
+<td align="center" width="80%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG"/></a></td>
  </tr>
  <tr>
  <td align="center"> VCell: Pathway diagram</td>

@@ -27,7 +27,7 @@ Note that the topology of the network alone cannot provide the exact response pa
   <td align="center" heigth="300" width="200"><a href="http://modelbricks.org/images/modelbricks/PhosphorylationSBGN.PNG"><img src="/images/modelbricks/PhosphorylationSBGN.PNG"/></a></td>
   <td align="center" heigth="300" width="200"><a href="https://modelbricks.github.io/images/modelbricks/Vcell_phosphorilation.PNG"><img src="/images/modelbricks/Vcell_phosphorilation.PNG" /></a></td>
    <td align="center" heigth="250" width="200"><a href="https://modelbricks.github.io/images/modelbricks/HyperbolicResponse.PNG"><img src="/images/modelbricks/HyperbolicResponse.PNG" /></a></td>
-  <td align="center" heigth="185" ><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG" /></a></td>
+  <td align="center" heigth="150" ><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG" /></a></td>
  <tr>
   <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: reaction diagram</td>

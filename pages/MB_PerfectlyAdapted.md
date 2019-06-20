@@ -25,7 +25,7 @@ The human sense of smell operates the same way.
 
  <table> 
  <td align="center" width="300"> <a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedSBGN.PNG"><img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400"/></a></td>
- <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/PerfectlyAdaptedVcell.png"><img src="/images/modelbricks/PerfectlyAdaptedVcell.png"/ width="200"></a></td>
+ <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/PerfectlyAdaptedVcell.png"><img src="/images/modelbricks/PerfectlyAdaptedVcell.png" width="200"/></a></td>
  <td align="center" width="300"><a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedResponse.PNG"><img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/></a></td>
  <tr>
    <td align="center"> SBGN visualization</td>

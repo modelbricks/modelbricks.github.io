@@ -4,7 +4,7 @@ title: Perfectly adapted signal-response
 permalink: /MB_PerfectlyAdapted/
 ---
 
-## Perfectly adapted signal-response
+## Perfectly Adapted Signal-Response
 
 ### Publication
 

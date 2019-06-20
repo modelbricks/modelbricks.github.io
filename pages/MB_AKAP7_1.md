@@ -28,7 +28,7 @@ Module 2: AKAP7-PLB interaction (converted with ySBGN) <a href="/modelbricks/AKA
  <table> 
  <tr>
   <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module1.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_module1.PNG"/></a></td>
-  <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module2.png"><img align="center" src="/images/modelbricks/AKAP_Vcell_module2.png"/></a></td>
+  <td align="center" width="200"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module2.png"><img align="center" src="/images/modelbricks/AKAP_Vcell_module2.png"/></a></td>
   <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG" width="300" height="250"/></a></td>
  </tr>
  <tr>

@@ -44,7 +44,7 @@ linear response: the amount of R is directly proportional to the strength of sig
 
 ### Contributors
 
-Michael L Blinov
+Michael Blinov
 
 
 

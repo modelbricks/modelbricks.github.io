@@ -21,9 +21,9 @@ linear response: the amount of R is directly proportional to the strength of sig
 ### Images
 
  <table> 
- <td align="center" width="33%"> <a href="http://modelbricks.org/images/modelbricks/LinearSBGN.PNG"><img src="/images/modelbricks/LinearSBGN.PNG" /></a></td>
- <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/LinearResponseVCell.PNG"><img src="/images/modelbricks/LinearResponseVCell.PNG" /></a></td>
- <td align="center" width="33%"><a href="http://modelbricks.org/images/modelbricks/LinearResponse.PNG"><img src="/images/modelbricks/LinearResponse.PNG" /></a></td>
+ <td align="center" width="33%"> <a href="http://modelbricks.org/images/modelbricks/LinearSBGN.PNG"><img src="/images/modelbricks/LinearSBGN.PNG" width="400"/></a></td>
+ <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/LinearResponseVCell.PNG"><img src="/images/modelbricks/LinearResponseVCell.PNG" width="200"/></a></td>
+ <td align="center" width="33%"><a href="http://modelbricks.org/images/modelbricks/LinearResponse.PNG"><img src="/images/modelbricks/LinearResponse.PNG" width="200"/></a></td>
  <tr>
    <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: Reaction diagram</td>

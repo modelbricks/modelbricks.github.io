@@ -44,7 +44,7 @@ To contribute and discuss the project please use this email address: [modelbrick
 
 <table>
 <tr>
-<td style="width: 200px;"><p style="margin:4px;"><br /><img src="/images/team/MichaelBlinov.jpg" height="120"/></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><br /><img src="/images/team/MariaHeredia.png" height="120"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><br /><img src="/images/team/JackAlbanese.png" height="120"/></p></td>
 <td style="width: 200px;"><p style="margin:4px;"> </p></td>
  <td style="width: 200px;"><p style="margin:4px;"> </p></td>
@@ -53,7 +53,7 @@ To contribute and discuss the project please use this email address: [modelbrick
 
 <table>
 <tr>
-<td style="width: 200px;"><p style="margin:4px;"><strong>Maria ...</strong></p><p style="margin:4px; line-height:100%;"><font size="2">UConn School of Medicine, Farmington, USA</font></p></td>
+<td style="width: 200px;"><p style="margin:4px;"><strong>Maria del Carmen Heredia</strong></p><p style="margin:4px; line-height:100%;"><font size="2">UConn, Storrs, USA</font></p></td>
 <td style="width: 200px;"><p style="margin:4px;"><strong>John Albanese</strong></p><p style="margin:4px; line-height:100%;"><font size="2">Trinity College, Hartford, USA</font></p></td>
   <td style="width: 200px;"><p style="margin:4px;"> </p></td>
   <td style="width: 200px;"><p style="margin:4px;"> </p></td>

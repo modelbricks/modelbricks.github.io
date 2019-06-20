@@ -24,9 +24,9 @@ The human sense of smell operates the same way.
 ### Images
 
  <table> 
- <td align="center" width="33%"> <a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedSBGN.PNG"><img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400"/></a></td>
- <td align="center" width="33%"><a href="https://modelbricks.github.io/images/modelbricks/PerfectlyAdaptedVcell.png"><img src="/images/modelbricks/PerfectlyAdaptedVcell.png"/></a></td>
- <td align="center" width="33%"><a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedResponse.PNG"><img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/></a></td>
+ <td align="center" width="300"> <a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedSBGN.PNG"><img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400"/></a></td>
+ <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/PerfectlyAdaptedVcell.png"><img src="/images/modelbricks/PerfectlyAdaptedVcell.png"/ width="200"></a></td>
+ <td align="center" width="300"><a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedResponse.PNG"><img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="200"/></a></td>
  <tr>
    <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: Reaction diagram</td>
@@ -37,8 +37,8 @@ The human sense of smell operates the same way.
 ### Downloads
 
  <table> 
- <td align="center" width="33%"><a href="/modelbricks/Tyson_2003_1d.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
- <td align="center" width="33%"><a href="/modelbricks/Tyson_2003_1d.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
+ <td align="center"><a href="/modelbricks/Tyson_2003_1d.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
+ <td align="center"><a href="/modelbricks/Tyson_2003_1d.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
     <td align="center" width="33%"><a href="/modelbricks/PerfectlyAdaptedSBGN.graphml">GraphML</a> designed with <a href="https://www.yworks.com/yed">yED</a></td>
     <td align="center" width="33%"><a href="/modelbricks/PerfectlyAdaptedSBGN.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN">ySBGN</a></td>

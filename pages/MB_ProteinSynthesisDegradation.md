@@ -4,7 +4,7 @@ title: Protein Synthesis and Degradation
 permalink: /MB_ProteinSynthesisDegradation/
 ---
 
-## Protein synthesis and degradation
+## Protein Synthesis and Degradation
 ### Publication
 
 Tyson, J. J., & Novák, B. (2010). 

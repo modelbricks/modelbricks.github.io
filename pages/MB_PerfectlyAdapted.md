@@ -47,4 +47,4 @@ The human sense of smell operates the same way.
 
 ### Contributors
 
-Michael L Blinov
+Michael Blinov

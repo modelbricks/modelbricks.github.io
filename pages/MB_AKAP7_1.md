@@ -25,23 +25,16 @@ Module 2: AKAP7-PLB interaction (designed with VANTEN) <a href="/modelbricks/AKA
 Module 2: AKAP7-PLB interaction (converted with ySBGN) <a href="/modelbricks/AKAP_SBGN_module2.sbgn"> SBGN-ML </a><br/>
 
 ### Images
-<table> 
- <tr>
-<td align="center" width="500"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG" height="400"/></a></td>
- </tr>
- <tr>
- <td align="center"> VCell: Pathway diagram</td>
- </tr>
-</table>
-  
  <table> 
  <tr>
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module1.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_module1.PNG"/></a></td>
-  <td align="center" width="30%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module2.png"><img align="center" src="/images/modelbricks/AKAP_Vcell_module2.png"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module1.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_module1.PNG"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module2.png"><img align="center" src="/images/modelbricks/AKAP_Vcell_module2.png"/></a></td>
+  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG" height="400"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram module 1</td>
   <td align="center"> Vcell: reaction diagram module 2</td>
+  <td align="center"> VCell: Pathway diagram</td>
    </tr>
  <td align="center" width="50%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module1.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module1.png"/></a></td>
   <td align="center" width="50%"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module2.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module2.png"/></a></td>

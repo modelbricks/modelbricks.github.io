@@ -6,7 +6,7 @@ permalink: /MB_PDGF_Src/
 
 ## PDGF Regulated Activation of Src
 
-### Publicatio
+### Publication
 Rangamani, P., Lipshtat, A., Azeloglu, E. U., Calizo, R. C., Hu, M., Ghassemi, S., ... & Iyengar, R. (2013). <br />
 Decoding information in cell shape. <br />
 <i>Cell, 154</i>(6), 1356-1369. <br />

@@ -22,12 +22,18 @@ Note that the topology of the network alone cannot provide the exact response pa
 <a href="/modelbricks/Tyson_2003_1b.vcml">Tyson_2003_1b.vcml</a> provides an executable counterpart for this multiplex brick for a sigmoidal response, while VCell model <a href="/modelbricks/Tyson_2003_1c.vcml">Tyson_2003_1c.vcml</a> provides an executable counterpart for a hyperbolic response.
 
 ### Images
-
+<center>
 <table> 
- <td align="center" width="30%"><a href="http://modelbricks.org/images/modelbricks/PhosphorylationSBGN.PNG"><img src="/images/modelbricks/PhosphorylationSBGN.PNG"/></a></td>
- <td align="center" width="25%"><a href="https://modelbricks.github.io/images/modelbricks/Vcell_phosphorilation.PNG"><img src="/images/modelbricks/Vcell_phosphorilation.PNG"/></a></td>
- <td align="center" width="25%"><a href="https://modelbricks.github.io/images/modelbricks/HyperbolicResponse.PNG"><img src="/images/modelbricks/HyperbolicResponse.PNG"/></a></td>
- <td align="center" width="25%"><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG"/></a></td>
+ <td align="center" width="35%"><a href="http://modelbricks.org/images/modelbricks/PhosphorylationSBGN.PNG"><img src="/images/modelbricks/PhosphorylationSBGN.PNG"/></a></td>
+ <td align="center" width="35%"><a href="https://modelbricks.github.io/images/modelbricks/Vcell_phosphorilation.PNG"><img src="/images/modelbricks/Vcell_phosphorilation.PNG"/></a></td>
+ <tr>
+  <td align="center"> SBGN visualization</td>
+  <td align="center"> VCell: reaction diagram</td>
+ </tr>
+ <tr>
+ <td align="center"width="30%"><a href="https://modelbricks.github.io/images/modelbricks/HyperbolicResponse.PNG"><img src="/images/modelbricks/HyperbolicResponse.PNG"/></a></td>
+ <td align="center" width="30%"><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG"/></a></td>
+ </tr>
  <tr>
   <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: reaction diagram</td>
@@ -35,6 +41,7 @@ Note that the topology of the network alone cannot provide the exact response pa
   <td align="center"> VCell: Simulation Sigmoidal</td>
   </tr>
  </table> 
+ </center>
  
 ### Downloads
 <center>

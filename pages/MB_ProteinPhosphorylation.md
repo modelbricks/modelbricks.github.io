@@ -24,15 +24,15 @@ Note that the topology of the network alone cannot provide the exact response pa
 ### Images
 <center>
 <table> 
-  <td align="center" width="35%" heigth="250"><a href="http://modelbricks.org/images/modelbricks/PhosphorylationSBGN.PNG"><img src="/images/modelbricks/PhosphorylationSBGN.PNG"/></a></td>
-  <td align="center" width="35%" heigth="250"><a href="https://modelbricks.github.io/images/modelbricks/Vcell_phosphorilation.PNG"><img src="/images/modelbricks/Vcell_phosphorilation.PNG" /></a></td>
+  <td align="center" heigth="250"><a href="http://modelbricks.org/images/modelbricks/PhosphorylationSBGN.PNG"><img src="/images/modelbricks/PhosphorylationSBGN.PNG"/></a></td>
+  <td align="center" heigth="250"><a href="https://modelbricks.github.io/images/modelbricks/Vcell_phosphorilation.PNG"><img src="/images/modelbricks/Vcell_phosphorilation.PNG" /></a></td>
  <tr>
   <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: reaction diagram</td>
  </tr>
  <tr>
-  <td align="center"width="30%" heigth="250"><a href="https://modelbricks.github.io/images/modelbricks/HyperbolicResponse.PNG"><img src="/images/modelbricks/HyperbolicResponse.PNG" /></a></td>
-  <td align="center" width="30%" heigth="200"><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG" /></a></td>
+  <td align="center" heigth="250"><a href="https://modelbricks.github.io/images/modelbricks/HyperbolicResponse.PNG"><img src="/images/modelbricks/HyperbolicResponse.PNG" /></a></td>
+  <td align="center" heigth="200"><a href="http://modelbricks.org/images/modelbricks/SigmoidalResponse.PNG"><img src="/images/modelbricks/SigmoidalResponse.PNG" /></a></td>
  </tr>
  <tr>
   <td align="center"> VCell: Simulation Hyperbolic</td>

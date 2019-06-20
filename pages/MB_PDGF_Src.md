@@ -9,7 +9,7 @@ permalink: /MB_PDGF_Src/
 ### Publication
 Rangamani, P., Lipshtat, A., Azeloglu, E. U., Calizo, R. C., Hu, M., Ghassemi, S., ... & Iyengar, R. (2013). <br />
 Decoding information in cell shape. <br />
-<i>Cell</i>, <i>154</i>(6), 1356-1369. <br />
+<i>Cell, 154</i>(6), 1356-1369. <br />
 
 PMID:  [24034255](https://www.ncbi.nlm.nih.gov/pubmed/24034255) &ensp; DOI: [10.1016/j.cell.2013.08.026](https://doi.org/10.1016/j.cell.2013.08.026)
 

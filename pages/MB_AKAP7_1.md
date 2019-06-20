@@ -39,7 +39,7 @@ Module 2: AKAP7-PLB interaction (converted with ySBGN) <a href="/modelbricks/AKA
  </table>
  
  <table> 
-  <td align="center" width="400"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module1.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module1.png"/></a></td>
+  <td align="center" width="400"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module1.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module1.png" height="300"/></a></td>
   <td align="center" width="200"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module2.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module2.png" height="300"/></a></td>
    <tr>
   <td align="center"> SBGN-PD: module 1 cAMP production and PKA activation</td>

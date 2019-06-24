@@ -26,9 +26,9 @@ cAMP production and PKA activation (converted with ySBGN) <a href="/modelbricks/
 ### Images
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module1.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_module1.PNG"/></a></td>
-  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG" width="330" height="250"/></a></td>
- <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module1.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module1.png" height="250"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_Vcell.PNG"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact_Vcell.PNG"/></a></td>
+  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAactl_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG" width="330" height="250"/></a></td>
+ <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_SBGN.png"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact_SBGN.png" height="250"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram module 1</td>

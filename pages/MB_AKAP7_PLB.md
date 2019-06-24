@@ -1,9 +1,9 @@
 ---
 layout: default
 title: AKAP7
-permalink: /MB_AKAP7_1/
+permalink: /MB_AKAP7_PLB/
 ---
-## AKAP7 regulated cAMP activation
+## AKAP7 binds PLB
 
 ### Publication 
 

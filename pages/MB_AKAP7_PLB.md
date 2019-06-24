@@ -26,12 +26,12 @@ Module 2: AKAP7-PLB interaction (designed with VANTEN) <a href="/modelbricks/AKA
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module2.png"><img align="center" src="/images/modelbricks/AKAP_Vcell_module2.png"/></a></td>
   <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG" width="330" height="250"/></a></td>
-  <td align="center" width="200"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module2.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module2.png" height="230"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module2.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module2.png" height="230"/></a></td>
  </tr>
  <tr>
-  <td align="center"> Vcell: reaction diagram module 2</td>
+  <td align="center"> Vcell: reaction diagram </td>
   <td align="center"> VCell: Pathway diagram</td>
-  <td align="center"> SBGN-PD: module 2 AKAP-PLB phosphorilation</td>
+  <td align="center"> SBGN-PD:AKAP-PLB phosphorilation</td>
    </tr>
  </table>
  

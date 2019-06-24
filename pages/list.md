@@ -12,4 +12,5 @@ This list includes the developed ModelBricks.
 1. <a href="/MB_ProteinPhosphorylation/">Protein Phosphorylation</a>
 1. <a href="/MB_PerfectlyAdapted/">Perfectly Adapted Signal Response</a>
 1. <a href="/MB_PDGF_Src/">PDGF Regulated Activation of Src</a>
-1. <a href="/MB_AKAP7_1/">AKAP7-Regulated cAMP Production</a>
+1. <a href="/MB_AKAP7_PLB/">AKAP7 binds PLB</a>
+1. <a href="/MB_cCAMPprod_PKAact/">PKA activation mediates cCAMP production</a>

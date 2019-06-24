@@ -31,7 +31,7 @@ cAMP production and PKA activation (converted with ySBGN) <a href="/modelbricks/
  <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_SBGN.png"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact_SBGN.png" height="250"/></a></td>
  </tr>
  <tr>
-  <td align="center"> Vcell: reaction diagram module 1</td>
+  <td align="center"> Vcell: reaction diagram</td>
    <td align="center"> VCell: Pathway diagram</td>
    <td align="center"> SBGN-PD:cAMP production and PKA activation</td>
    </tr>

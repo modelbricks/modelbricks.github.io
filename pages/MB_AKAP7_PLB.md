@@ -14,7 +14,7 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
  DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-This model idescribes The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this brick.
+This model idescribes The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding.vcml"> AKAP7_PLB_Binding.vcml </a> provides an executable counterpart for this brick.
 
 ### Downloads 
 SBGN-PD bricks <br/>
@@ -24,9 +24,9 @@ Module 2: AKAP7-PLB interaction (designed with VANTEN) <a href="/modelbricks/AKA
 ### Images
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_module2.png"><img align="center" src="/images/modelbricks/AKAP_Vcell_module2.png"/></a></td>
-  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG" width="330" height="250"/></a></td>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_SBGN_module2.png"><img align="center" src="/images/modelbricks/AKAP_SBGN_module2.png" height="230"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_PLB_Vcell.png"><img align="center" src="/images/modelbricks/AKAP_PLB_Vcell.png"/></a></td>
+  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_PLB_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/KAP_PLB_Vcell_pathway.PNG" width="330" height="250"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_PLB_SBGN.png"><img align="center" src="/images/modelbricks/AKAP_PLB_SBGN.png" height="230"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>

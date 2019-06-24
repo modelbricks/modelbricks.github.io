@@ -27,7 +27,7 @@ cAMP production and PKA activation (converted with ySBGN) <a href="/modelbricks/
  <table> 
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_Vcell. png"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact_Vcell.png"/></a></td>
-  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_pathway.PNG"><img align="center" src="/images/modelbricks/AcCAMPprod_PKAact_pathway.PNG" width="330" height="250"/></a></td>
+  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_pathway.png"><img align="center" src="/images/modelbricks/AcCAMPprod_PKAact_pathway.png" width="330" height="250"/></a></td>
  <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_SBGN.png"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact_SBGN.png" height="250"/></a></td>
  </tr>
  <tr>

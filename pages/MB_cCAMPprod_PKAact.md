@@ -37,6 +37,7 @@ cAMP production and PKA activation (converted with ySBGN) <a href="/modelbricks/
    </tr>
  </table>
  
- ### Contributors
+
+### Contributors
 Maria Heredia, Michael Blinov
  

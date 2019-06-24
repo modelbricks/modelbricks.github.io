@@ -1,9 +1,9 @@
 ---
 layout: default
 title: cCAMP
-permalink: /MB_cCAMPprod_PKAact/
+permalink: /MB_cAMPprod_PKAact/
 ---
-## PKA activation mediates cCAMP production
+## PKA activation mediates cAMP production
 
 ### Publication 
 
@@ -26,14 +26,14 @@ cAMP production and PKA activation (converted with ySBGN) <a href="/modelbricks/
 ### Images
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_Vcell.PNG"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact_Vcell.PNG"/></a></td>
-  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAactl_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_Vcell_pathway.PNG" width="330" height="250"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_Vcell. png"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact_Vcell.png"/></a></td>
+  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_pathway.PNG"><img align="center" src="/images/modelbricks/AcCAMPprod_PKAact_pathway.PNG" width="330" height="250"/></a></td>
  <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/cCAMPprod_PKAact_SBGN.png"><img align="center" src="/images/modelbricks/cCAMPprod_PKAact_SBGN.png" height="250"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram module 1</td>
    <td align="center"> VCell: Pathway diagram</td>
-   <td align="center"> SBGN-PD: module 1 cAMP production and PKA activation</td>
+   <td align="center"> SBGN-PD:cAMP production and PKA activation</td>
    </tr>
  </table>
  

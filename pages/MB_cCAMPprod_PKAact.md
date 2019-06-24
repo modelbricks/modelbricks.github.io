@@ -3,7 +3,7 @@ layout: default
 title: cCAMP
 permalink: /MB_cCAMPprod_PKAact/
 ---
-## cCAMP PRODUCTION by ACTIVE PKA
+## PKA activation mediates cCAMP production
 
 ### Publication 
 

@@ -31,11 +31,11 @@ This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell
 ### Downloads 
 
 <table> 
- <td align="center"><a href="/modelbricks/AKAP7_PLB_Binding.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
- <td align="center"><a href="/modelbricks/AKAP7_PLB_Binding.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
+ <td align="center"><a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
+ <td align="center"><a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/AKAP_PLB_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/AKAP_PLB_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/AKAP_PLB_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/AKAP_PLB_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
  

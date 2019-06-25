@@ -34,11 +34,11 @@ linear response: the amount of R is directly proportional to the strength of sig
 ### Downloads
 
  <table> 
- <td align="center" ><a href="/modelbricks/Tyson_2003_1a.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
- <td align="center" ><a href="/modelbricks/Tyson_2003_1a.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
+ <td align="center" ><a href="/modelbricks/VCML_SBMLfiles/Tyson_2003_1a.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
+ <td align="center" ><a href="modelbricks/VCML_SBMLfiles/Tyson_2003_1a.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
     <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/LinearResponse.graphml">GraphML</a> designed with <a href="https://www.yworks.com/yed">yED</a></td>
-    <td align="center" width="33%"><a href="modelbricks/SBGNexecutablefiles/LinearResponse.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN">ySBGN</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/LinearResponse.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN">ySBGN</a></td>
  </tr>
  </table>
 

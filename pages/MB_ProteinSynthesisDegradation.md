@@ -23,7 +23,7 @@ linear response: the amount of R is directly proportional to the strength of sig
  <table> 
  <td align="center" width="33%"> <a href="http://modelbricks.org/images/SBGNfiles/LinearSBGN.PNG"><img src="/images/SBGNfiles/LinearSBGN.PNG" width="300"/></a></td>
  <td align="center" width="33%"><a href="https://modelbricks.github.io/images/Vcellimages/LinearResponseVCell.PNG"><img src="/images/Vcellimages/LinearResponseVCell.PNG" width="225"/></a></td>
- <td align="center" width="33%"><a href="http://modelbricks.org/images/modelbricks/LinearResponse.PNG"><img src="/images/modelbricks/LinearResponse.PNG" width="175"/></a></td>
+ <td align="center" width="33%"><a href="http://modelbricks.org/images/SBGNfiles/LinearResponse.PNG"><img src="/imagesimages/SBGNfiles/LinearResponse.PNG" width="175"/></a></td>
  <tr>
   <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: Reaction diagram</td>
@@ -37,8 +37,8 @@ linear response: the amount of R is directly proportional to the strength of sig
  <td align="center" ><a href="/modelbricks/Tyson_2003_1a.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
  <td align="center" ><a href="/modelbricks/Tyson_2003_1a.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/LinearResponse.graphml">GraphML</a> designed with <a href="https://www.yworks.com/yed">yED</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/LinearResponse.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN">ySBGN</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/LinearResponse.graphml">GraphML</a> designed with <a href="https://www.yworks.com/yed">yED</a></td>
+    <td align="center" width="33%"><a href="modelbricks/SBGNexecutablefiles/LinearResponse.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN">ySBGN</a></td>
  </tr>
  </table>
 

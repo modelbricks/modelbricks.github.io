@@ -1,9 +1,9 @@
 ---
 layout: default
 title: cCAMP
-permalink: /MB_cAMPprod_PKAact/
+permalink: /MB_PKAactivation/
 ---
-## PKA activation mediates cAMP production
+## PKA activation 
 
 ### Publication 
 

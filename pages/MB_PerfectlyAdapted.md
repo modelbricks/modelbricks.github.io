@@ -24,9 +24,9 @@ The human sense of smell operates the same way.
 ### Images
 
  <table> 
- <td align="center" width="300"> <a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedSBGN.PNG"><img src="/images/modelbricks/PerfectlyAdaptedSBGN.PNG" width="400"/></a></td>
- <td align="center" width="300"><a href="https://modelbricks.github.io/images/modelbricks/PerfectlyAdaptedVcell.png"><img src="/images/modelbricks/PerfectlyAdaptedVcell.png" width="200"/></a></td>
- <td align="center" width="300"><a href="http://modelbricks.org/images/modelbricks/PerfectlyAdaptedResponse.PNG"><img src="/images/modelbricks/PerfectlyAdaptedResponse.PNG" width="150"/></a></td>
+ <td align="center" width="300"> <a href="http://modelbricks.org/images/SBGNfiles/PerfectlyAdaptedSBGN.PNG"><img src="/images/SBGNfiles/PerfectlyAdaptedSBGN.PNG" width="400"/></a></td>
+ <td align="center" width="300"><a href="https://modelbricks.github.io/images/Vcellimages/PerfectlyAdaptedVcell.png"><img src="/images/Vcellimages/PerfectlyAdaptedVcell.png" width="200"/></a></td>
+ <td align="center" width="300"><a href="http://modelbricks.org/images/Vcellimages/PerfectlyAdaptedResponse.PNG"><img src="/images/Vcellimages/PerfectlyAdaptedResponse.PNG" width="150"/></a></td>
  <tr>
    <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: Reaction diagram</td>

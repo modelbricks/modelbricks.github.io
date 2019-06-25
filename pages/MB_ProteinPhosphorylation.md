@@ -48,7 +48,7 @@ Note that the topology of the network alone cannot provide the exact response pa
  </tr>
  <tr>
     <td align="center" width="50%"><a href="/modelbricks/SBGNexecutablefiles/PhosphorylationSBGN.graphml">GraphML </a> designed with <a href="https://www.yworks.com/yed"> yED &ensp; &ensp; &ensp; &ensp;</a></td>
-    <td align="center" width="50%"><a href="//modelbricks/SBGNexecutablefiles/PhosphorylationSBGN.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN"> ySBGN &ensp; &ensp; &ensp; &ensp;</a></td>
+    <td align="center" width="50%"><a href="/modelbricks/SBGNexecutablefiles/PhosphorylationSBGN.sbgn">SBGN-ML</a> converted with <a href="https://github.com/sbgn/ySBGN"> ySBGN &ensp; &ensp; &ensp; &ensp;</a></td>
  </tr>
  </table> 
 </center>

@@ -17,12 +17,6 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
 This model describe the production of cAMP and the activation of PKA 
 The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this multiplex brick.
 
-### Downloads 
-SBGN-PD bricks <br/>
-cAMP production and PKA activation (designed with VANTEN) <a href="/modelbricks/AKAP_SBGN_module1.graphml"> graphml</a><br/>
-cAMP production and PKA activation (converted with ySBGN) <a href="/modelbricks/AKAP_SBGN_module1.sbgn"> SBGN-ML</a><br/>
-
-
 ### Images
  <table> 
  <tr>
@@ -36,7 +30,17 @@ cAMP production and PKA activation (converted with ySBGN) <a href="/modelbricks/
    <td align="center"> SBGN-PD:cAMP production and PKA activation</td>
    </tr>
  </table>
- 
+
+### Downloads 
+
+<table> 
+ <td align="center"><a href="/modelbricks/cAMPprod_PKAact_PLB.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
+ <td align="center"><a href="/modelbricks/cAMPprod_PKAact_PLB.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
+ <tr>
+    <td align="center" width="33%"><a href="/modelbricks/cCAMPprod_PKAact_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/cCAMPprod_PKAact_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+ </tr>
+ </table>
 
 ### Contributors
 Maria Heredia, Michael Blinov

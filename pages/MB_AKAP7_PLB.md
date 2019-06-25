@@ -19,14 +19,12 @@ This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell
 ### Images
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_PLB_Vcell.PNG"><img align="center" src="/images/modelbricks/AKAP_PLB_Vcell.PNG"/></a></td>
-  <td align="center"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_PLB_Vcell_pathway.PNG"><img align="center" src="/images/modelbricks/AKAP_PLB_Vcell_pathway.PNG" width="330" height="250"/></a></td>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/modelbricks/AKAP_PLB_SBGN.png"><img align="center" src="/images/modelbricks/AKAP_PLB_SBGN.png" height="230"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/AKAP_PLB_Vcell.PNG"><img align="center" src="/images/Vcellimages/AKAP_PLB_Vcell.PNG"/></a></td>
+    <td align="center" width="280"><a href="https://modelbricks.github.ioimages/SBGNfiles/AKAP_PLB_SBGN.png"><img align="center" src="/images/SBGNfiles/AKAP_PLB_SBGN.png" height="230"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
-  <td align="center"> VCell: Pathway diagram</td>
-  <td align="center"> SBGN-PD:AKAP-PLB phosphorilation</td>
+   <td align="center"> SBGN-PD:AKAP-PLB phosphorilation</td>
    </tr>
  </table>
  

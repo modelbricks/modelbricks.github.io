@@ -34,11 +34,11 @@ The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_
 ### Downloads 
 
 <table> 
- <td align="center"><a href="/modelbricks/cAMPprod_PKAact_PLB.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
- <td align="center"><a href="/modelbricks/cAMPprod_PKAact_PLB.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
+ <td align="center"><a href="/modelbricks/VCML_SBMLfiles/PKAactivation.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
+ <td align="center"><a href="/modelbricksmodelbricks/VCML_SBMLfiles/PKAactivation.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/cCAMPprod_PKAact_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/cCAMPprod_PKAact_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/PKAact_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="modelbricks/SBGNexecutablefiles/PKAact_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
 

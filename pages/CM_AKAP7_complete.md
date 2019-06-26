@@ -3,6 +3,7 @@ layout: default
 title: Curated Model by Rigatti et al., 2015
 permalink: /CM_AKAP7_complete/
 ---
+## Curated VCell Model
 
 ### Publication 
 
@@ -15,7 +16,7 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
 ### Description
 This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding.vcml"> AKAP7_PLB_Binding.vcml </a> provides an executable counterpart for this brick.
 
-### Images
+### The curated model
 <center>
  <table> 
  <tr>
@@ -29,7 +30,7 @@ This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell
  </table>
 </center>
 
-### Downloads 
+### Downloads
 <center>
 <table> 
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
@@ -41,8 +42,15 @@ This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell
  </table>
  </center>
  
+### ModelBricks
 
-
+<ol>
+ <li> <a href="">....</a>
+ <li> <a href="">....</a> 
+ <li> <a href="">....</a> 
+</ol>  
+  
+  
 ### Contributors
 Maria Heredia, Michael Blinov
  

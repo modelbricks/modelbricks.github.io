@@ -15,7 +15,7 @@ Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direc
  DOI: <a href="https://doi.org/10.1186/s12918-015-0143-5">10.1186/s12918-015-0143-5</a><br />
 
 ### Description
-This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding.vcml"> AKAP7_PLB_Binding.vcml </a> provides an executable counterpart for this brick.
+This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signaling. GDIs have a negative role in Rho GTPase signaling, as they inhibit GEFs, thereby suppressing overall Rho activity. GDIs also have a positive role, in which they inhibit GAPS under specific conditions, allowing sustained Rho activation.
 
 ### The curated model
 <center>

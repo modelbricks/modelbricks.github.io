@@ -14,8 +14,7 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
  DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-This model describe the production of cAMP and the activation of PKA 
-The VCell model <a href="/modelbricks/cCAMPprod.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this multiplex brick.
+This Brick describes the production of cAMP by the alpha subunit of G proteins and further degradation by Phosphodiesterase PDE4 
 
 ### Images
  <table> 

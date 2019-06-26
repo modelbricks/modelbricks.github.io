@@ -6,7 +6,7 @@ permalink: /curated/
 
 # Curated Models used in ModelBricks
 
-This list includes the developed ModelBricks. 
+This list includes completed, curated, and published models  
 
 <ol>
 <li> Sniffers, buzzers, toggles and blinkers: dynamics of regulatory and signaling pathways in the cell. 

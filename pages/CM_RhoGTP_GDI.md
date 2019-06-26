@@ -11,7 +11,7 @@ Ota, T., Maeda, M., Okamoto, M., & Tatsuka, M. (2015). <br />
 Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direct interaction with GAPs. <br />
 <i> BMC systems biology, 9 </i> (1), 3.
 
- PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25628036">25628036</a>&ensp; 
+ PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25628036">25628036</a>&ensp; 
  DOI: <a href="https://doi.org/10.1186/s12918-015-0143-5">10.1186/s12918-015-0143-5</a><br />
 
 ### Description
@@ -21,13 +21,13 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
 <center>
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/AKAP_PLB_Vcell.PNG"><img align="center" src="/images/Vcellimages/AKAP_PLB_Vcell.PNG"/></a></td>
-    <td align="center" width="280"><a href="https://modelbricks.github.ioimages/SBGNfiles/AKAP_PLB_SBGN.png"><img align="center" src="/images/SBGNfiles/AKAP_PLB_SBGN.png" height="230"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/publications/RhoGTP_Fig1a_SBGN.PNG"><img align="center" src="/images/publications/RhoGTP_Fig1a_SBGN.PNG"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/SBGNfiles/AKAP_PLB_SBGN.png"><img align="center" src="/images/SBGNfiles/AKAP_PLB_SBGN.png" height="230"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
-   <td align="center"> SBGN-PD:AKAP-PLB phosphorilation</td>
-   </tr>
+  <td align="center"> SBGN-PD:AKAP-PLB phosphorilation</td>
+ </tr>
  </table>
 </center>
 

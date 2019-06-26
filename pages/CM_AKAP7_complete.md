@@ -45,11 +45,11 @@ This model describes The binding and phosphorilation of PLB by AKAP7 upon produc
 ### ModelBricks
 
 <ol>
- <li> <a href="/">....</a>
+ <li> <a href="/modelbricks.github.io/blob/master/pages/MB_cAMPproduction.md">....</a>
  </li>
- <li> <a href="/">....</a>
+ <li> <a href="modelbricks.github.io/blob/master/pages/MB_PKAactivation.md">....</a>
  </li> 
- <li> <a href="/">....</a>
+ <li> <a href="/modelbricks.github.io/blob/master/pages/MB_AKAP7_PLB.md">....</a>
  </li>
 </ol>  
   

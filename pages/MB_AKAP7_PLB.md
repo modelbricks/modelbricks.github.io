@@ -21,7 +21,7 @@ This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell
  <table> 
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/AKAP_PLB_Vcell.PNG"><img align="center" src="/images/Vcellimages/AKAP_PLB_Vcell.PNG"/></a></td>
-    <td align="center" width="280"><a href="https://modelbricks.github.ioimages/SBGNfiles/AKAP_PLB_SBGN.png"><img align="center" src="/images/SBGNfiles/AKAP_PLB_SBGN.png" height="230"/></a></td>
+    <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/AKAP_PLB_SBGN.png"><img align="center" src="/images/SBGNfiles/AKAP_PLB_SBGN.png" height="230"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>

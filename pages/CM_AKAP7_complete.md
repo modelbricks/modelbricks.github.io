@@ -3,7 +3,7 @@ layout: default
 title: Curated Model by Rigatti et al., 2015
 permalink: /CM_AKAP7_complete/
 ---
-## Curated VCell Model
+## Curated VCell Model: Phosphorilation of PLB by AKAP7 and PKA 
 
 ### Publication 
 

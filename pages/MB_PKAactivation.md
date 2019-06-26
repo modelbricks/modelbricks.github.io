@@ -3,7 +3,7 @@ layout: default
 title: cCAMP
 permalink: /MB_PKAactivation/
 ---
-## PKA activation 
+## ModelBrick 2: PKA activation 
 
 ### Publication 
 
@@ -14,8 +14,8 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
  DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-This model describe the production of cAMP and the activation of PKA 
-The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_PLB_Binding_2PKA_links.vcml </a> provides an executable counterpart for this multiplex brick.
+This second ModelBrick was build based on the Curated Model (NAME OF MODEL).
+This Brick describes the activation of PKA upon the formation of cAMP provided in ModelBrick2. 
 
 ### Images
  <table> 
@@ -32,6 +32,7 @@ The VCell model <a href="/modelbricks/AKAP7_PLB_Binding_2PKA_links.vcml"> AKAP7_
  </table>
 
 ### Downloads 
+In this section you can find the executable Brick and visualization files
 
 <table> 
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/PKAactivation.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 

@@ -23,7 +23,7 @@ linear response: the amount of R is directly proportional to the strength of sig
  <table> 
  <td align="center" width="33%"> <a href="http://modelbricks.org/images/SBGNfiles/LinearSBGN.PNG"><img src="/images/SBGNfiles/LinearSBGN.PNG" width="300"/></a></td>
  <td align="center" width="33%"><a href="https://modelbricks.github.io/images/Vcellimages/LinearResponseVCell.PNG"><img src="/images/Vcellimages/LinearResponseVCell.PNG" width="225"/></a></td>
- <td align="center" width="33%"><a href="http://modelbricks.org/images/SBGNfiles/LinearResponse.PNG"><img src="/images/SBGNfiles/LinearResponse.PNG" width="175"/></a></td>
+ <td align="center" width="33%"><a href="http://modelbricks.org/images/publications/LinearResponse.PNG"><img src="/images/publications/LinearResponse.PNG" width="175"/></a></td>
  <tr>
   <td align="center"> SBGN visualization</td>
   <td align="center"> VCell: Reaction diagram</td>

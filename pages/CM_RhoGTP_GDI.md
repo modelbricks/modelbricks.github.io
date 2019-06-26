@@ -26,13 +26,13 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
   <td align="center"> write description here </td>
  </tr>
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"><img align="center" src="/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"/></a></td>
-  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1a_sim.PNG"><img align="center" src="/images/publications/RhoGTP_Fig1a_sim.PNG" height="230"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"><img align="center" src="/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1a_sim.PNG"><img align="center" src="/images/publications/RhoGTP_Fig1b_sim.PNG" height="230"/></a></td>
   <td align="center"> write description here </td>
  </tr>
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"><img align="center" src="/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"/></a></td>
-  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1a_sim.PNG"><img align="center" src="/images/publications/RhoGTP_Fig1a_sim.PNG" height="230"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1c_SBGN.PNG"><img align="center" src="/images/SBGNfiles/RhoGTP_Fig1c_SBGN.PNG"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1d_sim.PNG"><img align="center" src="/images/publications/RhoGTP_Fig1d_sim.PNG" height="230"/></a></td>
    <td align="center"> write description here </td>
  </tr>
  <tr>

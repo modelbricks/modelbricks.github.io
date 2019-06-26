@@ -3,7 +3,7 @@ layout: default
 title: cCAMP
 permalink: /MB_cAMPproduction/
 ---
-## cAMP production and degradation
+## ModelBrick1: cAMP production and degradation
 
 ### Publication 
 

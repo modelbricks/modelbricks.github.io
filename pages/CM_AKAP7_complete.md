@@ -45,9 +45,12 @@ This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell
 ### ModelBricks
 
 <ol>
- <li> <a href="">....</a>
- <li> <a href="">....</a> 
- <li> <a href="">....</a> 
+ <li> <a href="/">....</a>
+ </li>
+ <li> <a href="/">....</a>
+ </li> 
+ <li> <a href="/">....</a>
+ </li>
 </ol>  
   
   

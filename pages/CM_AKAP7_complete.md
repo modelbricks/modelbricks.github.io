@@ -8,19 +8,19 @@ permalink: /CM_AKAP7_complete/
 ### Publication 
 
 Rigatti, M., Le, A.V., Gerber, C., Moraru, I.I. and Dodge-Kafka, K.L., 2015. Phosphorylation state-dependent interaction between 
-AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular signalling, 27(9), pp.1807-1815.
+AKAP7δ/γ and phospholamban increase phospholamban phosphorylation. Cellular signaling, 27(9), pp.1807-1815.
 
  PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">26027516</a>&ensp; 
  DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding.vcml"> AKAP7_PLB_Binding.vcml </a> provides an executable counterpart for this brick.
+This model describes The binding and phosphorilation of PLB by AKAP7 upon production of cAMP and activation of PKA, A complete description can be found in the paper linked at the publication section. This completed and curated model has been broken into 3 model bricks listed below.  
 
 ### The curated model
 <center>
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/AKAP_PLB_Vcell.PNG"><img align="center" src="/images/Vcellimages/AKAP_PLB_Vcell.PNG"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CM_AKAP_complete.PNG"><img align="center" src="/images/Vcellimages/CM_AKAP_complete.PNG"/></a></td>
     <td align="center" width="280"><a href="https://modelbricks.github.ioimages/SBGNfiles/AKAP_PLB_SBGN.png"><img align="center" src="/images/SBGNfiles/AKAP_PLB_SBGN.png" height="230"/></a></td>
  </tr>
  <tr>

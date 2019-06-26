@@ -20,7 +20,7 @@ The VCell model <a href="/modelbricks/cCAMPprod.vcml"> AKAP7_PLB_Binding_2PKA_li
 ### Images
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/cAMPprod_Vcell.PNG"><img align="center" src="modelbricks.github.io/images/Vcellimages/cAMPprod_Vcell.PNG"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/cAMPprod_Vcell.PNG"><img align="center" src="modelbricks.github.io/images/Vcellimages/cAMPprod_Vcell.PNG"></a></td>
   <td align="center"><a href="https://modelbricks.github.io/images/Vcellimages/cAMPprod_degrad_Vcell_pathway.PNG"><img align="center" src="/images/Vcellimages/cAMPprod_degrad_Vcell_pathway.PNG" width="330" height="250"/></a></td>
  <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/cCAMPprod_SBGN.PNG"><img align="center" src="/images/SBGNfiles/cCAMPprod_SBGN.PNG" height="250"/></a></td>
  </tr>

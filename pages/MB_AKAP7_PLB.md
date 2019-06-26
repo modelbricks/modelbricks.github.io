@@ -3,7 +3,7 @@ layout: default
 title: AKAP7
 permalink: /MB_AKAP7_PLB/
 ---
-## module 2: AKAP7 binds PLB
+## ModelBrick3: AKAP7 binds PLB
 
 ### Publication 
 
@@ -14,7 +14,7 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
  DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell model <a href="/modelbricks/AKAP7_PLB_Binding.vcml"> AKAP7_PLB_Binding.vcml </a> provides an executable counterpart for this brick.
+This is Model Brick #3, build based on the complete and curated model (ADD NAME HERE) linked in publications. This brick describes The binding and phosphorilation of  PLB by AKAP7. 
 
 ### Images
 <center>
@@ -30,6 +30,8 @@ This model describes The binding and phosphorilation of  PLB by AKAP7. The VCell
  </table>
 </center>
 ### Downloads 
+
+In this section you can find the executable counterpart for the ModelBrick in the description as well as the visualizations files
 <center>
 <table> 
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 

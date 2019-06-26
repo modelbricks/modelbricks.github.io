@@ -13,7 +13,7 @@ This list includes the developed ModelBricks.
 1. <a href="/MB_PerfectlyAdapted/">Perfectly Adapted Signal Response</a>
 1. <a href="/MB_PDGF_Src/">PDGF Regulated Activation of Src</a>
 1. Phosphorilation of PLB by AKAP7 and PKA
-1.  <a href="/MB_AKAP7_PLB/">module 2: AKAP7 binds PLB</a>
-1.  <a href="/MB_cAMPproduction/">module1 a: cAMP production and degradation</a>
-1.  <a href="/MB_PKAactivation/">module 1 b: PKA activation </a>
+     <a href="/MB_cAMPproduction/">module1 a: cAMP production and degradation</a>
+     <a href="/MB_PKAactivation/">module 1 b: PKA activation </a>
+     <a href="/MB_AKAP7_PLB/">module 2: AKAP7 binds PLB</a>
 

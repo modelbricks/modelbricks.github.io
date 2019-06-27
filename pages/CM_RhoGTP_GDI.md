@@ -28,7 +28,7 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
  <tr>
   <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"/></a></td>
   <td align="center" width="300"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1b_sim.PNG"><img width="250" style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1b_sim.PNG" height="230"/></a></td>
-  <td align="center"><span style=""> In this GDI-integrated application, GDIs inhibit GEF and GAP activities by sequestering GTPase and by interacting with GEFs and GAPs. </span></td>
+  <td align="center" style="vertical-align:middle"> In this GDI-integrated application, GDIs inhibit GEF and GAP activities by sequestering GTPase and by interacting with GEFs and GAPs. </td>
  </tr>
  <tr>
   <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1c_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1c_SBGN.PNG"/></a></td>

@@ -21,7 +21,7 @@ This model describes The binding and phosphorilation of PLB by AKAP7 upon produc
  <table> 
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CM_AKAP_complete.PNG"><img align="center" src="/images/Vcellimages/CM_AKAP_complete.PNG"/></a></td>
-    <td align="center" width="280"><a href="https://modelbricks.github.ioimages/SBGNfiles/WIP.PNG"><img align="center" src="/images/SBGNfiles/WIP.PNG" height="230"/></a></td>
+    <td align="center" width="280"><a href="https://modelbricks.github.ioimages/SBGNfiles/AKAP_PKA_cAMP_SBGN.PNG"><img align="center" src="/images/SBGNfiles/AKAP_PKA_cAMP_SBGN.PNG" height="230"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
@@ -36,8 +36,8 @@ This model describes The binding and phosphorilation of PLB by AKAP7 upon produc
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding_2PKA_links.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/AKAP_PLB_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/AKAP_PLB_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/AKAPcomplete_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/AKAPcomplete_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
  </center>

@@ -19,25 +19,25 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
 
 ### The curated model
 <center>
- <table height="25%"> 
+ <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"><img style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"/></a></td>
-  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1a_sim.PNG"><img style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1a_sim.PNG" height="230"/></a></td>
-  <td align="center"><span style="vertical-align:middle"> In this canonical application, GDIs inhibit GEF and GAP activities by sequestering GTPase (kinetic law was adjusted to eliminate effect of GDI on both GEF and GAP). </span></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1a_sim.PNG"><img width="250" style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1a_sim.PNG"/></a></td>
+  <td align="center"><span style=""> In this canonical application, GDIs inhibit GEF and GAP activities by sequestering GTPase (kinetic law was adjusted to eliminate effect of GDI on both GEF and GAP). </span></td>
  </tr>
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"><img style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"/></a></td>
-  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1b_sim.PNG"><img style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1b_sim.PNG" height="230"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1b_sim.PNG"><img width="250" style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1b_sim.PNG" height="230"/></a></td>
   <td align="center"><span style=""> In this GDI-integrated application, GDIs inhibit GEF and GAP activities by sequestering GTPase and by interacting with GEFs and GAPs. </span></td>
  </tr>
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1c_SBGN.PNG"><img style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1c_SBGN.PNG"/></a></td>
-  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1c_sim.PNG"><img style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1c_sim.PNG" height="230"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1c_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1c_SBGN.PNG"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1c_sim.PNG"><img width="250" style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1c_sim.PNG" height="230"/></a></td>
    <td align="center"><span style=""> In this GDI-integrated application, GDI/GEF interaction was removed.  (kinetic law was adjusted to eliminate effect of GDI on GEF). </span></td>
  </tr>
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1d_SBGN.PNG"><img style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1d_SBGN.PNG"/></a></td>
-  <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1d_sim.PNG"><img style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1d_sim.PNG" height="230"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1d_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1d_SBGN.PNG"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1d_sim.PNG"><img width="250" style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1d_sim.PNG" height="230"/></a></td>
    <td align="center"><span style=""> In this GDI-integrated application, GDI/GAP interaction was removed (kinetic law was adjusted to eliminate effect of GDI on GAP). </span></td>
  </tr>
  </table>

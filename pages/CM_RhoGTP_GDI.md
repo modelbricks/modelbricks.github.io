@@ -17,7 +17,7 @@ Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direc
 ### Description
 This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signaling. GDIs have a negative role in Rho GTPase signaling, as they inhibit GEFs, thereby suppressing overall Rho activity. GDIs also have a positive role, in which they inhibit GAPS under specific conditions, allowing sustained Rho activation.
 
-### The curated model 123456
+### The curated model
 <center>
  <table style="border-collapse:separate; border-spacing:0 30px; margin-top:-15px;"> 
  <tr class="spaceUnder">

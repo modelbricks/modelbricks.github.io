@@ -21,7 +21,7 @@ and finally cI inhibits the transcription of LacI. Closing the cycle. This mecha
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_diagram.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_diagram.PNG"/></a></td>
     <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_sim1.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_sim1.PNG" height="230"/></a></td>
-   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/WIP.PNG"><img align="center" src="/images/Vcellimages/WIP.PNG"/></a></td>
+   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/repressilator_SBGN.PNG"><img align="center" src="/images/Vcellimages/repressilator_SBGN.PNG"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
@@ -39,8 +39,8 @@ In this section you can find the executable counterpart for the ModelBrick in th
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/Elowitz2000_Repressilator_curated.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/Elowitz2000_Repressilator_curated.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/repressilatorSBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/epressilatorSBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
  </center>

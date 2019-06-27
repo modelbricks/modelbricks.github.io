@@ -19,7 +19,7 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
 
 ### The curated model
 <center>
- <table> 
+ <table height="25%"> 
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"><img style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"/></a></td>
   <td align="center" width="280"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1a_sim.PNG"><img style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1a_sim.PNG" height="230"/></a></td>

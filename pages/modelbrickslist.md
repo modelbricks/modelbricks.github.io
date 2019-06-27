@@ -19,5 +19,5 @@ This list includes the developed ModelBricks.
      &ensp;<a href="/MB_AKAP7_PLB/">ModelBrick 3: AKAP7 binds PLB</a><br/>
 1. <a href="http://modelbricks.org/CM_RhoGTP_GDI/"> Regulation of RhoGTPase activity by RhoGDIs interacting with GAP </a><a href="https://www.ncbi.nlm.nih.gov/pubmed/25628036">PMID: 25628036 </a><br/>
      &ensp;<a href="/MB_RhoGTP_GEF_act/">ModelBrick 1: make page </a><br/>
-     &ensp;<a href="">ModelBrick 2: make page </a><br/>
+     &ensp;<a href="/MB_RhoGTP_GDI_activity/">ModelBrick 2: make page </a><br/>
 1. <a href="http://modelbricks.org/MB_Repressilator/"> Repressilator: A Synthetic Oscillatory Network </a> PMID:10659856 <br/>   

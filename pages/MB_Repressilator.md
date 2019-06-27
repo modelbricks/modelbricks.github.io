@@ -21,7 +21,7 @@ and finally cI inhibits the transcription of LacI. Closing the cycle. This mecha
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_diagram.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_diagram.PNG"/></a></td>
     <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_sim1.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_sim1.PNG" height="230"/></a></td>
-   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/repressilator_SBGN.PNG"><img align="center" src="/images/Vcellimages/repressilator_SBGN.PNG"/></a></td>
+   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/repressilator_SBGN.PNG"><img align="center" src="/images/SBGNfiles/repressilator_SBGN.PNG"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>

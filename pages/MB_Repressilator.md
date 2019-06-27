@@ -13,18 +13,20 @@ Elowitz, M. and Leibler, S. (2000). A synthetic oscillatory network of transcrip
 ### Description
 This ModelBrick describes the oscillatory response of tree repressor proteins in a Network. 
 LacI is a repressor protein that will inhibit the transcription of tetR, tetR protein in turn represses the transcription of cI,
-and finally cI inhibits the transcription of LacI. Closing the cycle. This mechanism creates oscilation in the protein Concentration of the tree proteins as seen in the simulation.
+and finally cI inhibits the transcription of LacI. Closing the cycle. This mechanism is represented by oscillation in the concentration of the tree proteins as seen in the simulation.
 
 ### Images
 <center>
  <table> 
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_diagram.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_diagram.PNG"/></a></td>
-    <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/repressilator_Vcell_sim1.PNG"><img align="center" src="/images/SBGNfiles/repressilator_Vcell_sim1.PNG" height="230"/></a></td>
+    <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_sim1.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_sim1.PNG" height="230"/></a></td>
+   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/WIP.PNG"><img align="center" src="/images/Vcellimages/WIP.PNG"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
    <td align="center"> Vcell: Stochastic Simulation </td>
+  <td align="center"> Vcell: SBGN visualization </td>
    </tr>
  </table>
 </center>

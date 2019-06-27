@@ -25,7 +25,7 @@ This model describes The binding and phosphorilation of PLB by AKAP7 upon produc
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
-   <td align="center"> SBGN-PD:AKAP-PLB phosphorilation</td>
+   <td align="center"> SBGN-PD visualization</td>
    </tr>
  </table>
 </center>

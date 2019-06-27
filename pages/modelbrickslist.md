@@ -20,3 +20,4 @@ This list includes the developed ModelBricks.
 1. <a href="http://modelbricks.org/CM_RhoGTP_GDI/"> Regulation of RhoGTPase activity by RhoGDIs interacting with GAP </a><a href="https://www.ncbi.nlm.nih.gov/pubmed/25628036">PMID: 25628036 </a><br/>
      &ensp;<a href="/MB_cAMPproduction/">ModelBrick 1: cAMP production and degradation</a><br/>
      &ensp;<a href="/MB_PKAactivation/">ModelBrick 2: PKA activation </a><br/>
+1. <a href="http://modelbricks.org/MB_Repressilator/"> Repressilator: A Synthetic Oscillatory Network </a> PMID:10659856 <br/>   

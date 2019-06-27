@@ -19,7 +19,7 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
 
 ### The curated model
 
-#### VCell diagram
+#### VCell reaction diagram
 
 <center><a href="https://modelbricks.github.io/images/Vcellimages/CM_RhoGTP_VCellDiagram.PNG"><img width="500" src="/images/Vcellimages/CM_RhoGTP_VCellDiagram.PNG"/></a></center>
 

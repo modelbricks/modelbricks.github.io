@@ -40,11 +40,10 @@ In this section you can find the executable counterpart for the ModelBrick in th
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/Elowitz2000_Repressilator_curated.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td>
  <tr>
     <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/repressilatorSBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/epressilatorSBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/repressilatorSBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
  </center>
- kk
 
 
 ### Contributors

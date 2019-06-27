@@ -21,7 +21,7 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
 <center>
  <table> 
  <tr>
-  <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"><img width="250" style="vertical-align:sub" src="/images/SBGNfiles/RhoGTP_Fig1a_SBGN.PNG"/></a></td>
   <td align="center" width="300"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1a_sim.PNG"><img width="250" style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1a_sim.PNG"/></a></td>
   <td align="center"><span style=""> In this canonical application, GDIs inhibit GEF and GAP activities by sequestering GTPase (kinetic law was adjusted to eliminate effect of GDI on both GEF and GAP). </span></td>
  </tr>

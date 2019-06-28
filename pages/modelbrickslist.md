@@ -20,9 +20,9 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
-          <li><a href="/MB_ProteinSynthesisDegradation"> Protein Synthesis and Degradation</a></li>
-          <li><a href="/MB_ProteinPhosphorylation/"> Protein Phosphorylation</a></li>
-          <li><a href="/MB_PerfectlyAdapted/"> Perfectly Adapted Signal Response</a></li>
+          <li><a href="/MB_ProteinSynthesisDegradation"> Protein synthesis and degradation</a></li>
+          <li><a href="/MB_ProteinPhosphorylation/"> Protein phosphorylation</a></li>
+          <li><a href="/MB_PerfectlyAdapted/"> Perfectly adapted signal response</a></li>
           </ul>
      </td>
 </tr>
@@ -55,10 +55,24 @@ permalink: /modelbrickslist/
      <td bgcolor="#D6EAF8">
           <ul>
           <li><a href="/MB_RhoGTP_GEF_act/">GEF activation</a></li>
-          <li><a href="/MB_RhoGTP_GDI_activity/"> GDI activity</a></li>
+          <li><a href="/MB_RhoGTP_GDI_activity/">GDI activity</a></li>
           </ul>
      </td>
 </tr>
+<tr>
+     <td bgcolor="#EBF5FB"> Repressilator: A Synthetic Oscillatory Network <br>
+          (<a href="http://modelbricks.org/CM_Repressilator/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">PMID:10659856</a>)
+     </td>
+     <td bgcolor="#EBF5FB">
+     </td>
+<tr>
+     <td bgcolor="#D6EAF8"> Cut out Switch: Rab5 to Rab7 convertion <br>
+          (<a href="http://modelbricks.org/CM_CuttSwitch/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/18628746">PMID:18628746</a>)
+     </td>
+     <td bgcolor="#D6EAF8">
+     </td>
 </table>
 
 

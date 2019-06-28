@@ -20,7 +20,7 @@ This model describes the convertion of Rab5 to Rab7, listed in the publication a
  <table> 
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CuttSwitch_Vcell.PNG"><img align="center" src="/images/Vcellimages/CuttSwitch_Vcell.PNG"/></a></td>
-    <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CuttSwitch_Vcell_sim.PNG"><img align="center" src="/images/Vcellimages/CuttSwitch_Vcell_sim.PNG" height="230"/></a></td>
+    <td align="center" Height="280"><a href="https://modelbricks.github.io/images/Vcellimages/CuttSwitch_Vcell_sim.PNG"><img align="center" src="/images/Vcellimages/CuttSwitch_Vcell_sim.PNG" height="230"/></a></td>
    <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/cuttswitch_SBGN.PNG"><img align="center" src="/images/SBGNfiles/cuttswitch_SBGN.PNG"/></a></td>
  </tr>
  <tr>

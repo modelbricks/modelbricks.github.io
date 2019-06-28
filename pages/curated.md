@@ -10,7 +10,7 @@ This list includes previously published models manually curated
 
 <ol>
 <li> Sniffers, buzzers, toggles and blinkers: dynamics of regulatory and signaling pathways in the cell. 
-<a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>, <a href="/CM_tyson">curated model</a> (<a href="/modelbrickslist#tyson">3 ModelBricks</a>)
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>, <a href="/CM_Tyson2003/">curated model</a> (<a href="/modelbrickslist#tyson">3 ModelBricks</a>)
   
 </li> 
 <li> Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direct interaction with GAPs <a href="https://www.ncbi.nlm.nih.gov/pubmed/25628036">PMID: 25628036</a>, <a href="/CM_RhoGTP_GDI/">curated model</a> (<a href="/modelbrickslist#RhoGTPase">2 ModelBricks</a>)

@@ -15,7 +15,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB">Dynamics of regulatory and signaling pathways in the cell <br>
-     (<a href="/CM_Tyson2003/">curated model</a>, 
+     (<a href="/CM_Tyson2003/">Curated VCell model</a>, 
       <a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -28,7 +28,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8">Phosphorylation of PLB by AKAP7 and PKA <br>
-          (<a href="http://modelbricks.org/CM_AKAP7_complete/">curated model</a>,
+          (<a href="http://modelbricks.org/CM_AKAP7_complete/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/26027516">PMID: 26027516</a>)
      </td>
      <td bgcolor="#D6EAF8">

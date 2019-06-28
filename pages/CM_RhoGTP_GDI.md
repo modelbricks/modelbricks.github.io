@@ -3,7 +3,7 @@ layout: default
 title: Curated Model by Ota et al., 2015
 permalink: /CM_RhoGTP_GDI/
 ---
-## Curated VCell Model
+## Curated Model: RhoGTPase regulation by RhoGDI interaction with GAPs
 
 ### Publication 
 

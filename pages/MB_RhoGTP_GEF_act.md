@@ -34,7 +34,7 @@ This model describes the activation of GEF. When activated, GEF is one of the re
 
  <center> 
  <table> 
-   <td align="center" width="33%"><a href="/modelbricks/VCML_SBMLfiles/RhoGTP_ModelBrick_New.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell ***EDIT***</a> </td> 
+   <td align="center" width="33%"><a href="/modelbricks/VCML_SBMLfiles/RhoGTP_GEF_ModelBrick.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a> </td> 
    <td align="center" width="33%"><a href=".xml">SBML</a> exported from <a href="http://vcell.org"> VCell ***EDIT***</a> </td>
   <tr>
    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/MB_RhoGTP_GEF_SBGN.xml">XML</a> designed with <a href="http://www.celldesigner.org/">CellDesigner</a></td>

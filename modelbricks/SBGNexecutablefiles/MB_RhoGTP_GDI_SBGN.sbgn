@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="process" orientation="horizontal" id="pnre4">
+            <bbox w="10.0" h="10.0" x="372.2" y="170.0"/>
+            <port id="pnre4.L" x="372.2" y="175.0"/>
+            <port id="pnre4.R" x="382.2" y="175.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnre5">
+            <bbox w="10.0" h="10.0" x="372.7" y="481.0"/>
+            <port id="pnre5.L" x="372.7" y="486.0"/>
+            <port id="pnre5.R" x="382.7" y="486.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnre6">
+            <bbox w="10.0" h="10.0" x="274.0" y="350.9"/>
+            <port id="pnre6.L" x="274.0" y="355.9"/>
+            <port id="pnre6.R" x="284.0" y="355.9"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnre7">
+            <bbox w="10.0" h="10.0" x="473.5" y="298.4"/>
+            <port id="pnre7.L" x="473.5" y="303.4"/>
+            <port id="pnre7.R" x="483.5" y="303.4"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnre8">
+            <bbox w="10.0" h="10.0" x="669.0" y="349.9"/>
+            <port id="pnre8.L" x="669.0" y="354.9"/>
+            <port id="pnre8.R" x="679.0" y="354.9"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa5">
+            <label text="Effector"/>
+            <bbox w="80.0" h="40.0" x="727.25" y="310.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa6">
+            <label text="GDI"/>
+            <bbox w="80.0" h="40.0" x="337.41666" y="310.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa7">
+            <label text="GTP-Rho"/>
+            <bbox w="80.0" h="40.0" x="532.4167" y="310.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa8">
+            <label text="GDP-Rho"/>
+            <bbox w="80.0" h="40.0" x="143.25" y="310.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa9">
+            <label text="GAP"/>
+            <bbox w="80.0" h="40.0" x="338.41666" y="524.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa10">
+            <label text="GTP-Rho"/>
+            <bbox w="80.0" h="40.0" x="439.25" y="191.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa11">
+            <label text="GDI"/>
+            <bbox w="80.0" h="40.0" x="439.25" y="231.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa12">
+            <label text="GTP-Rho"/>
+            <bbox w="80.0" h="40.0" x="634.25" y="384.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa13">
+            <label text="Effector"/>
+            <bbox w="80.0" h="40.0" x="634.25" y="424.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa14">
+            <label text="GDP-Rho"/>
+            <bbox w="80.0" h="40.0" x="239.25" y="387.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa15">
+            <label text="GDI"/>
+            <bbox w="80.0" h="40.0" x="239.25" y="427.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa4">
+            <label text="Active GEF"/>
+            <bbox w="80.0" h="40.0" x="337.41666" y="93.0"/>
+        </glyph>
+        <glyph class="complex" id="csa1">
+            <label text="GDI·GTP-Rho"/>
+            <bbox w="90.0" h="90.0" x="434.25" y="187.0"/>
+        </glyph>
+        <glyph class="complex" id="csa2">
+            <label text="Effector·GTP-Rho"/>
+            <bbox w="89.0" h="88.0" x="630.25" y="380.0"/>
+        </glyph>
+        <glyph class="complex" id="csa3">
+            <label text="GDI·GDP-Rho"/>
+            <bbox w="93.0" h="93.0" x="233.25" y="380.0"/>
+        </glyph>
+        <arc class="consumption" id="re4-react0" source="sa8" target="pnre4.R">
+            <start x="183.25" y="310.0"/>
+            <next x="182.25" y="175.0"/>
+            <end x="382.2" y="175.0"/>
+        </arc>
+        <arc class="production" id="re4-product0" source="pnre4.L" target="sa7">
+            <start x="372.2" y="175.0"/>
+            <next x="572.25" y="175.0"/>
+            <end x="572.4167" y="310.0"/>
+        </arc>
+        <arc class="consumption" id="re5-react0" source="sa7" target="pnre5.L">
+            <start x="572.4167" y="350.0"/>
+            <next x="572.25" y="486.0"/>
+            <end x="372.7" y="486.0"/>
+        </arc>
+        <arc class="production" id="re5-product0" source="pnre5.R" target="sa8">
+            <start x="382.7" y="486.0"/>
+            <next x="183.25" y="486.0"/>
+            <end x="183.25" y="350.0"/>
+        </arc>
+        <arc class="catalysis" id="re5-mod0" source="sa9" target="pnre5">
+            <start x="378.41666" y="524.0"/>
+            <end x="377.75" y="491.01"/>
+        </arc>
+        <arc class="consumption" id="re6-react0" source="sa8" target="pnre6.L">
+            <start x="223.25" y="330.0"/>
+            <next x="278.75" y="332.0"/>
+            <end x="274.0" y="355.9"/>
+        </arc>
+        <arc class="production" id="re6-product0" source="pnre6.R" target="csa3">
+            <start x="284.0" y="355.9"/>
+            <end x="279.5" y="380.0"/>
+        </arc>
+        <arc class="consumption" id="re6-react1" source="sa6" target="pnre6.L">
+            <start x="337.41666" y="330.0"/>
+            <next x="278.75" y="332.0"/>
+            <end x="274.0" y="355.9"/>
+        </arc>
+        <arc class="consumption" id="re7-react0" source="sa6" target="pnre7.L">
+            <start x="417.41666" y="330.0"/>
+            <next x="478.25" y="330.0"/>
+            <end x="473.5" y="303.4"/>
+        </arc>
+        <arc class="production" id="re7-product0" source="pnre7.R" target="csa1">
+            <start x="483.5" y="303.4"/>
+            <end x="479.0" y="277.0"/>
+        </arc>
+        <arc class="consumption" id="re7-react1" source="sa7" target="pnre7.L">
+            <start x="532.4167" y="330.0"/>
+            <next x="478.25" y="330.0"/>
+            <end x="473.5" y="303.4"/>
+        </arc>
+        <arc class="consumption" id="re8-react0" source="sa7" target="pnre8.L">
+            <start x="612.4167" y="330.0"/>
+            <next x="673.75" y="330.0"/>
+            <end x="669.0" y="354.9"/>
+        </arc>
+        <arc class="production" id="re8-product0" source="pnre8.R" target="csa2">
+            <start x="679.0" y="354.9"/>
+            <end x="674.5" y="380.0"/>
+        </arc>
+        <arc class="consumption" id="re8-react1" source="sa5" target="pnre8.L">
+            <start x="727.25" y="330.0"/>
+            <next x="673.75" y="330.0"/>
+            <end x="669.0" y="354.9"/>
+        </arc>
+        <arc class="catalysis" id="re4-mod0" source="sa4" target="pnre4">
+            <start x="377.41666" y="133.0"/>
+            <end x="377.25" y="169.99"/>
+        </arc>
+    </map>
+</sbgn>

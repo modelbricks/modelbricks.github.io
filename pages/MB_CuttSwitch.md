@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Repressilator
-permalink: /MB_Repressilator/
+title: Cut out Switch
+permalink: /MB_CuttSwitch/
 ---
 ## Cut out Switch: Rab5 to Rab7 convertion
 

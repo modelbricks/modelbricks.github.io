@@ -3,7 +3,7 @@ layout: default
 title: Cut out Switch
 permalink: /MB_CuttSwitch/
 ---
-## Cut out Switch: Rab5 to Rab7 convertion
+## Cut-out Switch: Rab5 to Rab7 convertion
 
 ### Publication 
 
@@ -14,7 +14,7 @@ Del Conte-Zerial, P., Brusch, L., Rink, J., Collinet, C., Kalaidzidis, Y., Zeria
 
 ### Description
 
-This model describes the convertion of Rab5 to Rab7, listed in the publication as Model #2.  
+This model describes the convertion of Rab5 to Rab7 in the context of conversion of early endosomes into late endosomes. The VCML executable model correspond to Model #2 named "Cut-out Switch" in Del Conte, P. publication (referenced above).
 ### Images
 <center>
  <table> 

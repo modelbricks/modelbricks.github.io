@@ -27,7 +27,7 @@ This Brick describes the activation of PKA upon the formation of cAMP provided i
  <tr>
   <td align="center"> Vcell: reaction diagram</td>
    <td align="center"> VCell: Pathway diagram</td>
-   <td align="center"> SBGN-PD: PKA activation</td>
+   <td align="center"> SBGN visualization</td>
    </tr>
  </table>
 

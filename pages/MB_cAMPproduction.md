@@ -14,8 +14,7 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
  DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-This Brick describes the production of cAMP by the alpha subunit of G proteins and further degradation by Phosphodiesterase PDE4 
-
+This Brick describes the production of cAMP by the alpha subunit of G proteins and further degradation by Phosphodiesterase PDE4. This Brick has been based on the Curated Model <a href="http://modelbricks.org/CM_AKAP7_complete.md/">Phosphorilation of PLB by AKAP7 and PKA </a>
 ### Images
  <table> 
  <tr>

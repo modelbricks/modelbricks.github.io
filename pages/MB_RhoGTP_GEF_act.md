@@ -21,11 +21,11 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
 
 <center>
 <table>
- <td align="center" width="33%"><a href="https://modelbricks.github.io/images/SBGNfiles/MB_RhoGTP_GEF.PNG"><img width="500" src="/images/SBGNfiles/MB_RhoGTP_GEF.PNG"/></a></td>
- <td align="center" width="33%"><a href="https://modelbricks.github.io/images/Vcellimages/MB_RhoGTP_GEFact_VCellDiagram.PNG"><img width="500" src="/images/Vcellimages/MB_RhoGTP_GEFact_VCellDiagram.PNG"/></a></td>
+ <td align="center" width="33%"><a href="https://modelbricks.github.io/images/SBGNfiles/MB_RhoGTP_GEF.PNG"><img width="300" src="/images/SBGNfiles/MB_RhoGTP_GEF.PNG"/></a></td>
+ <td align="center" width="33%"><a href="https://modelbricks.github.io/images/Vcellimages/MB_RhoGTP_GEFact_VCellDiagram.PNG"><img width="300" src="/images/Vcellimages/MB_RhoGTP_GEFact_VCellDiagram.PNG"/></a></td>
  <tr>
-  <td align="center"> SBGN visualization </td>
-  <td align="center"> VCell: reaction diagram </td>
+  <td align="center" width="33%"> SBGN visualization </td>
+  <td align="center" width="33%"> VCell: reaction diagram </td>
  </tr>
  </table>
  </center>

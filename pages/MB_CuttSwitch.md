@@ -21,7 +21,7 @@ Del Conte-Zerial, P., Brusch, L., Rink, J., Collinet, C., Kalaidzidis, Y., Zeria
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CuttSwitch_Vcell.PNG"><img align="center" src="/images/Vcellimages/CuttSwitch_Vcell.PNG"/></a></td>
     <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CuttSwitch_Vcell_sim.PNG"><img align="center" src="/images/Vcellimages/CuttSwitch_Vcell_sim.PNG" height="230"/></a></td>
-   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/CuttSwitch_SBGN.PNG"><img align="center" src="/images/SBGNfiles/CuttSwitch_SBGN.PNG"/></a></td>
+   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/cuttswitch_SBGN.PNG"><img align="center" src="/images/SBGNfiles/cuttswitch_SBGN.PNG"/></a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>

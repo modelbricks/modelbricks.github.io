@@ -4,7 +4,7 @@ title: RhoGTP_GDI
 permalink: /MB_RhoGTP_GDI_activity/
 ---
 
-## ModelBrick2: GDI activity effecting the RhoGTPase cycle
+## ModelBrick2: GDI activity in the RhoGTPase cycle
 
 ### Publication 
 

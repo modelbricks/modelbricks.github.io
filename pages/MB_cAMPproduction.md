@@ -25,7 +25,7 @@ This Brick describes the production of cAMP by the alpha subunit of G proteins a
  <tr>
   <td align="center"> Vcell: reaction diagram</td>
    <td align="center"> VCell: Pathway diagram</td>
-   <td align="center"> SBGN-PD:cAMP production and degradation</td>
+   <td align="center"> SBGN visualization</td>
    </tr>
  </table>
 

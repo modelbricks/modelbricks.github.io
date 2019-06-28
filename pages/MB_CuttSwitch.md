@@ -26,7 +26,7 @@ This model describes the convertion of Rab5 to Rab7 in the context of conversion
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
    <td align="center"> Vcell: Simulation </td>
-  <td align="center"> Vcell: SBGN visualization </td>
+  <td align="center">SBGN visualization </td>
    </tr>
  </table>
 </center>

@@ -33,9 +33,11 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
 ### Downloads
 
  <center> 
- <table> 
+ <table style="border-collapse:separate; border-spacing:0 30px; margin-top:-15px;"> 
+ <tr class="spaceUnder">
    <td align="center" width="33%"><a href="/modelbricks/VCML_SBMLfiles/RhoGTP_GDI_ModelBrick.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a> </td> 
    <td align="center" width="33%"><a href=".xml">SBML</a> exported from <a href="http://vcell.org"> VCell ***EDIT***</a> </td>
+  </tr>
   <tr>
    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/MB_RhoGTP_GDI_SBGN.xml">XML</a> designed with <a href="http://www.celldesigner.org/">CellDesigner</a></td>
    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/MB_RhoGTP_GDI_SBGN.graphml">GraphML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>

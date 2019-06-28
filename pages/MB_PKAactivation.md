@@ -3,7 +3,7 @@ layout: default
 title: cCAMP
 permalink: /MB_PKAactivation/
 ---
-## ModelBrick 2: PKA activation 
+## PKA activation 
 
 ### Publication 
 

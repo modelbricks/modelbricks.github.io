@@ -18,9 +18,9 @@ This Model conform itself a ModelBrick. It describes the oscillatory change in t
 <center>
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CuttSwitch_Vcell.PNG"><img align="center" src="/images/Vcellimages/Repressilator_Vcell.PNG"/></a></td>
-    <td align="center"><a href="https://modelbricks.github.io/images/Vcellimages/CuttSwitch_Vcell_sim.PNG"><img align="center" src="/images/Vcellimages/Repressilator_Vcell_sim1.PNG"/></a></td>
-   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/cuttswitch_SBGN.PNG"><img align="center" src="/images/SBGNfiles/Repressilator_SBGN.PNG" height="180"> </a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_diagram.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_diagram.PNG"/></a></td>
+    <td align="center"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_sim1.PNG.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_sim1.PNG"/></a></td>
+   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/repressilator_SBGN.PNG"><img align="center" src="/images/SBGNfiles/repressilator_SBGN.PNG" height="180"> </a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
@@ -38,8 +38,8 @@ In this section you can find the executable counterpart for the ModelBrick in th
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
  <td align="center"><!-- <a href="/modelbricks/VCML_SBMLfiles/">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  --></td> 
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CuttSwitch_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CuttSwitch_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/repressilatorSBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/repressilatorSBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
  </center>

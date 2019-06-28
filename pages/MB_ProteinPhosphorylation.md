@@ -8,9 +8,9 @@ permalink: /MB_ProteinPhosphorylation/
 
 ### Publication
 
-Tyson, J. J., & Novák, B. (2010). 
-<br>Functional motifs in biochemical reaction networks. 
-<br><i>Annual review of physical chemistry, 61</i>, 219-240.
+Tyson, J. J., Chen, K. C., & Novak, B. (2003). <br />
+Sniffers, buzzers, toggles and blinkers: dynamics of regulatory and signaling pathways in the cell. <br />
+<i>Current opinion in cell biology, 15</i>(2), 221-231.
 
 PMID:  [20055671](https://www.ncbi.nlm.nih.gov/pubmed/20055671) &ensp; DOI: [10.1146/annurev.physchem.012809.103457](https://doi.org/10.1146/annurev.physchem.012809.103457)
 

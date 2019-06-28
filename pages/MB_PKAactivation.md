@@ -15,7 +15,7 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
 
 ### Description
 This second ModelBrick was build based on the Curated Model (NAME OF MODEL).
-This Brick describes the activation of PKA upon the formation of cAMP provided in ModelBrick2. 
+This Brick describes the activation of PKA upon the formation of cAMP provided in <a href="http://modelbricks.org/MB_cAMPproduction/">ModelBrick1: cAMP production">  ModelBrick1 </a> 
 
 ### Images
  <table> 

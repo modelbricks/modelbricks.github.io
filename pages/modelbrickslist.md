@@ -47,6 +47,18 @@ permalink: /modelbrickslist/
      <td bgcolor="#EBF5FB">
      </td>
 </tr>
+<tr>
+     <td bgcolor="#D6EAF8"> Regulation of RhoGTPase activity by RhoGDIs interacting with GAP <br>
+          (<a href="http://modelbricks.org/CM_RhoGTP_GDI/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/25628036">PMID: 25628036</a>)
+     </td>
+     <td bgcolor="#D6EAF8">
+          <ul>
+          <li><a href="/MB_RhoGTP_GEF_act/">GEF activation</a></li>
+          <li><a href="/MB_RhoGTP_GDI_activity/"> GDI activity</a></li>
+          </ul>
+     </td>
+</tr>
 </table>
 
 

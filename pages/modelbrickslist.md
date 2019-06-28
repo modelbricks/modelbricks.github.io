@@ -8,21 +8,23 @@ permalink: /modelbrickslist/
 
 <table cellpadding="3">
 <tr>
-     <td><strong>Publication</strong></td>
-     <td><strong>ModelBricks</strong></td>
-     </tr>
+     <td><strong>Publication</strong>
+     </td>
+     <td><strong>ModelBricks</strong>
+     </td>
+</tr>
 <tr>
      <td>Dynamics of regulatory and signaling pathways in the cell <br>
-     (<a href="/CM_Tyson2003/">curated model</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>)</td>
+     (<a href="/CM_Tyson2003/">curated model</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>)
+     </td>
      <td>
           <ul>
-          <li><a href="/MB_ProteinSynthesisDegradation"> Protein Synthesis and Degradation</a><br/>
-          <li><a href="/MB_ProteinPhosphorylation/"> Protein Phosphorylation</a><br/>
-          <li><a href="/MB_PerfectlyAdapted/"> Perfectly Adapted Signal Response</a><br/>
+          <li><a href="/MB_ProteinSynthesisDegradation"> Protein Synthesis and Degradation</a><br/></li>
+          <li><a href="/MB_ProteinPhosphorylation/"> Protein Phosphorylation</a><br/></li>
+          <li><a href="/MB_PerfectlyAdapted/"> Perfectly Adapted Signal Response</a><br/></li>
           </ul>
      </td>
- </tr>
-
+</tr>
 </table>
 
 

@@ -3,7 +3,7 @@ layout: default
 title: AKAP7
 permalink: /MB_AKAP7_PLB/
 ---
-## ModelBrick3: AKAP7 binds PLB
+## AKAP7 binds PLB
 
 ### Publication 
 

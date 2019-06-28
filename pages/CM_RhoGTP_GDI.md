@@ -45,7 +45,7 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
  <tr>
   <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1d_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1d_SBGN.PNG"/></a></td>
   <td align="center" width="300"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1d_sim.PNG"><img width="250" style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1d_sim.PNG" height="230"/></a></td>
-   <td align="center" style="vertical-align:middle"> In this GDI-integrated application, GDI/GAP interaction was removed. Kinetic law was adjusted to eliminate effect of GDI on GAP. <br /><br /> Figure 1D</td>
+   <td colspan="2" align="center" style="vertical-align:middle"> In this GDI-integrated application, GDI/GAP interaction was removed. Kinetic law was adjusted to eliminate effect of GDI on GAP. <br /><br /> Figure 1D</td>
  </tr>
  </table>
 </center>

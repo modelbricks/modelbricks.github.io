@@ -25,7 +25,7 @@ This is Model Brick #3, build based on the complete and curated model <a href="h
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
-   <td align="center"> SBGN-PD:AKAP-PLB phosphorilation</td>
+   <td align="center"> SBGN Visualization</td>
    </tr>
  </table>
 </center>

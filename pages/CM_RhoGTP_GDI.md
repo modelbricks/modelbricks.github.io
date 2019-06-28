@@ -45,7 +45,7 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
  <tr>
   <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1d_SBGN.PNG"><img width="250" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1d_SBGN.PNG"/></a></td>
   <td align="center" width="300"><a href="https://modelbricks.github.ioimages/publications/RhoGTP_Fig1d_sim.PNG"><img width="250" style="vertical-align:middle" src="/images/publications/RhoGTP_Fig1d_sim.PNG" height="230"/></a></td>
-   <td colspan="2" align="center" style="vertical-align:middle"> In this GDI-integrated application, GDI/GAP interaction was removed. Kinetic law was adjusted to eliminate effect of GDI on GAP. <br /><br /> Figure 1D</td>
+   <td align="center" style="vertical-align:middle"> In this GDI-integrated application, GDI/GAP interaction was removed. Kinetic law was adjusted to eliminate effect of GDI on GAP. <br /><br /> Figure 1D</td>
  </tr>
  </table>
 </center>
@@ -60,7 +60,7 @@ This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signalin
     <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CM_RhoGTP_SBGN.graphml">GraphML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  <tr>
- <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CM_RhoGTP_SBGN.sbgn">SBGN-ML</a> exported from <a href="http://www.celldesigner.org/">CellDesigner</a></td>
+ <td colspan="2" align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CM_RhoGTP_SBGN.sbgn">SBGN-ML</a> exported from <a href="http://www.celldesigner.org/">CellDesigner</a></td>
  </tr>
  </table>
 </center>

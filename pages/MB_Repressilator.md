@@ -25,7 +25,7 @@ This Model conform itself a ModelBrick. It describes the oscillatory change in t
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
    <td align="center"> Vcell: Simulation </td>
-  <td align="center"> Vcell: SBGN visualization </td>
+  <td align="center"> SBGN visualization </td>
    </tr>
  </table>
 </center>

@@ -14,7 +14,7 @@ Del Conte-Zerial, P., Brusch, L., Rink, J., Collinet, C., Kalaidzidis, Y., Zeria
 
 ### Description
 
-
+This model describes the convertion of Rab5 to Rab7, listed in the publication as Model #2.  
 ### Images
 <center>
  <table> 

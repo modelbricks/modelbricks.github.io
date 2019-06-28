@@ -39,10 +39,16 @@ permalink: /modelbrickslist/
           </ul>
      </td>
 </tr>
+<tr>
+     <td bgcolor="#EBF5FB">PDGF regulated activation of Src <br>
+          (<a href="http://modelbricks.org/MB_PDGF_Src/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/24034255 ">PMID: 24034255 </a>)
+     </td>
+     <td bgcolor="#EBF5FB">
+     </td>
+</tr>
 </table>
 
-
-1. <a href="/MB_PDGF_Src/">PDGF Regulated Activation of Src</a>
 
 1. Regulation of RhoGTPase activity by RhoGDIs interacting with GAP (<a href="http://modelbricks.org/CM_RhoGTP_GDI/">curated model</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/25628036">PMID: 25628036 </a>)<br/>
      &ensp;ModelBrick 1:<a href="/MB_RhoGTP_GEF_act/"> GEF activation</a><br/>

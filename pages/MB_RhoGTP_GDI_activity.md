@@ -3,11 +3,6 @@ layout: default
 title: RhoGTP_GDI
 permalink: /MB_RhoGTP_GDI_activity/
 ---
----
-layout: default
-title: RhoGTP
-permalink: /MB_RhoGTP_GEF_act/
----
 
 ## ModelBrick2: GDI activity effecting the RhoGTPase cycle
 

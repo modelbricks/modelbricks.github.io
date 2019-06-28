@@ -8,16 +8,16 @@ permalink: /modelbrickslist/
 
 <table cellpadding="3">
 <tr>
-     <td><strong>Publication</strong>
+     <td bgcolor="#AED6F1"><strong>Publication</strong>
      </td>
-     <td><strong>ModelBricks</strong>
+     <td bgcolor="#AED6F1"><strong>ModelBricks</strong>
      </td>
 </tr>
 <tr>
-     <td>Dynamics of regulatory and signaling pathways in the cell <br>
+     <td bgcolor="#EBF5FB">Dynamics of regulatory and signaling pathways in the cell <br>
      (<a href="/CM_Tyson2003/">curated model</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>)
      </td>
-     <td>
+     <td bgcolor="#EBF5FB">
           <ul>
           <li><a href="/MB_ProteinSynthesisDegradation"> Protein Synthesis and Degradation</a><br/></li>
           <li><a href="/MB_ProteinPhosphorylation/"> Protein Phosphorylation</a><br/></li>

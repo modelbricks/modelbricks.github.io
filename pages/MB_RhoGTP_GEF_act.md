@@ -30,10 +30,10 @@ This model describes the activation of GEF. When activated, GEF is one of the re
  </table>
  </center>
 
-### Downloads
+### Downloads 
 
  <center> 
- <table> 
+ <table style="border-collapse:separate; border-spacing:0 5px;"> 
    <td align="center" width="33%"><a href="/modelbricks/VCML_SBMLfiles/RhoGTP_GEF_ModelBrick.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a> </td> 
    <td align="center" width="33%"><a href=".xml">SBML</a> exported from <a href="http://vcell.org"> VCell ***EDIT***</a> </td>
   <tr>

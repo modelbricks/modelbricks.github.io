@@ -14,7 +14,7 @@ AKAP7δ/γ and phospholamban increases phospholamban phosphorylation. Cellular s
  DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-This is Model Brick #3, build based on the complete and curated model <a href="http://modelbricks.org/CM_AKAP7_complete.md">Phosphorilation of PLB by AKAP7 and PKA</a>. This brick describes process of PLB phosphorilation by AKAP7, which is induced by active PKA (described in <a href="http://modelbricks.org/MB_PKAactivation/">ModelBrick2: PKA activation</a>).
+This is Model Brick #3, build based on the complete and curated model <a href="http://modelbricks.org/CM_AKAP7_complete.md">Phosphorilation of PLB by AKAP7 and PKA</a>. This brick describes process of PLB phosphorilation by AKAP7, which is induced by active PKA (described in <a href="http://modelbricks.org/MB_PKAactivation/"> PKA activation</a>).
 
 ### Images
 <center>

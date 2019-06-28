@@ -6,7 +6,7 @@ permalink: /modelbrickslist/
 
 # Curated Models and Related ModelBricks
 
-<table cellpadding="3">
+<table cellpadding="5">
 <tr>
      <td bgcolor="#AED6F1"><strong>Publication</strong>
      </td>

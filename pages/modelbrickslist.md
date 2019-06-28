@@ -21,3 +21,5 @@ This list includes the developed ModelBricks.
      &ensp;ModelBrick 1:<a href="/MB_RhoGTP_GEF_act/"> GEF activation</a><br/>
      &ensp;ModelBrick 2:<a href="/MB_RhoGTP_GDI_activity/"> GDI activity</a><br/>
 1. <a href="http://modelbricks.org/MB_Repressilator/"> Repressilator: A Synthetic Oscillatory Network </a> PMID:10659856 <br/>   
+1. <a href="http://modelbricks.org/MB_CutSwitch/"> Cut out Switch: Rab5 to Rab7 convertion </a> PMID:18628746<br/> 
+

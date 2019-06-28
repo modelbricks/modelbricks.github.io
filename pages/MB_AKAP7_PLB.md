@@ -29,6 +29,7 @@ This is Model Brick #3, build based on the complete and curated model <a href="h
    </tr>
  </table>
 </center>
+
 ### Downloads 
 
 In this section you can find the executable counterpart for the ModelBrick in the description as well as the visualizations files

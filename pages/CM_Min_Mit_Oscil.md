@@ -9,7 +9,7 @@ permalink: /CM_Min_Mit_Oscil/
 
 Goldbeter, A. (1991). <br />
 A minimal cascade model for the mitotic oscillator involving cyclin and cdc2 kinase. <br />
-<i> Proceedings of the National Academy of Sciences, 88 </i> (20), 9107-9111.
+<i> Proceedings of the National Academy of Sciences, 88</i> (20), 9107-9111.
 
  PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1833774">1833774</a>&ensp; 
  DOI: <a href="https://doi.org/10.1073/pnas.88.20.9107">10.1073/pnas.88.20.9107</a><br />

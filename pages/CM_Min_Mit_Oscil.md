@@ -20,8 +20,8 @@ This model is based on the cascade of post-translational modification that modul
 ### Images
 
  <table> 
- <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/MinMitOscil_SBGN.PNG"><img width="250" align="center" src="/images/SBGNfiles/MinMitOscil_SBGN.PNG"/></a></td>
-  <td align="center" width="300"><a href="https://modelbricks.github.io/images/Vcellimages/MinMitOscil_VCellReactionDiagram.PNG"><img width="250" align="center" src="/images/Vcellimages/MinMitOscil_VCellReactionDiagram.PNG"/></a></td>
+ <td align="center" width="300"><a href="https://modelbricks.github.io/images/SBGNfiles/CM_MinMitOscil_SBGN.PNG"><img width="250" align="center" src="/images/SBGNfiles/CM_MinMitOscil_SBGN.PNG"/></a></td>
+  <td align="center" width="300"><a href="https://modelbricks.github.io/images/Vcellimages/CM_MinMitOscil_VCellReactionDiagram.PNG"><img width="250" align="center" src="/images/Vcellimages/CM_MinMitOscil_VCellReactionDiagram.PNG"/></a></td>
   <td align="center" width="300"><!--<a href="https://modelbricks.github.io/images/Vcellimages/PDGF_ModelBrick_PathwayDiagram.PNG"><img width="250" src="/images/Vcellimages/PDGF_ModelBrick_PathwayDiagram.PNG"/></a>--></td>
  <tr>
    <td align="center"> SBGN visualization</td>

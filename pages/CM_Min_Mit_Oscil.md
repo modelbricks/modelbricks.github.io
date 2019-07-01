@@ -33,7 +33,7 @@ This model is based on the cascade of post-translational modification that modul
 ### Downloads
 
  <table> 
- <td align="center"><a href="/modelbricks/VCML_SBMLfiles/ModelBrick_PDGF_Src.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
+ <td align="center"><a href="/modelbricks/VCML_SBMLfiles/Goldbeter1991__Min_Mit_Oscil ModelBrick.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
  <!-- <td align="center"><a href="/modelbricks/VCML_SBMLfiles/PDGF ModelBrick.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td> -->
  <tr>
     <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/PDGF graphML.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>

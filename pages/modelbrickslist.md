@@ -8,13 +8,13 @@ permalink: /modelbrickslist/
 
 <table cellpadding="5">
 <tr>
-     <td bgcolor="#AED6F1"><strong>Publication</strong>
+     <td bgcolor="#AED6F1" center><strong>Publication</strong>
      </td>
      <td bgcolor="#AED6F1"><strong>ModelBricks</strong>
      </td>
 </tr>
 <tr>
-     <td bgcolor="#EBF5FB">Dynamics of regulatory and signaling pathways in the cell <br>
+     <td bgcolor="#EBF5FB"> &ensp; Dynamics of regulatory and signaling pathways in the cell <br>
      (<a href="/CM_Tyson2003/">Curated VCell model</a>, 
       <a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>)
      </td>

@@ -90,7 +90,7 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
-          <li> We consider The curated Vcell Model as a ModelBrick </li>
+               <li> <a <i> <small> We consider The curated Vcell Model as a ModelBrick </small></a></li>
           </ul>
      </td>
 </tr>

@@ -66,6 +66,7 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#EBF5FB">
      </td>
+</tr>
 <tr>
      <td bgcolor="#D6EAF8"> Cut out Switch: Rab5 to Rab7 convertion <br>
           (<a href="http://modelbricks.org/CM_CuttSwitch/">Curated VCell model</a>,
@@ -73,5 +74,5 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
      </td>
-     </tr>
+</tr>
 </table>

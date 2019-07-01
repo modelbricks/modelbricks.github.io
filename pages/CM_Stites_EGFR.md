@@ -7,8 +7,7 @@ permalink: /CM_Stites_EGFR/
 
 ### Publication 
 
-Rigatti, M., Le, A.V., Gerber, C., Moraru, I.I. and Dodge-Kafka, K.L., 2015. Phosphorylation state-dependent interaction between 
-AKAP7δ/γ and phospholamban increase phospholamban phosphorylation. Cellular signaling, 27(9), pp.1807-1815.
+Richard B. Jones, Andrew Gordus, Jordan A. Krall & Gavin MacBeath. A quantitative protein interaction network for the ErbB receptors using protein microarrays, Nature volume 439, pages 168–174 (2006) 
 
  PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16273093">26027516</a>&ensp; 
  DOI: <a href="https://doi.org/10.1038/nature04177">10.1016/j.cellsig.2015.05.016</a><br />

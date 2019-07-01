@@ -73,6 +73,7 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/18628746">PMID:18628746</a>)
      </td>
      <td bgcolor="#D6EAF8">
+          <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>
      </td>
 </tr>
 <tr>
@@ -81,6 +82,7 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/1833774">PMID:1833774</a>)
      </td>
      <td bgcolor="#EBF5FB">
+          <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>
      </td>
 </tr>
 <tr>

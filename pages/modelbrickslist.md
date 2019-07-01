@@ -73,4 +73,5 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
      </td>
+     </tr>
 </table>

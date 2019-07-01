@@ -15,7 +15,7 @@ A minimal cascade model for the mitotic oscillator involving cyclin and cdc2 kin
  DOI: <a href="https://doi.org/10.1073/pnas.88.20.9107">10.1073/pnas.88.20.9107</a><br />
 
 ### Description
-This model describes how GEFs and GAPs interact with GDIs in Rho GTPase signaling. GDIs have a negative role in Rho GTPase signaling, as they inhibit GEFs, thereby suppressing overall Rho activity. GDIs also have a positive role, in which they inhibit GAPS under specific conditions, allowing sustained Rho activation.
+This model is based on the cascade of post-translational modification that modulates the activity of cdc2 kinase during the cell cycle. The model pertains to the situation encountered in early amphibian embryos, where the accumulation of cyclin suffices to trigger the onset of mitosis. 
 
 ### The curated model
 

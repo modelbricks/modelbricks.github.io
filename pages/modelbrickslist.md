@@ -14,7 +14,7 @@ permalink: /modelbrickslist/
      </td>
 </tr>
 <tr>
-     <td bgcolor="#EBF5FB",  border-spacing: 0 25px> Dynamics of regulatory and signaling pathways in the cell <br>
+     <td bgcolor="#EBF5FB" border-spacing: 0 25px> Dynamics of regulatory and signaling pathways in the cell <br>
      (<a href="/CM_Tyson2003/">Curated VCell model</a>, 
       <a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>)
      </td>

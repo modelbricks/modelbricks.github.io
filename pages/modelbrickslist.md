@@ -4,9 +4,9 @@ title: Model Bricks
 permalink: /modelbrickslist/
 ---
 
-# Curated Models and Related ModelBricks
+<h1 align="center"> Curated Models and Related ModelBricks </h1>
 
-<table border-left="10px">
+<table border-left="15">
 <tr>
      <td bgcolor="#AED6F1" align="center"><strong>Publication</strong>
      </td>

@@ -7,12 +7,12 @@ permalink: /MB_Met_Thr/
 
 ### Publication 
 
-Curien, G., Ravanel, S., & Dumas, R. (2003). A kinetic model of the branch-point between the methionine and threonine biosynthesis pathways in Arabidopsis thaliana. European Journal Of Biochemistry, 270(23).
+Curien, G., Ravanel, S., & Dumas, R. (2003). A kinetic model of the branch-point between the methionine and threonine biosynthesis pathways in Arabidopsis thaliana. European Journal Of Biochemistry, 270(23).<br/>
 PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">14622248 </a>&ensp; 
-DOI: <a href="https://doi.org/10.1046/j.1432-1033.2003.03851.x"> 10.1046/j.1432-1033.2003.03851.x</a><br />
+DOI: <a href="https://doi.org/10.1046/j.1432-1033.2003.03851.x"> 10.1046/j.1432-1033.2003.03851.x</a><br/>
 
 ### Description
-
+This Model proposed the Branching of Methionine and Threonine Biosynthesis Pathways in Arabidospsis thaliana, where enzimes responsibles for the synthesis of these two Amino Acids - Cystathionine gamma-synthase (CGS) and Threonine Synthase (TS)- compete for phosphohomoserine. S-adenosylmethionine is the substrat for CGS which in turns produces cystathionine - precursor of methionine- and TS produces synthesizes threonine.
 
 ### Images
 <center>

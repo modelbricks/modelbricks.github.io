@@ -1,4 +1,4 @@
----
+ ---
 layout: default
 title: Curated Model by Stites et al., 20...
 permalink: /CM_Stites_EGFR/
@@ -10,11 +10,11 @@ permalink: /CM_Stites_EGFR/
 Rigatti, M., Le, A.V., Gerber, C., Moraru, I.I. and Dodge-Kafka, K.L., 2015. Phosphorylation state-dependent interaction between 
 AKAP7δ/γ and phospholamban increase phospholamban phosphorylation. Cellular signaling, 27(9), pp.1807-1815.
 
- PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26027516">26027516</a>&ensp; 
- DOI: <a href="https://doi.org/10.1016/j.cellsig.2015.05.016">10.1016/j.cellsig.2015.05.016</a><br />
+ PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16273093">26027516</a>&ensp; 
+ DOI: <a href="https://doi.org/10.1038/nature04177">10.1016/j.cellsig.2015.05.016</a><br />
 
 ### Description
-This model describes The binding and phosphorilation of PLB by AKAP7 upon production of cAMP and activation of PKA, A complete description can be found in the paper linked at the publication section. This completed and curated model has been broken into 3 model bricks listed below.  
+This model describes the binding and phosphorilation of EGFR by several different proteins which can bind to nine different receptors. A complete description can be found in the paper linked at the publication section. This completed and curated model has been broken into 10 model bricks listed below.  
 
 ### The curated model
 <center>
@@ -55,5 +55,5 @@ This model describes The binding and phosphorilation of PLB by AKAP7 upon produc
   
   
 ### Contributors
-Riley Steinberg, Michael Blinov
+Riley Steinberg, Bushrah Khan, Michael Blinov
  

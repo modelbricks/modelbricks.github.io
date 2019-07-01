@@ -61,7 +61,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB"> Repressilator: A Synthetic Oscillatory Network <br>
-          (<a href="http://modelbricks.org/CM_Repressilator/">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/MB_Repressilator/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">PMID:10659856</a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -69,7 +69,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8"> Cut out Switch: Rab5 to Rab7 convertion <br>
-          (<a href="http://modelbricks.org/CM_CuttSwitch/">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/MB_CuttSwitch/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/18628746">PMID:18628746</a>)
      </td>
      <td bgcolor="#D6EAF8">

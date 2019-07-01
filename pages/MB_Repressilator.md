@@ -19,7 +19,7 @@ This Model conform itself a ModelBrick. It describes the oscillatory change in t
  <table> 
  <tr>
   <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_diagram.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_diagram.PNG"/></a></td>
-    <td align="center"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_sim1.PNG.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_sim1.PNG"/></a></td>
+    <td align="center"><a href="https://modelbricks.github.io/images/Vcellimages/repressilator_Vcell_sim1.PNG"><img align="center" src="/images/Vcellimages/repressilator_Vcell_sim1.PNG"/></a></td>
    <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/repressilator_SBGN.PNG"><img align="center" src="/images/SBGNfiles/repressilator_SBGN.PNG" height="180"> </a></td>
  </tr>
  <tr>

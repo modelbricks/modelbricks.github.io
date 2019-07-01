@@ -12,7 +12,7 @@ PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">14622248 </a>&ensp;
 DOI: <a href="https://doi.org/10.1046/j.1432-1033.2003.03851.x"> 10.1046/j.1432-1033.2003.03851.x</a><br/>
 
 ### Description
-This Model proposed the Branching of Methionine and Threonine Biosynthesis Pathways in Arabidospsis thaliana, where enzimes responsibles for the synthesis of these two Amino Acids - Cystathionine gamma-synthase (CGS) and Threonine Synthase (TS)- compete for phosphohomoserine. S-adenosylmethionine is the substrat for CGS which in turns produces cystathionine - precursor of methionine- and TS produces synthesizes threonine.
+This Model proposed the Branching of Methionine and Threonine Biosynthesis Pathways in Arabidospsis thaliana, where Cystathionine gamma-synthase (CGS) and Threonine Synthase (TS) compete kinetically for phosphohomoserine. S-adenosylmethionine is the substrat for CGS which is responsible for the synthesis of cystathionine - precursor of methionine- and TS produces threonine.
 
 ### Images
 <center>

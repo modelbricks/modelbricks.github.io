@@ -36,8 +36,8 @@ This model is based on the cascade of post-translational modification that modul
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/Goldbeter1991___Min_Mit_Oscil ModelBrick.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
  <!-- <td align="center"><a href="/modelbricks/VCML_SBMLfiles/PDGF ModelBrick.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a>  </td> -->
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/PDGF graphML.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/PDGF SBGN-ML.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CM_MinMitOscil.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CM_MinMitOscil.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
  

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Curated Model by Goldbeter, 1991
-permalink: /CM_Min_Mit_Oscil/
+permalink: /CM_MinMitOscil/
 ---
 ## Curated Model: Minimal model for mitotic oscillator involving cyclin and cdc2 kinase
 

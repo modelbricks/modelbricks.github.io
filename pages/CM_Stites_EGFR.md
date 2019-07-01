@@ -9,8 +9,8 @@ permalink: /CM_Stites_EGFR/
 
 Richard B. Jones, Andrew Gordus, Jordan A. Krall & Gavin MacBeath. A quantitative protein interaction network for the ErbB receptors using protein microarrays, Nature volume 439, pages 168–174 (2006) 
 
- PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16273093">26027516</a>&ensp; 
- DOI: <a href="https://doi.org/10.1038/nature04177">10.1016/j.cellsig.2015.05.016</a><br />
+ PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16273093">16273093</a>&ensp; 
+ DOI: <a href="https://doi.org/10.1038/nature04177">10.1038/nature04177</a><br />
 
 ### Description
 This model describes the binding and phosphorilation of EGFR by several different proteins which can bind to nine different receptors. A complete description can be found in the paper linked at the publication section. This completed and curated model has been broken into 10 model bricks listed below.  

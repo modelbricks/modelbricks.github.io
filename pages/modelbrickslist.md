@@ -78,7 +78,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#EBF5FB"> Minimal model for mitotic oscillator <br>
           (<a href="http://modelbricks.org/CM_MinMitOscil/">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/1833774">PMID:1833774 </a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/1833774">PMID:1833774</a>)
      </td>
      <td bgcolor="#EBF5FB">
      </td>

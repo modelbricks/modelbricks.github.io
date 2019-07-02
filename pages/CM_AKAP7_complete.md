@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Curated Model by Rigatti et al., 2015
-permalink: /CM_AKAP7_complete/
+permalink: /CM_PM26027516/
 ---
 ## Curated VCell Model: Phosphorilation of PLB by AKAP7 and PKA 
 
@@ -33,11 +33,11 @@ This model describes The binding and phosphorilation of PLB by AKAP7 upon produc
 ### Downloads
 <center>
 <table> 
- <td align="center"><a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding_2PKA_links.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
+ <td align="center"><a href="/modelbricks/VCML_SBMLfiles/CM_PM26027516.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
  <td align="center"><!-- <a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding.xml">SBML</a> exported from <a href="http://vcell.org"> VCell</a> --></td>
  <tr>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/AKAPcomplete_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
-    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/AKAPcomplete_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CM_PM26027516_SBGN.graphml">GraphML</a> designed with <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
+    <td align="center" width="33%"><a href="/modelbricks/SBGNexecutablefiles/CM_PM26027516_SBGN.sbgn">SBGN-ML</a> exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
  </tr>
  </table>
  </center>
@@ -45,11 +45,11 @@ This model describes The binding and phosphorilation of PLB by AKAP7 upon produc
 ### ModelBricks
 
 <ol>
- <li> <a href="http://modelbricks.org/MB_cAMPproduction/">cAMP production </a>
+ <li> <a href="http://modelbricks.org/CM_PM26027516MB_MB1/">MB1:cAMP production</a>
  </li>
- <li> <a href="http://modelbricks.org/MB_PKAactivation/">PKA activation</a>
+ <li> <a href="http://modelbricks.org/CM_PM26027516MB_MB3/">MB3:PKA activation</a>
  </li> 
- <li> <a href="http://modelbricks.org/MB_AKAP7_PLB/">AKAP binds PLB.</a>
+ <li> <a href="http://modelbricks.org/CM_PM26027516MB_MB4/">MB4:AKAP binds PLB</a>
  </li>
 </ol>  
   

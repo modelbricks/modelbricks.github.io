@@ -80,7 +80,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB"> Minimal model for mitotic oscillator <br>
-          (<a href="http://modelbricks.org/CM_MinMitOscil/">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/CM_PM1833774/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/1833774">PMID:1833774</a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -89,7 +89,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8"> Methionine and Threonine Pathways: The Branch - Point <br>
-          (<a href="http://modelbricks.org/CM_PM14622248">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/CM_PM14622248/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID:14622248</a>)
      </td>
      <td bgcolor="#D6EAF8">

@@ -33,7 +33,8 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
-          <li><a href="/CM_PM26027516_MB1/">cAMP production and degradation</a></li>
+          <li><a href="/CM_PM26027516_MB1/">Gs Activation</a></li>
+               <li><a href="/CM_PM26027516_MB2/">cAMP production and degradation</a></li>
           <li><a href="/CM_PM26027516_MB3/">PKA activation </a></li>
           <li><a href="/CM_PM26027516_MB4/">AKAP7 binds PLB</a></li>
           </ul>

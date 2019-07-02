@@ -90,7 +90,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#D6EAF8"> Methionine and Threonine Pathways: The Branch - Point <br>
           (<a href="http://modelbricks.org/MB_Met_Thr">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID:1833774</a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID:14622248</a>)
      </td>
      <td bgcolor="#D6EAF8">
           <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>

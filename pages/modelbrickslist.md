@@ -28,14 +28,14 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8">Phosphorylation of PLB by AKAP7 and PKA <br>
-          (<a href="http://modelbricks.org/CM_AKAP7_complete/">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/CM_PM26027516/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/26027516">PMID: 26027516</a>)
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
-          <li><a href="/MB_cAMPproduction/">cAMP production and degradation</a></li>
-          <li><a href="/MB_PKAactivation/">PKA activation </a></li>
-          <li><a href="/MB_AKAP7_PLB/">AKAP7 binds PLB</a></li>
+          <li><a href="/CM_PM26027516_MB1/">cAMP production and degradation</a></li>
+          <li><a href="/CM_PM26027516_MB3/">PKA activation </a></li>
+          <li><a href="/CM_PM26027516_MB4/">AKAP7 binds PLB</a></li>
           </ul>
      </td>
 </tr>
@@ -62,7 +62,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB"> Repressilator: A Synthetic Oscillatory Network <br>
-          (<a href="http://modelbricks.org/MB_Repressilator/">Curated VCell model</a>,
+               (<a href="http://modelbricks.org/CM_PM10659856/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">PMID:10659856</a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -71,7 +71,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8"> Cut out Switch: Rab5 to Rab7 convertion <br>
-          (<a href="http://modelbricks.org/MB_CuttSwitch/">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/CM_PM18628746/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/18628746">PMID:18628746</a>)
      </td>
      <td bgcolor="#D6EAF8">
@@ -89,7 +89,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8"> Methionine and Threonine Pathways: The Branch - Point <br>
-          (<a href="http://modelbricks.org/MB_Met_Thr">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/CM_PM14622248">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID:14622248</a>)
      </td>
      <td bgcolor="#D6EAF8">

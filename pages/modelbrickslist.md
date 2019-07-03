@@ -76,8 +76,11 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/18628746">PMID:18628746</a>)
      </td>
      <td bgcolor="#D6EAF8">
-          <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>
-     </td>
+          <ul>
+          <li><a href="/CM_PM18628746_MB1/">Rab5 activation</a></li>
+          <li><a href="/CM_PM18628746_MB2/">Rab7 activation</a></li>
+          </ul>
+               </td>
 </tr>
 <tr>
      <td bgcolor="#EBF5FB"> Minimal model for mitotic oscillator <br>

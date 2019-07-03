@@ -77,8 +77,8 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
-          <li><a href="/CM_PM18628746_MB1/">Rab5 activation</a></li>
-          <li><a href="/CM_PM18628746_MB2/">Rab7 activation</a></li>
+          <li><a href="http://modelbricks.org/CM_PM18628746_MB1/">Rab5 activation</a></li>
+          <li><a href="http://modelbricks.org/CM_PM18628746_MB2/">Rab7 activation</a></li>
           </ul>
                </td>
 </tr>

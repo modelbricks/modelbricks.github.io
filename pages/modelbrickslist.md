@@ -50,7 +50,7 @@ permalink: /modelbrickslist/
      </td>
 </tr>
 <tr>
-     <td bgcolor="#D6EAF8"> Regulation of RhoGTPase activity by RhoGDIs interacting with GAP <br>
+     <td bgcolor="#D6EAF8"> Regulation of Rho GTPase activity by RhoGDI & GAP interactions <br>
           (<a href="http://modelbricks.org/CM_PM25628036/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/25628036">PMID: 25628036</a>)
      </td>

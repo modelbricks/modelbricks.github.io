@@ -100,4 +100,13 @@ permalink: /modelbrickslist/
           <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>
      </td>
 </tr>
+<tr>
+     <td bgcolor="#EBF5FB"> HIV latency: Protein interactions and the innate immune response <br>
+          (<a href="http://modelbricks.org/CM_PM24997239/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/24997239">PMID:24997239</a>)
+     </td>
+     <td bgcolor="#EBF5FB">
+          <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>
+     </td>
+</tr>
 </table>

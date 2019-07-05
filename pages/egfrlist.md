@@ -32,9 +32,9 @@ permalink: /egfrlist/
   </td>
 </tr>
 <tr>
-     <td>
+     <td bgcolor="#EBF5FB">
      </td>
-     <td bgcolor="#AED6F1">
+     <td bgcolor="#EBF5FB">
           <ul>
           <li><a href="/CM_PM12648679_Y998"> Interactions related to Y998 tyrosine residue (VAV2, ...)</a></li>
           <li><a href="/CM_PM12648679_/"> Protein phosphorylation</a></li>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rule-based Model Bricks: EGFR
+title: Rule-based Model Bricks EGFR
 permalink: /egfrlist/
 ---
 

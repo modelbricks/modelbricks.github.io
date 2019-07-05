@@ -1,177 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--This biomodel was generated in VCML Version Alpha_Version_7.1.0_build_44--><vcml xmlns="http://sourceforge.net/projects/vcell/vcml" Version="Alpha_Version_7.1.0_build_44"><BioModel Name="Aguilera2014_HIV_latency"><Model Name="MODEL1503180001"><Compound Name="V"><Annotation>V</Annotation></Compound><Compound Name="C"><Annotation>C</Annotation></Compound><Feature Name="compartment" KeyValue="160993679" /><LocalizedCompound Name="HIV_proteins" CompoundRef="V" Structure="compartment" OverrideName="true" KeyValue="160993681"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="HIV_proteins" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><LocalizedCompound Name="CRFs" CompoundRef="C" Structure="compartment" OverrideName="true" KeyValue="160993682"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="CRFs" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><SimpleReaction Structure="compartment" Name="Kb" Reversible="false" FluxOption="MolecularOnly" KeyValue="160993683"><Product LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="160993684" /><Kinetics KineticsType="GeneralKinetics"><Parameter Name="J" Role="reaction rate" Unit="molecules.l-1.h-1">(2.1672E21 * sbmlRateFactor * v * KMOLE)</Parameter><Parameter Name="v" Role="user defined" Unit="molecules.s-1">0.00134</Parameter><Parameter Name="sbmlRateFactor" Role="user defined" Unit="litre.um-3">1.0E-15</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kv" Reversible="false" FluxOption="MolecularOnly" KeyValue="160993685"><Reactant LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="160993686" /><Product LocalizedCompoundRef="HIV_proteins" Stoichiometry="2" KeyValue="160993687" /><Kinetics KineticsType="GeneralKinetics"><Parameter Name="J" Role="reaction rate" Unit="molecules.l-1.h-1">(3600.0 * sbmlRateFactor * KMOLE * Vmax * HIV_proteins * V_ConcFactor / (Km + (1.661129568106312E-18 * HIV_proteins * V_ConcFactor)))</Parameter><Parameter Name="Km" Role="user defined" Unit="molecules">380.0</Parameter><Parameter Name="Vmax" Role="user defined" Unit="molecules.s-1">0.134</Parameter><Parameter Name="V_ConcFactor" Role="user defined" Unit="um3.litre-1">6.0200000000000013E17</Parameter><Parameter Name="sbmlRateFactor" Role="user defined" Unit="litre.um-3">1.0E-15</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kcv" Reversible="false" FluxOption="MolecularOnly" KeyValue="160993688"><Reactant LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="160993689" /><Reactant LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="160993690" /><Product LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="160993691" /><Kinetics KineticsType="GeneralKinetics"><Parameter Name="J" Role="reaction rate" Unit="molecules.l-1.h-1">(5.980066445182723E-15 * sbmlRateFactor * KMOLE * k1 * HIV_proteins * V_ConcFactor * CRFs * C_ConcFactor)</Parameter><Parameter Name="k1" Role="user defined" Unit="molecules-1.s-1">0.0295</Parameter><Parameter Name="C_ConcFactor" Role="user defined" Unit="um3.litre-1">6.0200000000000013E17</Parameter><Parameter Name="V_ConcFactor" Role="user defined" Unit="um3.litre-1">6.0200000000000013E17</Parameter><Parameter Name="sbmlRateFactor" Role="user defined" Unit="litre.um-3">1.0E-15</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kdv" Reversible="false" FluxOption="MolecularOnly" KeyValue="160993692"><Reactant LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="160993693" /><Kinetics KineticsType="GeneralKinetics"><Parameter Name="J" Role="reaction rate" Unit="molecules.l-1.h-1">(3600.0 * sbmlRateFactor * KMOLE * k1 * HIV_proteins * V_ConcFactor)</Parameter><Parameter Name="k1" Role="user defined" Unit="molecules.s-1.um-3.uM-1">6.85E-5</Parameter><Parameter Name="V_ConcFactor" Role="user defined" Unit="um3.litre-1">6.0200000000000013E17</Parameter><Parameter Name="sbmlRateFactor" Role="user defined" Unit="litre.um-3">1.0E-15</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kc" Reversible="false" FluxOption="MolecularOnly" KeyValue="160993694"><Product LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="160993695" /><Kinetics KineticsType="GeneralKinetics"><Parameter Name="J" Role="reaction rate" Unit="molecules.l-1.h-1">(2.1672E21 * sbmlRateFactor * v * KMOLE)</Parameter><Parameter Name="v" Role="user defined" Unit="molecules.s-1.litre-1">0.07</Parameter><Parameter Name="sbmlRateFactor" Role="user defined" Unit="litre.um-3">1.0E-15</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kvc" Reversible="false" FluxOption="MolecularOnly" KeyValue="160993696"><Reactant LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="160993697" /><Reactant LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="160993698" /><Product LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="160993699" /><Kinetics KineticsType="GeneralKinetics"><Parameter Name="J" Role="reaction rate" Unit="molecules.l-1.h-1">(5.980066445182723E-15 * sbmlRateFactor * KMOLE * k1 * HIV_proteins * V_ConcFactor * CRFs * C_ConcFactor)</Parameter><Parameter Name="k1" Role="user defined" Unit="molecules-1.s-1">0.927</Parameter><Parameter Name="C_ConcFactor" Role="user defined" Unit="um3.litre-1">6.0200000000000013E17</Parameter><Parameter Name="V_ConcFactor" Role="user defined" Unit="um3.litre-1">6.0200000000000013E17</Parameter><Parameter Name="sbmlRateFactor" Role="user defined" Unit="litre.um-3">1.0E-15</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kdc" Reversible="false" FluxOption="MolecularOnly" KeyValue="160993700"><Reactant LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="160993701" /><Kinetics KineticsType="GeneralKinetics"><Parameter Name="J" Role="reaction rate" Unit="molecules.l-1.h-1">(3600.0 * sbmlRateFactor * KMOLE * k1 * CRFs * C_ConcFactor)</Parameter><Parameter Name="k1" Role="user defined" Unit="molecules.s-1.um-3.uM-1">5.01E-5</Parameter><Parameter Name="C_ConcFactor" Role="user defined" Unit="um3.litre-1">6.0200000000000013E17</Parameter><Parameter Name="sbmlRateFactor" Role="user defined" Unit="litre.um-3">1.0E-15</Parameter></Kinetics></SimpleReaction><RbmModelContainer><MolecularTypeList><MolecularType Name="HIV_proteins" AnchorAll="true" /><MolecularType Name="CRFs" AnchorAll="true" /></MolecularTypeList><RbmObservableList><Observable Name="O0_HIV_proteins_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="compartment"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="HIV_proteins" /></MolecularTypePattern></SpeciesPattern></Observable><Observable Name="O0_CRFs_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="compartment"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="CRFs" /></MolecularTypePattern></SpeciesPattern></Observable></RbmObservableList></RbmModelContainer><Diagram Name="compartment" Structure="compartment"><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kvc" LocationX="310" LocationY="158" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kcv" LocationX="142" LocationY="156" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kdv" LocationX="308" LocationY="100" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kb" LocationX="141" LocationY="101" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="HIV_proteins" LocationX="224" LocationY="98" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kv" LocationX="227" LocationY="35" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kdc" LocationX="311" LocationY="212" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="CRFs" LocationX="228" LocationY="210" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kc" LocationX="142" LocationY="212" /></Diagram><Version Name="MODEL1503180001" KeyValue="160993675" BranchId="160929203" Archived="0" Date="02-Jul-2019 17:29:55" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><ModelUnitSystem VolumeSubstanceUnit="molecules" MembraneSubstanceUnit="molecules" LumpedReactionSubstanceUnit="molecules" VolumeUnit="l" AreaUnit="m2" LengthUnit="m" TimeUnit="h" /></Model><SimulationSpec Name="MODEL1503180001_Compartmental" Stochastic="false" UseConcentration="true" RuleBased="false" InsufficientIterations="false" InsufficientMaxMolecules="false"><NetworkConstraints RbmMaxIteration="3" RbmMaxMoleculesPerSpecies="10" RbmSpeciesLimit="800" RbmReactionsLimit="2500"><MaxStoichiometry MolecularType="HIV_proteins" Integer="100" /><MaxStoichiometry MolecularType="CRFs" Integer="100" /></NetworkConstraints><Geometry Name="Compartmental352154215" Dimension="0"><Extent X="10.0" Y="10.0" Z="10.0" /><Origin X="0.0" Y="0.0" Z="0.0" /><SubVolume Name="Compartment" Handle="0" Type="Compartmental" KeyValue="160929198" /><Version Name="Compartmental352154215" KeyValue="160929194" BranchId="160929195" Archived="0" Date="01-Jul-2019 19:59:31" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Geometry><GeometryContext><FeatureMapping Feature="compartment" GeometryClass="Compartment" SubVolume="Compartment" Size="1.000000000000001"><BoundariesTypes Xm="Flux" Xp="Flux" Ym="Flux" Yp="Flux" Zm="Flux" Zp="Flux" /></FeatureMapping></GeometryContext><ReactionContext><LocalizedCompoundSpec LocalizedCompoundRef="HIV_proteins" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>5.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><LocalizedCompoundSpec LocalizedCompoundRef="CRFs" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><ReactionSpec ReactionStepRef="Kb" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kcv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kdv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kc" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kvc" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kdc" ReactionMapping="included" /></ReactionContext><MathDescription Name="MODEL1503180001_Compartmental_generated"><Constant Name="_F_">96480.0</Constant><Constant Name="_F_nmol_">9.648E-5</Constant><Constant Name="_K_GHK_">1.0E-9</Constant><Constant Name="_N_pmol_">6.02E11</Constant><Constant Name="_PI_">3.141592653589793</Constant><Constant Name="_R_">8314.0</Constant><Constant Name="_T_">300.0</Constant><Constant Name="C_ConcFactor_Kcv">6.0200000000000013E17</Constant><Constant Name="C_ConcFactor_Kdc">6.0200000000000013E17</Constant><Constant Name="C_ConcFactor_Kvc">6.0200000000000013E17</Constant><Constant Name="CRFs_init_molecules_l_1">0.0</Constant><Constant Name="HIV_proteins_init_molecules_l_1">5.0</Constant><Constant Name="k1_Kcv">0.0295</Constant><Constant Name="k1_Kdc">5.01E-5</Constant><Constant Name="k1_Kdv">6.85E-5</Constant><Constant Name="k1_Kvc">0.927</Constant><Constant Name="K_millivolts_per_volt">1000.0</Constant><Constant Name="Km">380.0</Constant><Constant Name="KMOLE">(1.0 / 602.0)</Constant><Constant Name="sbmlRateFactor_Kb">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kc">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kcv">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kdc">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kdv">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kv">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kvc">1.0E-15</Constant><Constant Name="Size_compartment">1.000000000000001</Constant><Constant Name="V_ConcFactor_Kcv">6.0200000000000013E17</Constant><Constant Name="V_ConcFactor_Kdv">6.0200000000000013E17</Constant><Constant Name="V_ConcFactor_Kv">6.0200000000000013E17</Constant><Constant Name="V_ConcFactor_Kvc">6.0200000000000013E17</Constant><Constant Name="v_Kb">0.00134</Constant><Constant Name="v_Kc">0.07</Constant><Constant Name="Vmax">0.134</Constant><VolumeVariable Name="CRFs" Domain="Compartment" /><VolumeVariable Name="HIV_proteins" Domain="Compartment" /><Function Name="J_Kb" Domain="Compartment">(2.1672E21 * sbmlRateFactor_Kb * v_Kb * KMOLE)</Function><Function Name="J_Kc" Domain="Compartment">(2.1672E21 * sbmlRateFactor_Kc * v_Kc * KMOLE)</Function><Function Name="J_Kcv" Domain="Compartment">(5.980066445182723E-15 * sbmlRateFactor_Kcv * KMOLE * k1_Kcv * HIV_proteins * V_ConcFactor_Kcv * CRFs * C_ConcFactor_Kcv)</Function><Function Name="J_Kdc" Domain="Compartment">(3600.0 * sbmlRateFactor_Kdc * KMOLE * k1_Kdc * CRFs * C_ConcFactor_Kdc)</Function><Function Name="J_Kdv" Domain="Compartment">(3600.0 * sbmlRateFactor_Kdv * KMOLE * k1_Kdv * HIV_proteins * V_ConcFactor_Kdv)</Function><Function Name="J_Kv" Domain="Compartment">(3600.0 * sbmlRateFactor_Kv * KMOLE * Vmax * HIV_proteins * V_ConcFactor_Kv / (Km + (1.661129568106312E-18 * HIV_proteins * V_ConcFactor_Kv)))</Function><Function Name="J_Kvc" Domain="Compartment">(5.980066445182723E-15 * sbmlRateFactor_Kvc * KMOLE * k1_Kvc * HIV_proteins * V_ConcFactor_Kvc * CRFs * C_ConcFactor_Kvc)</Function><CompartmentSubDomain Name="Compartment"><BoundaryType Boundary="Xm" Type="Value" /><BoundaryType Boundary="Xp" Type="Value" /><BoundaryType Boundary="Ym" Type="Value" /><BoundaryType Boundary="Yp" Type="Value" /><BoundaryType Boundary="Zm" Type="Value" /><BoundaryType Boundary="Zp" Type="Value" /><OdeEquation Name="HIV_proteins" SolutionType="Unknown"><Rate>(J_Kb + J_Kv - J_Kcv - J_Kdv)</Rate><Initial>HIV_proteins_init_molecules_l_1</Initial></OdeEquation><OdeEquation Name="CRFs" SolutionType="Unknown"><Rate>(J_Kc - J_Kvc - J_Kdc)</Rate><Initial>CRFs_init_molecules_l_1</Initial></OdeEquation></CompartmentSubDomain><Version Name="MODEL1503180001_Compartmental_generated" KeyValue="160980329" BranchId="160929200" Archived="0" Date="02-Jul-2019 13:49:06" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></MathDescription><Simulation Name="Simulation0"><SolverTaskDescription TaskType="Unsteady" UseSymbolicJacobian="false" Solver="Combined Stiff Solver (IDA/CVODE)"><TimeBound StartTime="0.0" EndTime="50.0" /><TimeStep DefaultTime="0.1" MinTime="1.0E-8" MaxTime="1.0" /><ErrorTolerance Absolut="1.0E-9" Relative="1.0E-9" /><OutputOptions KeepEvery="1" KeepAtMost="1000" /><NumberProcessors>1</NumberProcessors></SolverTaskDescription><MathOverrides /><Version Name="Simulation0" KeyValue="160980387" BranchId="160929245" Archived="0" Date="02-Jul-2019 13:49:07" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Simulation><Version Name="MODEL1503180001_Compartmental" KeyValue="161063229" BranchId="160929232" Archived="0" Date="03-Jul-2019 15:35:28" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><MicroscopeMeasurement Name="fluor"><ConvolutionKernel Type="ProjectionZKernel" /></MicroscopeMeasurement></SimulationSpec><SimulationSpec Name="Application0" Stochastic="false" UseConcentration="true" RuleBased="false" InsufficientIterations="false" InsufficientMaxMolecules="false"><NetworkConstraints RbmMaxIteration="3" RbmMaxMoleculesPerSpecies="10" RbmSpeciesLimit="800" RbmReactionsLimit="2500"><MaxStoichiometry MolecularType="HIV_proteins" Integer="100" /><MaxStoichiometry MolecularType="CRFs" Integer="100" /></NetworkConstraints><Geometry Name="non-spatial560217913" Dimension="0"><Extent X="10.0" Y="10.0" Z="10.0" /><Origin X="0.0" Y="0.0" Z="0.0" /><SubVolume Name="Compartment" Handle="0" Type="Compartmental" KeyValue="160980328" /><Version Name="non-spatial560217913" KeyValue="160980324" BranchId="160980325" Archived="0" Date="02-Jul-2019 13:49:06" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Geometry><GeometryContext><FeatureMapping Feature="compartment" GeometryClass="Compartment" SubVolume="Compartment" Size="1.0"><BoundariesTypes Xm="Flux" Xp="Flux" Ym="Flux" Yp="Flux" Zm="Flux" Zp="Flux" /></FeatureMapping></GeometryContext><ReactionContext><LocalizedCompoundSpec LocalizedCompoundRef="HIV_proteins" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><LocalizedCompoundSpec LocalizedCompoundRef="CRFs" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><ReactionSpec ReactionStepRef="Kb" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kcv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kdv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kc" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kvc" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kdc" ReactionMapping="included" /></ReactionContext><MathDescription Name="Application0_generated"><Constant Name="_F_">96480.0</Constant><Constant Name="_F_nmol_">9.648E-5</Constant><Constant Name="_K_GHK_">1.0E-9</Constant><Constant Name="_N_pmol_">6.02E11</Constant><Constant Name="_PI_">3.141592653589793</Constant><Constant Name="_R_">8314.0</Constant><Constant Name="_T_">300.0</Constant><Constant Name="C_ConcFactor_Kcv">6.0200000000000013E17</Constant><Constant Name="C_ConcFactor_Kdc">6.0200000000000013E17</Constant><Constant Name="C_ConcFactor_Kvc">6.0200000000000013E17</Constant><Constant Name="CRFs_init_molecules_l_1">0.0</Constant><Constant Name="HIV_proteins_init_molecules_l_1">0.0</Constant><Constant Name="k1_Kcv">0.0295</Constant><Constant Name="k1_Kdc">5.01E-5</Constant><Constant Name="k1_Kdv">6.85E-5</Constant><Constant Name="k1_Kvc">0.927</Constant><Constant Name="K_millivolts_per_volt">1000.0</Constant><Constant Name="Km">380.0</Constant><Constant Name="KMOLE">(1.0 / 602.0)</Constant><Constant Name="sbmlRateFactor_Kb">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kc">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kcv">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kdc">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kdv">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kv">1.0E-15</Constant><Constant Name="sbmlRateFactor_Kvc">1.0E-15</Constant><Constant Name="Size_compartment">1.0</Constant><Constant Name="V_ConcFactor_Kcv">6.0200000000000013E17</Constant><Constant Name="V_ConcFactor_Kdv">6.0200000000000013E17</Constant><Constant Name="V_ConcFactor_Kv">6.0200000000000013E17</Constant><Constant Name="V_ConcFactor_Kvc">6.0200000000000013E17</Constant><Constant Name="v_Kb">0.00134</Constant><Constant Name="v_Kc">0.07</Constant><Constant Name="Vmax">0.134</Constant><VolumeVariable Name="CRFs" Domain="Compartment" /><VolumeVariable Name="HIV_proteins" Domain="Compartment" /><Function Name="J_Kb" Domain="Compartment">(2.1672E21 * sbmlRateFactor_Kb * v_Kb * KMOLE)</Function><Function Name="J_Kc" Domain="Compartment">(2.1672E21 * sbmlRateFactor_Kc * v_Kc * KMOLE)</Function><Function Name="J_Kcv" Domain="Compartment">(5.980066445182723E-15 * sbmlRateFactor_Kcv * KMOLE * k1_Kcv * HIV_proteins * V_ConcFactor_Kcv * CRFs * C_ConcFactor_Kcv)</Function><Function Name="J_Kdc" Domain="Compartment">(3600.0 * sbmlRateFactor_Kdc * KMOLE * k1_Kdc * CRFs * C_ConcFactor_Kdc)</Function><Function Name="J_Kdv" Domain="Compartment">(3600.0 * sbmlRateFactor_Kdv * KMOLE * k1_Kdv * HIV_proteins * V_ConcFactor_Kdv)</Function><Function Name="J_Kv" Domain="Compartment">(3600.0 * sbmlRateFactor_Kv * KMOLE * Vmax * HIV_proteins * V_ConcFactor_Kv / (Km + (1.661129568106312E-18 * HIV_proteins * V_ConcFactor_Kv)))</Function><Function Name="J_Kvc" Domain="Compartment">(5.980066445182723E-15 * sbmlRateFactor_Kvc * KMOLE * k1_Kvc * HIV_proteins * V_ConcFactor_Kvc * CRFs * C_ConcFactor_Kvc)</Function><CompartmentSubDomain Name="Compartment"><BoundaryType Boundary="Xm" Type="Value" /><BoundaryType Boundary="Xp" Type="Value" /><BoundaryType Boundary="Ym" Type="Value" /><BoundaryType Boundary="Yp" Type="Value" /><BoundaryType Boundary="Zm" Type="Value" /><BoundaryType Boundary="Zp" Type="Value" /><OdeEquation Name="HIV_proteins" SolutionType="Unknown"><Rate>(J_Kb + J_Kv - J_Kcv - J_Kdv)</Rate><Initial>HIV_proteins_init_molecules_l_1</Initial></OdeEquation><OdeEquation Name="CRFs" SolutionType="Unknown"><Rate>(J_Kc - J_Kvc - J_Kdc)</Rate><Initial>CRFs_init_molecules_l_1</Initial></OdeEquation></CompartmentSubDomain><Version Name="Application0_generated" KeyValue="161063227" BranchId="160980332" Archived="0" Date="03-Jul-2019 15:35:28" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></MathDescription><Simulation Name="Simulation1"><SolverTaskDescription TaskType="Unsteady" UseSymbolicJacobian="false" Solver="Combined Stiff Solver (IDA/CVODE)"><TimeBound StartTime="0.0" EndTime="50.0" /><TimeStep DefaultTime="0.1" MinTime="1.0E-8" MaxTime="1.0" /><ErrorTolerance Absolut="1.0E-9" Relative="1.0E-9" /><OutputOptions KeepEvery="1" KeepAtMost="1000" /><NumberProcessors>1</NumberProcessors></SolverTaskDescription><MathOverrides /><Version Name="Simulation1" KeyValue="161063253" BranchId="160980390" Archived="0" Date="03-Jul-2019 15:35:28" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Simulation><Version Name="Application0" KeyValue="161063241" BranchId="160980375" Archived="0" Date="03-Jul-2019 15:35:28" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><MicroscopeMeasurement Name="fluor"><ConvolutionKernel Type="ProjectionZKernel" /></MicroscopeMeasurement></SimulationSpec><Version Name="Aguilera2014_HIV_latency" KeyValue="161063255" BranchId="160993838" Archived="0" Date="03-Jul-2019 15:35:28" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><pathwayModel><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" version="3.0"><DiagramObjectsID xmlns="">BIOMODEL_Kcv</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_V</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_C</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_Kvc</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_Kv</DiagramObjectsID><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_Kcv"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kcv</bp:name><bp:xref rdf:nodeID="doi_10.1016/j.jtbi.2010.05.001" /><bp:xref rdf:nodeID="pubmed_1694453" /><bp:xref rdf:nodeID="pubmed_23118935" /><bp:xref rdf:nodeID="doi_10.1371/journal.pone.0048114" /><bp:xref rdf:nodeID="pubmed_20553733" /><bp:xref rdf:nodeID="doi_10.1089/aid.1990.6.659" /></bp:BiochemicalReaction><bp:PublicationXref rdf:nodeID="pubmed_1694453"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1694453</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_23118935"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23118935</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1016/j.jtbi.2010.05.001"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.jtbi.2010.05.001</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_20553733"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20553733</bp:id></bp:PublicationXref><bp:PhysicalEntity rdf:nodeID="BIOMODEL_V"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V</bp:name><bp:xref rdf:nodeID="uniprot_P04610" /></bp:PhysicalEntity><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_Kv"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kv</bp:name><bp:xref rdf:nodeID="doi_10.1186/1742-4682-10-16" /><bp:xref rdf:nodeID="doi_10.1371/journal.pbio.0050009" /><bp:xref rdf:nodeID="doi_10.1016/j.ymeth.2010.12.006" /><bp:xref rdf:nodeID="pubmed_17194214" /><bp:xref rdf:nodeID="doi_10.1016/j.cell.2005.06.006" /><bp:xref rdf:nodeID="pubmed_16051143" /><bp:xref rdf:nodeID="pubmed_21167940" /><bp:xref rdf:nodeID="pubmed_23497153" /></bp:BiochemicalReaction><bp:PublicationXref rdf:nodeID="doi_10.1371/journal.pbio.0050009"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1371/journal.pbio.0050009</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1016/j.cell.2005.06.006"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.cell.2005.06.006</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1186/1742-4682-10-16"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1186/1742-4682-10-16</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_17194214"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17194214</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1371/journal.pone.0048114"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1371/journal.pone.0048114</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_23497153"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23497153</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1016/j.ymeth.2010.12.006"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.ymeth.2010.12.006</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_21167940"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21167940</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="uniprot_P04610"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P04610</bp:id></bp:PublicationXref><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_Kvc"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kvc</bp:name><bp:xref rdf:nodeID="doi_10.1016/j.jtbi.2010.05.001" /><bp:xref rdf:nodeID="pubmed_23118935" /><bp:xref rdf:nodeID="pubmed_20553733" /><bp:xref rdf:nodeID="doi_10.1371/journal.pone.0048114" /></bp:BiochemicalReaction><bp:PhysicalEntity rdf:nodeID="BIOMODEL_C"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</bp:name><bp:xref rdf:nodeID="uniprot_P00973" /></bp:PhysicalEntity><bp:PublicationXref rdf:nodeID="uniprot_P00973"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P00973</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1089/aid.1990.6.659"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1089/aid.1990.6.659</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_16051143"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16051143</bp:id></bp:PublicationXref></rdf:RDF></pathwayModel><relationshipModel><RMNS version="3.0"><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_Kvc)" bioModelObjectID="ReactionStep(Kvc)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_Kcv)" bioModelObjectID="ReactionStep(Kcv)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_C)" bioModelObjectID="SpeciesContext(CRFs)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_V)" bioModelObjectID="SpeciesContext(HIV_proteins)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_Kv)" bioModelObjectID="ReactionStep(Kv)" /></RMNS></relationshipModel><vcmetadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1022851661"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node0"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P00973" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/2124567906"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node1"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P04610" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI0"><bqbiol:hasProperty xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node2"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/doid/DOID:526" /></rdf:_1></rdf:Bag></bqbiol:hasProperty><bqbiol:hasTaxon xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node3"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/taxonomy/9606" /></rdf:_1></rdf:Bag></bqbiol:hasTaxon><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node4"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0045087" /></rdf:_1></rdf:Bag></bqbiol:isVersionOf><bqmodel:is xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node5"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/biomodels.db/MODEL1503180001" /></rdf:_1></rdf:Bag></bqmodel:is><bqmodel:is xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node6"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/biomodels.db/BIOMD0000000573" /></rdf:_1></rdf:Bag></bqmodel:is><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node7"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.jtbi.2014.06.025" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node8"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/pubmed/24997239" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Bag rdf:nodeID="node9"><rdf:_1><rdf:Description rdf:nodeID="node35"><vcard:EMAIL xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">lloret@ebi.ac.uk</vcard:EMAIL><vcard:N xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node37"><vcard:Family>Lloret i Villas</vcard:Family><vcard:Given>Audald</vcard:Given></rdf:Description></vcard:N><vcard:ORG xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node38"><vcard:Orgname>EMBL-EBI</vcard:Orgname></rdf:Description></vcard:ORG></rdf:Description></rdf:_1><rdf:_2><rdf:Description rdf:nodeID="node36"><vcard:EMAIL xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">luis.aguilera@bioquant.uni-heidelberg.de</vcard:EMAIL><vcard:N xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node39"><vcard:Family>Aguilera de Lira</vcard:Family><vcard:Given>Luis Ubaldo</vcard:Given></rdf:Description></vcard:N><vcard:ORG xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node40"><vcard:Orgname>Heidelberg University. Department of Modeling of Biological Processes</vcard:Orgname></rdf:Description></vcard:ORG></rdf:Description></rdf:_2></rdf:Bag></dc:creator><dcterms:created xmlns:dcterms="http://purl.org/dc/terms/"><rdf:Description rdf:nodeID="node10"><dcterms:W3CDTF>2015-03-30T13:07:36Z</dcterms:W3CDTF></rdf:Description></dcterms:created><dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/"><rdf:Description rdf:nodeID="node11"><dcterms:W3CDTF>2016-04-08T17:53:31Z</dcterms:W3CDTF></rdf:Description></dcterms:modified></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI1"><bqbiol:hasPart xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node12"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0039660" /></rdf:_1></rdf:Bag></bqbiol:hasPart><bqbiol:hasPart xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node13"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0019021" /></rdf:_1></rdf:Bag></bqbiol:hasPart><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node14"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P04610" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI2"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node15"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P00973" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI4"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node16"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:23497153" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node17"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:21167940" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node18"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:17194214" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node19"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:16051143" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node20"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.cell.2005.06.006" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node21"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1371%2Fjournal.pbio.0050009" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node22"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.ymeth.2010.12.006" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node23"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1186%2F1742-4682-10-16" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI5"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node24"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.jtbi.2010.05.001" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node25"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:20553733" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node26"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:23118935" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node27"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1371%2Fjournal.pone.0048114" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node28"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1089%2Faid.1990.6.659" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node29"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:1694453" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI8"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node30"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.jtbi.2010.05.001" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node31"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:20553733" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node32"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:23118935" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node33"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1371%2Fjournal.pone.0048114" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/e8c19965-7d34-423e-b3c7-77b898adbd0e"><bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node34"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0005623" /></rdf:_1></rdf:Bag></bqbiol:is></rdf:Description></rdf:RDF><nonrdfAnnotationList><nonrdfAnnotation vcid="ReactionStep(Kv)"><freetext>&lt;html&gt;&#xD;
-  &lt;head&gt;&#xD;
-    &#xD;
-  &lt;/head&gt;&#xD;
-  &lt;body&gt;&#xD;
-    &lt;p style="margin-top: 0"&gt;&#xD;
-      Production of HIV proteins enhanced by transactivation&#xD;
-    &lt;/p&gt;&#xD;
-  &lt;/body&gt;&#xD;
-&lt;/html&gt;&#xD;
-</freetext><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
-    
-                        <rdf:Description rdf:about="#COPASI4">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:38:28Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kb)"><freetext>&lt;html&gt;&#xD;
+<!--This biomodel was generated in VCML Version Rel_Version_7.1.0_build_6--><vcml xmlns="http://sourceforge.net/projects/vcell/vcml" Version="Rel_Version_7.1.0_build_6"><BioModel Name="CM_PM24997239"><Model Name="unnamed"><Compound Name="V"><Annotation>V</Annotation></Compound><Compound Name="C"><Annotation>C</Annotation></Compound><Feature Name="compartment" KeyValue="161086626" /><LocalizedCompound Name="HIV_proteins" SbmlName="V" CompoundRef="V" Structure="compartment" OverrideName="true" KeyValue="161086628"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="HIV_proteins" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><LocalizedCompound Name="CRFs" SbmlName="C" CompoundRef="C" Structure="compartment" OverrideName="true" KeyValue="161086629"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="CRFs" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><SimpleReaction Structure="compartment" Name="Kb" Reversible="false" FluxOption="MolecularOnly" KeyValue="161086630"><Product LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="161086631" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.h-1">(3600.0 * compartment * v)</Parameter><Parameter Name="v" Role="user defined" Unit="molecules.s-1.litre-1">0.00134</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kv" Reversible="false" FluxOption="MolecularOnly" KeyValue="161086632"><Reactant LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="161086633" /><Product LocalizedCompoundRef="HIV_proteins" Stoichiometry="2" KeyValue="161086634" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.h-1">(3600.0 * compartment * Vmax * HIV_proteins / (Km + HIV_proteins))</Parameter><Parameter Name="Km" Role="user defined" Unit="molecules.litre-1">380.0</Parameter><Parameter Name="Vmax" Role="user defined" Unit="molecules.s-1.litre-1">0.134</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kcv" Reversible="false" FluxOption="MolecularOnly" KeyValue="161086635"><Reactant LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="161086636" /><Reactant LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="161086637" /><Product LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="161086638" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.h-1">(3600.0 * compartment * k1 * HIV_proteins * CRFs)</Parameter><Parameter Name="k1" Role="user defined" Unit="litre.s-1.molecules-1">0.0295</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kdv" Reversible="false" FluxOption="MolecularOnly" KeyValue="161086639"><Reactant LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="161086640" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.h-1">(3600.0 * compartment * k1 * HIV_proteins)</Parameter><Parameter Name="k1" Role="user defined" Unit="s-1">6.85E-5</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kc" Reversible="false" FluxOption="MolecularOnly" KeyValue="161086641"><Product LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="161086642" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.h-1">(3600.0 * compartment * v)</Parameter><Parameter Name="v" Role="user defined" Unit="molecules.s-1.litre-1">0.07</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kvc" Reversible="false" FluxOption="MolecularOnly" KeyValue="161086643"><Reactant LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="161086644" /><Reactant LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="161086645" /><Product LocalizedCompoundRef="HIV_proteins" Stoichiometry="1" KeyValue="161086646" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.h-1">(3600.0 * compartment * k1 * HIV_proteins * CRFs)</Parameter><Parameter Name="k1" Role="user defined" Unit="litre.s-1.molecules-1">0.927</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="compartment" Name="Kdc" Reversible="false" FluxOption="MolecularOnly" KeyValue="161086647"><Reactant LocalizedCompoundRef="CRFs" Stoichiometry="1" KeyValue="161086648" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.h-1">(3600.0 * compartment * k1 * CRFs)</Parameter><Parameter Name="k1" Role="user defined" Unit="s-1">5.01E-5</Parameter></Kinetics></SimpleReaction><RbmModelContainer><MolecularTypeList><MolecularType Name="HIV_proteins" AnchorAll="true" /><MolecularType Name="CRFs" AnchorAll="true" /></MolecularTypeList><RbmObservableList><Observable Name="O0_HIV_proteins_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="compartment"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="HIV_proteins" /></MolecularTypePattern></SpeciesPattern></Observable><Observable Name="O0_CRFs_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="compartment"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="CRFs" /></MolecularTypePattern></SpeciesPattern></Observable></RbmObservableList></RbmModelContainer><Diagram Name="compartment" Structure="compartment"><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kdc" LocationX="331" LocationY="266" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kc" LocationX="152" LocationY="266" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kb" LocationX="150" LocationY="99" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kv" LocationX="235" LocationY="43" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="HIV_proteins" LocationX="234" LocationY="98" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kcv" LocationX="149" LocationY="174" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kvc" LocationX="326" LocationY="181" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="Kdv" LocationX="327" LocationY="98" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="CRFs" LocationX="234" LocationY="264" /></Diagram><Version Name="unnamed" KeyValue="161086622" BranchId="161083254" Archived="0" Date="03-Jul-2019 20:28:18" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><ModelUnitSystem VolumeSubstanceUnit="molecules" MembraneSubstanceUnit="molecules" LumpedReactionSubstanceUnit="molecules" VolumeUnit="litre" AreaUnit="m2" LengthUnit="m" TimeUnit="h" /></Model><SimulationSpec Name="Deterministic simulation" Stochastic="false" UseConcentration="true" RuleBased="false" InsufficientIterations="false" InsufficientMaxMolecules="false"><NetworkConstraints RbmMaxIteration="3" RbmMaxMoleculesPerSpecies="10" RbmSpeciesLimit="800" RbmReactionsLimit="2500"><MaxStoichiometry MolecularType="HIV_proteins" Integer="100" /><MaxStoichiometry MolecularType="CRFs" Integer="100" /></NetworkConstraints><Geometry Name="Compartmental98144091" Dimension="0"><Extent X="10.0" Y="10.0" Z="10.0" /><Origin X="0.0" Y="0.0" Z="0.0" /><SubVolume Name="Compartment" Handle="0" Type="Compartmental" KeyValue="161083249" /><Version Name="Compartmental98144091" KeyValue="161083245" BranchId="161083246" Archived="0" Date="03-Jul-2019 20:06:05" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Geometry><GeometryContext><FeatureMapping Feature="compartment" GeometryClass="Compartment" SubVolume="Compartment" Size="1.0"><BoundariesTypes Xm="Flux" Xp="Flux" Ym="Flux" Yp="Flux" Zm="Flux" Zp="Flux" /></FeatureMapping></GeometryContext><ReactionContext><LocalizedCompoundSpec LocalizedCompoundRef="HIV_proteins" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>5.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><LocalizedCompoundSpec LocalizedCompoundRef="CRFs" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><ReactionSpec ReactionStepRef="Kb" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kcv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kdv" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kc" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kvc" ReactionMapping="included" /><ReactionSpec ReactionStepRef="Kdc" ReactionMapping="included" /></ReactionContext><MathDescription Name="unnamed_generated"><Constant Name="_F_">96480.0</Constant><Constant Name="_F_nmol_">9.648E-5</Constant><Constant Name="_K_GHK_">1.0E-9</Constant><Constant Name="_N_pmol_">6.02E11</Constant><Constant Name="_PI_">3.141592653589793</Constant><Constant Name="_R_">8314.0</Constant><Constant Name="_T_">300.0</Constant><Constant Name="CRFs_init_molecules_litre_1">0.0</Constant><Constant Name="HIV_proteins_init_molecules_litre_1">5.0</Constant><Constant Name="k1_Kcv">0.0295</Constant><Constant Name="k1_Kdc">5.01E-5</Constant><Constant Name="k1_Kdv">6.85E-5</Constant><Constant Name="k1_Kvc">0.927</Constant><Constant Name="K_millivolts_per_volt">1000.0</Constant><Constant Name="Km">380.0</Constant><Constant Name="KMOLE">(1.0 / 602.0)</Constant><Constant Name="Size_compartment">1.0</Constant><Constant Name="v_Kb">0.00134</Constant><Constant Name="v_Kc">0.07</Constant><Constant Name="Vmax">0.134</Constant><VolumeVariable Name="CRFs" Domain="Compartment" /><VolumeVariable Name="HIV_proteins" Domain="Compartment" /><Function Name="LumpedJ_Kb" Domain="Compartment">(3600.0 * Size_compartment * v_Kb)</Function><Function Name="LumpedJ_Kc" Domain="Compartment">(3600.0 * Size_compartment * v_Kc)</Function><Function Name="LumpedJ_Kcv" Domain="Compartment">(3600.0 * Size_compartment * k1_Kcv * HIV_proteins * CRFs)</Function><Function Name="LumpedJ_Kdc" Domain="Compartment">(3600.0 * Size_compartment * k1_Kdc * CRFs)</Function><Function Name="LumpedJ_Kdv" Domain="Compartment">(3600.0 * Size_compartment * k1_Kdv * HIV_proteins)</Function><Function Name="LumpedJ_Kv" Domain="Compartment">(3600.0 * Size_compartment * Vmax * HIV_proteins / (Km + HIV_proteins))</Function><Function Name="LumpedJ_Kvc" Domain="Compartment">(3600.0 * Size_compartment * k1_Kvc * HIV_proteins * CRFs)</Function><CompartmentSubDomain Name="Compartment"><BoundaryType Boundary="Xm" Type="Value" /><BoundaryType Boundary="Xp" Type="Value" /><BoundaryType Boundary="Ym" Type="Value" /><BoundaryType Boundary="Yp" Type="Value" /><BoundaryType Boundary="Zm" Type="Value" /><BoundaryType Boundary="Zp" Type="Value" /><OdeEquation Name="HIV_proteins" SolutionType="Unknown"><Rate>((LumpedJ_Kb / Size_compartment) + (LumpedJ_Kv / Size_compartment) - (LumpedJ_Kcv / Size_compartment) - (LumpedJ_Kdv / Size_compartment))</Rate><Initial>HIV_proteins_init_molecules_litre_1</Initial></OdeEquation><OdeEquation Name="CRFs" SolutionType="Unknown"><Rate>((LumpedJ_Kc / Size_compartment) - (LumpedJ_Kvc / Size_compartment) - (LumpedJ_Kdc / Size_compartment))</Rate><Initial>CRFs_init_molecules_litre_1</Initial></OdeEquation></CompartmentSubDomain><Version Name="unnamed_generated" KeyValue="161086620" BranchId="161083251" Archived="0" Date="03-Jul-2019 20:28:18" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></MathDescription><Simulation Name="Deterministic simulation"><SolverTaskDescription TaskType="Unsteady" UseSymbolicJacobian="false" Solver="Combined Stiff Solver (IDA/CVODE)"><TimeBound StartTime="0.0" EndTime="50.0" /><TimeStep DefaultTime="0.1" MinTime="1.0E-8" MaxTime="1.0" /><ErrorTolerance Absolut="1.0E-9" Relative="1.0E-9" /><OutputOptions KeepEvery="1" KeepAtMost="1000" /><NumberProcessors>1</NumberProcessors></SolverTaskDescription><MathOverrides /><Version Name="Deterministic simulation" KeyValue="161086760" BranchId="161086761" Archived="0" Date="03-Jul-2019 20:28:42" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /><ParentSimRef KeyValue="161086663" /></Version></Simulation><Version Name="Deterministic simulation" KeyValue="161215649" BranchId="161086651" Archived="0" Date="05-Jul-2019 13:48:43" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><MicroscopeMeasurement Name="fluor"><ConvolutionKernel Type="ProjectionZKernel" /></MicroscopeMeasurement></SimulationSpec><Version Name="CM_PM24997239" KeyValue="161215661" BranchId="161083296" Archived="0" Date="05-Jul-2019 13:48:44" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><pathwayModel><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" version="3.0"><DiagramObjectsID xmlns="">BIOMODEL_Kcv</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_V</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_C</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_Kvc</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_Kv</DiagramObjectsID><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_Kv"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kv</bp:name><bp:xref rdf:nodeID="doi_10.1371/journal.pbio.0050009 " /><bp:xref rdf:nodeID="doi_10.1016/j.ymeth.2010.12.006 " /><bp:xref rdf:nodeID="pubmed_17194214" /><bp:xref rdf:nodeID="doi_10.1186/1742-4682-10-16 " /><bp:xref rdf:nodeID="doi_10.1016/j.cell.2005.06.006" /><bp:xref rdf:nodeID="pubmed_16051143" /><bp:xref rdf:nodeID="pubmed_21167940" /><bp:xref rdf:nodeID="pubmed_23497153" /></bp:BiochemicalReaction><bp:PublicationXref rdf:nodeID="pubmed_21167940"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21167940</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1371/journal.pbio.0050009 "><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1371/journal.pbio.0050009</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_23497153"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23497153</bp:id></bp:PublicationXref><bp:PhysicalEntity rdf:nodeID="BIOMODEL_V"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V</bp:name><bp:xref rdf:nodeID="uniprot_P04610" /></bp:PhysicalEntity><bp:PublicationXref rdf:nodeID="pubmed_17194214"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17194214</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1186/1742-4682-10-16 "><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1186/1742-4682-10-16</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1016/j.ymeth.2010.12.006 "><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.ymeth.2010.12.006</bp:id></bp:PublicationXref><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_Kvc"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kvc</bp:name><bp:xref rdf:nodeID="doi_10.1016/j.jtbi.2010.05.001" /><bp:xref rdf:nodeID="pubmed_23118935" /><bp:xref rdf:nodeID="pubmed_20553733" /><bp:xref rdf:nodeID="doi_10.1371/journal.pone.0048114" /></bp:BiochemicalReaction><bp:PublicationXref rdf:nodeID="doi_10.1016/j.jtbi.2010.05.001"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.jtbi.2010.05.001</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1371/journal.pone.0048114"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1371/journal.pone.0048114</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_23118935"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23118935</bp:id></bp:PublicationXref><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_Kcv"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kcv</bp:name><bp:xref rdf:nodeID="pubmed_1694453" /><bp:xref rdf:nodeID="pubmed_23118935" /><bp:xref rdf:nodeID="doi_10.1371/journal.pone.0048114 " /><bp:xref rdf:nodeID="pubmed_20553733" /><bp:xref rdf:nodeID="doi_10.1016/j.jtbi.2010.05.001 " /><bp:xref rdf:nodeID="doi_10.1089/aid.1990.6.659" /></bp:BiochemicalReaction><bp:PublicationXref rdf:nodeID="doi_10.1089/aid.1990.6.659"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1089/aid.1990.6.659</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1016/j.jtbi.2010.05.001 "><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.jtbi.2010.05.001</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_1694453"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1694453</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1371/journal.pone.0048114 "><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1371/journal.pone.0048114</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_16051143"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16051143</bp:id></bp:PublicationXref><bp:PhysicalEntity rdf:nodeID="BIOMODEL_C"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</bp:name><bp:xref rdf:nodeID="uniprot_P00973" /></bp:PhysicalEntity><bp:PublicationXref rdf:nodeID="uniprot_P00973"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P00973</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="doi_10.1016/j.cell.2005.06.006"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.cell.2005.06.006</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="uniprot_P04610"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P04610</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="pubmed_20553733"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUBMED</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20553733</bp:id></bp:PublicationXref></rdf:RDF></pathwayModel><relationshipModel><RMNS version="3.0"><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_C)" bioModelObjectID="SpeciesContext(CRFs)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_V)" bioModelObjectID="SpeciesContext(HIV_proteins)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_Kv)" bioModelObjectID="ReactionStep(Kv)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_Kvc)" bioModelObjectID="ReactionStep(Kvc)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_Kcv)" bioModelObjectID="ReactionStep(Kcv)" /></RMNS></relationshipModel><vcmetadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/182133165"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node0"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P04610" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1989040410"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node1"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P00973" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI0"><bqbiol:hasProperty xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node2"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/doid/DOID:526" /></rdf:_1></rdf:Bag></bqbiol:hasProperty><bqbiol:hasTaxon xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node3"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/taxonomy/9606" /></rdf:_1></rdf:Bag></bqbiol:hasTaxon><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node4"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0045087" /></rdf:_1></rdf:Bag></bqbiol:isVersionOf><bqmodel:is xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node5"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/biomodels.db/MODEL1503180001" /></rdf:_1></rdf:Bag></bqmodel:is><bqmodel:is xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node6"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/biomodels.db/BIOMD0000000573" /></rdf:_1></rdf:Bag></bqmodel:is><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node7"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/pubmed/24997239" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Bag rdf:nodeID="node8"><rdf:_1><rdf:Description rdf:nodeID="node34" /></rdf:_1><rdf:_2><rdf:Description rdf:nodeID="node37" /></rdf:_2></rdf:Bag></dc:creator><dcterms:created xmlns:dcterms="http://purl.org/dc/terms/"><rdf:Description rdf:nodeID="node9"><dcterms:W3CDTF>2015-03-30T13:07:36Z</dcterms:W3CDTF></rdf:Description></dcterms:created><dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/"><rdf:Description rdf:nodeID="node10"><dcterms:W3CDTF>2016-04-08T17:53:31Z</dcterms:W3CDTF></rdf:Description></dcterms:modified></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI1"><bqbiol:hasPart xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node11"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0039660" /></rdf:_1></rdf:Bag></bqbiol:hasPart><bqbiol:hasPart xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node12"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0019021" /></rdf:_1></rdf:Bag></bqbiol:hasPart><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node13"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P04610" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI2"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node14"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P00973" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI4"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node15"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:16051143" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node16"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:23497153" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node17"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:17194214" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node18"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:21167940" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node19"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1186%2F1742-4682-10-16+" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node20"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1371%2Fjournal.pbio.0050009+" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node21"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.ymeth.2010.12.006+" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node22"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.cell.2005.06.006" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI5"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node23"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:1694453" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node24"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:23118935" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node25"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:20553733" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node26"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.jtbi.2010.05.001+" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node27"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1371%2Fjournal.pone.0048114+" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node28"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1089%2Faid.1990.6.659" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/COPASI8"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node29"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:23118935" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node30"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:20553733" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node31"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1016%2Fj.jtbi.2010.05.001" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node32"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1371%2Fjournal.pone.0048114" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/e8c19965-7d34-423e-b3c7-77b898adbd0e"><bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node33"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0005623" /></rdf:_1></rdf:Bag></bqbiol:is></rdf:Description><rdf:Description rdf:nodeID="node34"><vcard:EMAIL xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">lloret@ebi.ac.uk</vcard:EMAIL><vcard:N xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node35"><vcard:Family>Lloret i Villas</vcard:Family><vcard:Given>Audald</vcard:Given></rdf:Description></vcard:N><vcard:ORG xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node36"><vcard:Orgname>EMBL-EBI</vcard:Orgname></rdf:Description></vcard:ORG></rdf:Description><rdf:Description rdf:nodeID="node37"><vcard:EMAIL xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">luis.aguilera@bioquant.uni-heidelberg.de</vcard:EMAIL><vcard:N xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node38"><vcard:Family>Aguilera de Lira</vcard:Family><vcard:Given>Luis Ubaldo</vcard:Given></rdf:Description></vcard:N><vcard:ORG xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node39"><vcard:Orgname>Heidelberg University. Department of Modeling of Biological Processes</vcard:Orgname></rdf:Description></vcard:ORG></rdf:Description></rdf:RDF><nonrdfAnnotationList><nonrdfAnnotation vcid="ReactionStep(Kdv)"><freetext>&lt;html&gt;&#xD;
   &lt;head&gt;&#xD;
 &#xD;
   &lt;/head&gt;&#xD;
   &lt;body&gt;&#xD;
     &lt;p style="margin-top: 0"&gt;&#xD;
-      Basal production of HIV proteins&#xD;
+      Decay of HIV proteins&#xD;
     &lt;/p&gt;&#xD;
   &lt;/body&gt;&#xD;
 &lt;/html&gt;&#xD;
-</freetext><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI6">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:42:03Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="MolecularType(HIV_proteins)"><freetext>&lt;html&gt;
+  &lt;head&gt;
     
-                        <rdf:Description rdf:about="#COPASI3">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:40:00Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="Species(C)"><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
-    
-                        <rdf:Description rdf:about="#COPASI2">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:46:03Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(HIV_proteins)"><freetext>&lt;html&gt;&#xD;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Example of an HIV protein for this model could be Tat- UniProt link is 
+      provided. Tat inhibits microRNA pathways and OAS1/RNAseL.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="Species(V)"><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI1">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:45:58Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+	</annotation><annotation>
+	</annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kvc)"><freetext>&lt;html&gt;&#xD;
   &lt;head&gt;&#xD;
     &#xD;
   &lt;/head&gt;&#xD;
   &lt;body&gt;&#xD;
     &lt;p style="margin-top: 0"&gt;&#xD;
-      Example of an HIV protein for this model could be Tat- UniProt link is &#xD;
-      provided. Tat inhibits microRNA pathways and OAS1/RNAseL.&#xD;
+      Interference competition between CRFs and HIV proteins&#xD;
     &lt;/p&gt;&#xD;
   &lt;/body&gt;&#xD;
 &lt;/html&gt;&#xD;
-</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="BioModel(Aguilera2014_HIV_latency)"><freetext>&lt;html&gt;&#xD;
-  &lt;head&gt;&#xD;
-&#xD;
-  &lt;/head&gt;&#xD;
-  &lt;body&gt;&#xD;
-    &lt;p style="margin-top: 0"&gt;&#xD;
-      &#xD;
-    &lt;/p&gt;&#xD;
-  &lt;/body&gt;&#xD;
-&lt;/html&gt;&#xD;
-</freetext><notes>
-                  
-  
-                  <body xmlns="http://www.w3.org/1999/xhtml">
-                     
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI8">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:41:50Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(CRFs)"><freetext>&lt;html&gt;
+  &lt;head&gt;
     
-                     <div class="dc:title">Aguilera 2014 - HIV latency. Interaction
-between HIV proteins and immune response</div>
-                     
-    
-                     <div class="dc:bibliographicCitation">
-                        
-      
-                        <p>This model is described in the article:</p>
-                        
-      
-                        <div class="bibo:title">
-                           
-        
-                           <a href="http://identifiers.org/pubmed/24997239" title="Access to this publication">Studying HIV latency by
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      cell restriction factors. For this model, OAS1 is used as an example of 
+      a cell restriction factor. OAS1 is inhibited by Tat.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="BioModel(CM_PM24997239)"><freetext>&lt;notes&gt;
+      &lt;body xmlns="http://www.w3.org/1999/xhtml"&gt;
+        &lt;div class="dc:title"&gt;Aguilera 2014 - HIV latency. Interaction
+between HIV proteins and immune response&lt;/div&gt;
+&lt;div class="dc:bibliographicCitation"&gt;
+  &lt;p&gt;This model is described in the article:&lt;/p&gt;
+  &lt;div class="bibo:title"&gt;
+    &lt;a href="http://identifiers.org/pubmed/24997239" title="Access to this publication"&gt;Studying HIV latency by
     modeling the interaction between HIV proteins and the innate
-    immune response.</a>
-                           
-      
-                        </div>
-                        
-      
-                        <div class="bibo:authorList">Aguilera LU,
-  Rodrï¿½guez-Gonzï¿½lez J.</div>
-                        
-      
-                        <div class="bibo:Journal">J. Theor. Biol. 2014 Nov; 360:
-  67-77</div>
-                        
-      
-                        <p>Abstract:</p>
-                        
-      
-                        <div class="bibo:abstract">
-                           
-        
-                           <p>HIV infection leads to two cell fates, the viral productive
+    immune response.&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="bibo:authorList"&gt;Aguilera LU,
+  Rodrï¿½guez-Gonzï¿½lez J.&lt;/div&gt;
+  &lt;div class="bibo:Journal"&gt;J. Theor. Biol. 2014 Nov; 360:
+  67-77&lt;/div&gt;
+  &lt;p&gt;Abstract:&lt;/p&gt;
+  &lt;div class="bibo:abstract"&gt;
+    &lt;p&gt;HIV infection leads to two cell fates, the viral productive
     state or viral latency (a reversible non-productive state). HIV
     latency is relevant because infected active CD4+ T-lymphocytes
     can reach a resting memory state in which the provirus remains
@@ -193,309 +123,216 @@ between HIV proteins and immune response</div>
     latency state, (4) the conditions of the cell before infection
     affect the latent phenotype, i.e., the existing expression of
     cell restriction factors propitiates HIV latency, and existing
-    expression of HIV proteins reduces HIV latency.</p>
-                           
-      
-                        </div>
-                        
-    
-                     </div>
-                     
-    
-                     <div class="dc:publisher">
-                        
-      
-                        <p>
-                           This model is hosted on 
-  
-                           <a href="http://www.ebi.ac.uk/biomodels/">BioModels Database</a>
-                           
+    expression of HIV proteins reduces HIV latency.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="dc:publisher"&gt;
+  &lt;p&gt;This model is hosted on 
+  &lt;a href="http://www.ebi.ac.uk/biomodels/"&gt;BioModels Database&lt;/a&gt;
   and identified by: 
-  
-                           <a href="http://identifiers.org/biomodels.db/BIOMD0000000573">BIOMD0000000573</a>
-                           .
-                        </p>
-                        
-    
-                        <p>
-                           To cite BioModels Database, please use: 
-  
-                           <a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication">BioModels Database:
+  &lt;a href="http://identifiers.org/biomodels.db/BIOMD0000000573"&gt;BIOMD0000000573&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;To cite BioModels Database, please use: 
+  &lt;a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication"&gt;BioModels Database:
   An enhanced, curated and annotated resource for published
-  quantitative kinetic models</a>
-                           .
-                        </p>
-                        
-
-                     </div>
-                     <div class="dc:license">
-                        
-  
-                        <p>
-                           To the extent possible under law, all copyright and related or
+  quantitative kinetic models&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="dc:license"&gt;
+  &lt;p&gt;To the extent possible under law, all copyright and related or
   neighbouring rights to this encoded model have been dedicated to
   the public domain worldwide. Please refer to 
-  
-                           <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication">CC0
-  Public Domain Dedication</a>
-                            for more information.
-                        </p>
-                        
-
-                     </div>
-                     
-
-                  </body>
-                  
-
-               </notes><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
-                        
+  &lt;a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication"&gt;CC0
+  Public Domain Dedication&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+    &lt;/notes&gt;</freetext><annotationList><annotation>
+      </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
+          <rdf:Description rdf:about="#COPASI0">
+            <dcterms:bibliographicCitation>
+              <rdf:Description>
+                <CopasiMT:isDescribedBy rdf:resource="http://identifiers.org/doi/10.1016/j.jtbi.2014.06.025" />
+              </rdf:Description>
+            </dcterms:bibliographicCitation>
+            <dcterms:bibliographicCitation>
+              <rdf:Description>
+                <CopasiMT:isDescribedBy rdf:resource="http://identifiers.org/pubmed/24997239" />
+              </rdf:Description>
+            </dcterms:bibliographicCitation>
+            <dcterms:created>
+              <rdf:Description>
+                <dcterms:W3CDTF>2015-02-07T21:35:33Z</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:created>
+            <dcterms:creator>
+              <rdf:Description>
+                <vCard:EMAIL> luis.aguilera@bioquant.uni-heidelberg.de</vCard:EMAIL>
+                <vCard:N>
+                  <rdf:Description>
+                    <vCard:Family>Aguilera de Lira</vCard:Family>
+                    <vCard:Given>Luis Ubaldo</vCard:Given>
+                  </rdf:Description>
+                </vCard:N>
+                <vCard:ORG>
+                  <rdf:Description>
+                    <vCard:Orgname>Heidelberg University</vCard:Orgname>
+                  </rdf:Description>
+                </vCard:ORG>
+              </rdf:Description>
+            </dcterms:creator>
+            <dcterms:creator>
+              <rdf:Description>
+                <vCard:EMAIL>jrodriguez@cinvestav.mx</vCard:EMAIL>
+                <vCard:N>
+                  <rdf:Description>
+                    <vCard:Family>Rodriguez-Gonzalez</vCard:Family>
+                    <vCard:Given>Jesus</vCard:Given>
+                  </rdf:Description>
+                </vCard:N>
+                <vCard:ORG>
+                  <rdf:Description>
+                    <vCard:Orgname>Cinvestav Mexico</vCard:Orgname>
+                  </rdf:Description>
+                </vCard:ORG>
+              </rdf:Description>
+            </dcterms:creator>
+            <dcterms:modified>
+              <rdf:Description>
+                <dcterms:W3CDTF>2015-03-13T09:05:17</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:modified>
+          </rdf:Description>
+        </rdf:RDF>
+      </COPASI>
+</annotation><annotation>
+	</annotation><annotation>
+	</annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="MolecularType(CRFs)"><freetext>&lt;html&gt;
+  &lt;head&gt;
     
-                        <rdf:Description rdf:about="#COPASI0">
-                           
-      
-                           <dcterms:bibliographicCitation>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <CopasiMT:isDescribedBy rdf:resource="http://identifiers.org/doi/10.1016/j.jtbi.2014.06.025" />
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:bibliographicCitation>
-                           
-      
-                           <dcterms:bibliographicCitation>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <CopasiMT:isDescribedBy rdf:resource="http://identifiers.org/pubmed/24997239" />
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:bibliographicCitation>
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:35:33Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-      
-                           <dcterms:creator>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <vCard:EMAIL> luis.aguilera@bioquant.uni-heidelberg.de</vCard:EMAIL>
-                                 
-          
-                                 <vCard:N>
-                                    
-            
-                                    <rdf:Description>
-                                       
-              
-                                       <vCard:Family>Aguilera de Lira</vCard:Family>
-                                       
-              
-                                       <vCard:Given>Luis Ubaldo</vCard:Given>
-                                       
-            
-                                    </rdf:Description>
-                                    
-          
-                                 </vCard:N>
-                                 
-          
-                                 <vCard:ORG>
-                                    
-            
-                                    <rdf:Description>
-                                       
-              
-                                       <vCard:Orgname>Heidelberg University</vCard:Orgname>
-                                       
-            
-                                    </rdf:Description>
-                                    
-          
-                                 </vCard:ORG>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:creator>
-                           
-      
-                           <dcterms:creator>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <vCard:EMAIL>jrodriguez@cinvestav.mx</vCard:EMAIL>
-                                 
-          
-                                 <vCard:N>
-                                    
-            
-                                    <rdf:Description>
-                                       
-              
-                                       <vCard:Family>Rodriguez-Gonzalez</vCard:Family>
-                                       
-              
-                                       <vCard:Given>Jesus</vCard:Given>
-                                       
-            
-                                    </rdf:Description>
-                                    
-          
-                                 </vCard:N>
-                                 
-          
-                                 <vCard:ORG>
-                                    
-            
-                                    <rdf:Description>
-                                       
-              
-                                       <vCard:Orgname>Cinvestav Mexico</vCard:Orgname>
-                                       
-            
-                                    </rdf:Description>
-                                    
-          
-                                 </vCard:ORG>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:creator>
-                           
-      
-                           <dcterms:modified>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-03-13T09:05:17</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:modified>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kvc)"><freetext>&lt;html&gt;&#xD;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      cell restriction factors. For this model, OAS1 is used as an example of 
+      a cell restriction factor. OAS1 is inhibited by Tat.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kdc)"><freetext>&lt;html&gt;&#xD;
   &lt;head&gt;&#xD;
-    &#xD;
+&#xD;
   &lt;/head&gt;&#xD;
   &lt;body&gt;&#xD;
     &lt;p style="margin-top: 0"&gt;&#xD;
-      Interference competition between CRFs and HIV proteins&#xD;
+      Decay of CRFs&#xD;
     &lt;/p&gt;&#xD;
   &lt;/body&gt;&#xD;
 &lt;/html&gt;&#xD;
-</freetext><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI9">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:42:17Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kc)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      constant production of CRFs&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI7">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:41:12Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kb)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      Basal production of HIV proteins&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI3">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:40:00Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(HIV_proteins)"><freetext>&lt;html&gt;
+  &lt;head&gt;
     
-                        <rdf:Description rdf:about="#COPASI8">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:41:50Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="Species(V)"><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
-    
-                        <rdf:Description rdf:about="#COPASI1">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:45:58Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kcv)"><freetext>&lt;html&gt;&#xD;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p style="margin-top: 0"&gt;
+      Example of an HIV protein for this model could be Tat- UniProt link is 
+      provided. Tat inhibits microRNA pathways and OAS1/RNAseL.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="Structure(compartment)"><annotationList><annotation>
+	</annotation><annotation>
+	</annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kv)"><freetext>&lt;html&gt;&#xD;
   &lt;head&gt;&#xD;
     &#xD;
   &lt;/head&gt;&#xD;
   &lt;body&gt;&#xD;
     &lt;p style="margin-top: 0"&gt;&#xD;
-      Intereferecne competition between HIV proteins and CRFs&#xD;
+      Production of HIV proteins enhanced by transactivation&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI4">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:38:28Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kcv)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      Interference competition between HIV proteins and CRFs&#xD;
     &lt;/p&gt;&#xD;
     &lt;p style="margin-top: 0"&gt;&#xD;
       &#xD;
@@ -505,187 +342,32 @@ between HIV proteins and immune response</div>
     &lt;/p&gt;&#xD;
   &lt;/body&gt;&#xD;
 &lt;/html&gt;&#xD;
-</freetext><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
-    
-                        <rdf:Description rdf:about="#COPASI5">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:41:30Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="MolecularType(CRFs)"><freetext>&lt;html&gt;&#xD;
-  &lt;head&gt;&#xD;
-    &#xD;
-  &lt;/head&gt;&#xD;
-  &lt;body&gt;&#xD;
-    &lt;p style="margin-top: 0"&gt;&#xD;
-      cell restriction factors. For this model, OAS1 is used as an example of &#xD;
-      a cell restriction factor. OAS1 is inhibited by Tat.&#xD;
-    &lt;/p&gt;&#xD;
-  &lt;/body&gt;&#xD;
-&lt;/html&gt;&#xD;
-</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kdc)"><freetext>&lt;html&gt;&#xD;
-  &lt;head&gt;&#xD;
-    &#xD;
-  &lt;/head&gt;&#xD;
-  &lt;body&gt;&#xD;
-    &lt;p style="margin-top: 0"&gt;&#xD;
-      Decay of CRFs&#xD;
-    &lt;/p&gt;&#xD;
-  &lt;/body&gt;&#xD;
-&lt;/html&gt;&#xD;
-</freetext><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
-    
-                        <rdf:Description rdf:about="#COPASI9">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:42:17Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kdv)"><freetext>&lt;html&gt;&#xD;
-  &lt;head&gt;&#xD;
-&#xD;
-  &lt;/head&gt;&#xD;
-  &lt;body&gt;&#xD;
-    &lt;p style="margin-top: 0"&gt;&#xD;
-      Decay of HIV proteins&#xD;
-    &lt;/p&gt;&#xD;
-  &lt;/body&gt;&#xD;
-&lt;/html&gt;&#xD;
-</freetext><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
-    
-                        <rdf:Description rdf:about="#COPASI6">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:42:03Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="MolecularType(HIV_proteins)"><freetext>&lt;html&gt;&#xD;
-  &lt;head&gt;&#xD;
-    &#xD;
-  &lt;/head&gt;&#xD;
-  &lt;body&gt;&#xD;
-    &lt;p style="margin-top: 0"&gt;&#xD;
-      Example of an HIV protein for this model could be Tat- UniProt link is &#xD;
-      provided. Tat inhibits microRNA pathways and OAS1/RNAseL.&#xD;
-    &lt;/p&gt;&#xD;
-  &lt;/body&gt;&#xD;
-&lt;/html&gt;&#xD;
-</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(CRFs)"><freetext>&lt;html&gt;&#xD;
-  &lt;head&gt;&#xD;
-    &#xD;
-  &lt;/head&gt;&#xD;
-  &lt;body&gt;&#xD;
-    &lt;p style="margin-top: 0"&gt;&#xD;
-      cell restriction factors. For this model, OAS1 is used as an example of &#xD;
-      a cell restriction factor. OAS1 is inhibited by Tat.&#xD;
-    &lt;/p&gt;&#xD;
-  &lt;/body&gt;&#xD;
-&lt;/html&gt;&#xD;
-</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(Kc)"><freetext>&lt;html&gt;&#xD;
-  &lt;head&gt;&#xD;
-    &#xD;
-  &lt;/head&gt;&#xD;
-  &lt;body&gt;&#xD;
-    &lt;p style="margin-top: 0"&gt;&#xD;
-      constant production of CRFs&#xD;
-    &lt;/p&gt;&#xD;
-  &lt;/body&gt;&#xD;
-&lt;/html&gt;&#xD;
-</freetext><annotationList><COPASI xmlns="http://www.copasi.org/static/sbml">
-                     
-  
-                     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-                        
-    
-                        <rdf:Description rdf:about="#COPASI7">
-                           
-      
-                           <dcterms:created>
-                              
-        
-                              <rdf:Description>
-                                 
-          
-                                 <dcterms:W3CDTF>2015-02-07T21:41:12Z</dcterms:W3CDTF>
-                                 
-        
-                              </rdf:Description>
-                              
-      
-                           </dcterms:created>
-                           
-    
-                        </rdf:Description>
-                        
-  
-                     </rdf:RDF>
-                     
-
-                  </COPASI></annotationList></nonrdfAnnotation></nonrdfAnnotationList><uriBindingList><uriBinding uri="http://www.sbml.org/sbml/level2/version4/e8c19965-7d34-423e-b3c7-77b898adbd0e" vcid="Structure(compartment)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI6" vcid="ReactionStep(Kdv)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI2" vcid="Species(C)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI8" vcid="ReactionStep(Kvc)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI7" vcid="ReactionStep(Kc)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI9" vcid="ReactionStep(Kdc)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI5" vcid="ReactionStep(Kcv)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/2124567906" vcid="MolecularType(HIV_proteins)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1022851661" vcid="MolecularType(CRFs)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI1" vcid="Species(V)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI3" vcid="ReactionStep(Kb)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI4" vcid="ReactionStep(Kv)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI0" vcid="BioModel(Aguilera2014_HIV_latency)" /></uriBindingList></vcmetadata></BioModel></vcml>
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI5">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:41:30Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="Species(C)"><annotationList><annotation>
+          </annotation><annotation>
+  <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+              <rdf:Description rdf:about="#COPASI2">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2015-02-07T21:46:03Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+</annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation></nonrdfAnnotationList><uriBindingList><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI9" vcid="ReactionStep(Kdc)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/182133165" vcid="MolecularType(HIV_proteins)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1989040410" vcid="MolecularType(CRFs)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI4" vcid="ReactionStep(Kv)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI5" vcid="ReactionStep(Kcv)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI7" vcid="ReactionStep(Kc)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI3" vcid="ReactionStep(Kb)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI2" vcid="Species(C)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI8" vcid="ReactionStep(Kvc)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI6" vcid="ReactionStep(Kdv)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/e8c19965-7d34-423e-b3c7-77b898adbd0e" vcid="Structure(compartment)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI1" vcid="Species(V)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/COPASI0" vcid="BioModel(CM_PM24997239)" /></uriBindingList></vcmetadata></BioModel></vcml>

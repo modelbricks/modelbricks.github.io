@@ -42,5 +42,4 @@ permalink: /egfrlist/
           </ul>
      </td>
 </tr>
-</tr>
 </table>

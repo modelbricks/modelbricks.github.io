@@ -27,7 +27,7 @@ permalink: /egfrlist/
      </td>
 </tr>
 <tr>
-  <td bgcolor="#AED6F1" > 
+  <td bgcolor="#AED6F1" colspan="2"> 
   Interactions specific to individual phosphotyrosines
   </td>
 </tr>

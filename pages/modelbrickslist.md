@@ -46,7 +46,7 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/24034255 ">PMID: 24034255 </a>)
      </td>
      <td bgcolor="#EBF5FB">
-          <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>
+          <p><i> PDGF regulated activation of Src </i></p>
      </td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">PMID:10659856</a>)
      </td>
      <td bgcolor="#EBF5FB">
-          <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>
+          <p><i> A Synthetic Oscillatory Network </i></p>
      </td>
 </tr>
 <tr>
@@ -97,7 +97,7 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID:14622248</a>)
      </td>
      <td bgcolor="#D6EAF8">
-          <p><i> Note: The curated Vcell Model is a ModelBrick itself </i></p>
+          <p><i> Methionine and Threonine Pathways </i></p>
      </td>
 </tr>
 <tr>

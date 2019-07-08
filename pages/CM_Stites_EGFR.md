@@ -7,13 +7,13 @@ permalink: /CM_Stites_EGFR/
 
 ### Publication 
 
-Richard B. Jones, Andrew Gordus, Jordan A. Krall & Gavin MacBeath. A quantitative protein interaction network for the ErbB receptors using protein microarrays, Nature volume 439, pages 168–174 (2006) 
+Edward C.Stites, Meraj Aziz, Matthew S. Creamer, Daniel D. Von Hoff, Richard G. Posner, William S. Hlavacek. Use of mechanistic models to integrate and analyze multiple proteomic datasets, Volume 108, Issue 7, 7 April 2015, Pages 1819-1829 
 
- PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16273093">16273093</a>&ensp; 
- DOI: <a href="https://doi.org/10.1038/nature04177">10.1038/nature04177</a><br />
+ PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/25863072">25863072</a>&ensp; 
+ DOI: <a href="https://doi.org/10.1016/j.bpj.2015.02.030">10.1016/j.bpj.2015.02.030 </a><br />
 
 ### Description
-This model describes the binding and phosphorilation of EGFR by several different proteins which can bind to nine different receptors. A complete description can be found in the paper linked at the publication section. This completed and curated model has been broken into 10 model bricks listed below.  
+This model describes the binding and phosphorilation of EGFR by many different proteins which can bind to six different receptors. A complete description can be found in the paper linked at the publication section. This completed and curated model has been broken into # model bricks listed below.  
 
 ### The curated model
 <center>
@@ -54,5 +54,5 @@ This model describes the binding and phosphorilation of EGFR by several differen
   
   
 ### Contributors
-Riley Steinberg, Bushrah Khan, Michael Blinov
+Bushrah Khan, Riley Steinberg, Michael Blinov
  

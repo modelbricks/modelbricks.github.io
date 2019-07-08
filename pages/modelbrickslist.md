@@ -113,4 +113,16 @@ permalink: /modelbrickslist/
           <p><i> HIV latency </i></p>
      </td>
 </tr>
+<tr>
+     <td bgcolor="#D6EAF8"> Circaidan clock control by short and long FRQ protein <br>
+          (<a href="http://modelbricks.org/CM_PM18277380/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/18277380">PMID:18277380</a>)
+     </td>
+     <td bgcolor="#D6EAF8">
+          <ul>
+          <!--<li><a href="http://modelbricks.org/CM_PM18277380_MB1/">MB1</a></li>
+          <li><a href="http://modelbricks.org/CM_PM18628746_MB2/">MB2</a></li>-->
+          </ul>
+     </td>
+</tr>
 </table>

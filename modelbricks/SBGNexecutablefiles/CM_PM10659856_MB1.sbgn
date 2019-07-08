@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph id="glyph6" class="macromolecule">
+            <label text="lacI"/>
+            <bbox y="510.0" x="761.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph14" class="process">
+            <bbox y="525.0" x="920.0" h="30.0" w="30.0"/>
+            <port y="540.0" x="905.0" id="glyph14.1"/>
+            <port y="540.0" x="965.0" id="glyph14.2"/>
+        </glyph>
+        <glyph id="glyph9" class="source and sink">
+            <bbox y="510.0" x="1005.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph15" class="process">
+            <bbox y="418.0" x="793.0" h="24.0" w="24.0"/>
+            <port y="430.0" x="781.0" id="glyph15.1"/>
+            <port y="430.0" x="829.0" id="glyph15.2"/>
+        </glyph>
+        <glyph id="glyph7" class="source and sink">
+            <bbox y="400.0" x="880.0" h="60.0" w="60.0"/>
+        </glyph>
+        <glyph id="glyph1" class="macromolecule">
+            <label text="cI"/>
+            <bbox y="285.0" x="456.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph id="glyph19" class="process">
+            <bbox y="418.0" x="498.0" h="24.0" w="24.0"/>
+            <port y="430.0" x="534.0" id="glyph19.2"/>
+        </glyph>
+        <glyph id="glyph5" class="nucleic acid feature">
+            <label text="lacI"/>
+            <bbox y="400.0" x="618.0" h="60.0" w="108.0"/>
+            <glyph id="glyph5a" class="unit of information">
+                <label text="ct:mRNA"/>
+                <bbox y="392.0" x="616.5" h="16.0" w="57.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph20" class="process">
+            <bbox y="528.0" x="683.0" h="24.0" w="24.0"/>
+            <port y="540.0" x="719.0" id="glyph20.2"/>
+            <port y="540.0" x="671.0" id="glyph20.1"/>
+        </glyph>
+        <arc target="glyph6" source="glyph20.2" id="arc1" class="production">
+            <start y="540.0" x="719.0"/>
+            <end y="540.0" x="761.0"/>
+        </arc>
+        <arc target="glyph5" source="glyph19.2" id="arc4" class="production">
+            <start y="430.0" x="534.0"/>
+            <end y="430.0" x="618.0"/>
+        </arc>
+        <arc target="glyph14.1" source="glyph6" id="arc6" class="consumption">
+            <start y="540.0" x="869.0"/>
+            <end y="540.0" x="905.0"/>
+        </arc>
+        <arc target="glyph15.1" source="glyph5" id="arc10" class="consumption">
+            <start y="430.0" x="726.0"/>
+            <end y="430.0" x="781.0"/>
+        </arc>
+        <arc target="glyph9" source="glyph14.2" id="arc14" class="production">
+            <start y="540.0" x="965.0"/>
+            <end y="540.0" x="1005.0"/>
+        </arc>
+        <arc target="glyph7" source="glyph15.2" id="arc15" class="production">
+            <start y="430.0" x="829.0"/>
+            <end y="430.0" x="880.0"/>
+        </arc>
+        <arc target="glyph19" source="glyph1" id="arc19" class="inhibition">
+            <start y="345.0" x="510.0"/>
+            <end y="418.0" x="510.0"/>
+        </arc>
+        <arc target="glyph20.1" source="glyph5" id="arc2" class="consumption">
+            <start y="460.0" x="671.7273"/>
+            <end y="540.0" x="671.0"/>
+        </arc>
+    </map>
+</sbgn>

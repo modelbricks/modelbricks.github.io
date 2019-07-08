@@ -64,7 +64,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#EBF5FB"> Repressilator: A Synthetic Oscillatory Network <br>
                (<a href="http://modelbricks.org/CM_PM10659856/">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">PMID:10659856</a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">PMID: 10659856</a>)
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
@@ -77,7 +77,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#D6EAF8"> Cut out Switch: Rab5 to Rab7 convertion <br>
           (<a href="http://modelbricks.org/CM_PM18628746/">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/18628746">PMID:18628746</a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/18628746">PMID: 18628746</a>)
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
@@ -89,7 +89,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#EBF5FB"> Minimal model for mitotic oscillator <br>
           (<a href="http://modelbricks.org/CM_PM1833774/">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/1833774">PMID:1833774</a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/1833774">PMID: 1833774</a>)
      </td>
      <td bgcolor="#EBF5FB">
           <p><i> mitotic oscillator </i></p>
@@ -98,7 +98,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#D6EAF8"> Methionine and Threonine Pathways: The Branch - Point <br>
           (<a href="http://modelbricks.org/CM_PM14622248/">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID:14622248</a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID: 14622248</a>)
      </td>
      <td bgcolor="#D6EAF8">
           <p><i> Methionine and Threonine Pathways </i></p>
@@ -107,7 +107,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#EBF5FB"> HIV latency: Protein interactions & innate immune response <br>
           (<a href="http://modelbricks.org/CM_PM24997239/">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/24997239">PMID:24997239</a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/24997239">PMID: 24997239</a>)
      </td>
      <td bgcolor="#EBF5FB">
           <p><i> HIV latency </i></p>
@@ -116,7 +116,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#D6EAF8"> Circaidan clock control by short and long FRQ protein <br>
           (<a href="http://modelbricks.org/CM_PM18277380/">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/18277380">PMID:18277380</a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/18277380">PMID: 18277380</a>)
      </td>
      <td bgcolor="#D6EAF8">
           <ul>

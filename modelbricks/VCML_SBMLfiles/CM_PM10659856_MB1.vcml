@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This biomodel was generated in VCML Version Alpha_Version_7.1.0_build_44--><vcml xmlns="http://sourceforge.net/projects/vcell/vcml" Version="Alpha_Version_7.1.0_build_44"><BioModel Name="CM_PM10659856_MB1"><Model Name="unnamed"><ModelParameters><Parameter Name="beta" Role="user defined" Unit="tbd">(tau_mRNA / tau_prot)</Parameter><Parameter Name="alpha0" Role="user defined" Unit="tbd">(a0_tr * eff * tau_prot / (0.6931471805599453 * KM))</Parameter><Parameter Name="alpha" Role="user defined" Unit="tbd">(a_tr * eff * tau_prot / (0.6931471805599453 * KM))</Parameter><Parameter Name="eff" Role="user defined" Unit="tbd">20.0</Parameter><Parameter Name="n" Role="user defined" Unit="tbd">2.0</Parameter><Parameter Name="KM" Role="user defined" Unit="tbd">40.0</Parameter><Parameter Name="tau_mRNA" Role="user defined" Unit="tbd">2.0</Parameter><Parameter Name="tau_prot" Role="user defined" Unit="tbd">10.0</Parameter><Parameter Name="t_ave" Role="user defined" Unit="tbd">(1.4426950408889634 * tau_mRNA)</Parameter><Parameter Name="kd_mRNA" Role="user defined" Unit="tbd">(0.6931471805599453 / tau_mRNA)</Parameter><Parameter Name="kd_prot" Role="user defined" Unit="tbd">(0.6931471805599453 / tau_prot)</Parameter><Parameter Name="k_tl" Role="user defined" Unit="tbd">(eff / t_ave)</Parameter><Parameter Name="a_tr" Role="user defined" Unit="tbd">(60.0 * (ps_a - ps_0))</Parameter><Parameter Name="ps_a" Role="user defined" Unit="tbd">0.5</Parameter><Parameter Name="ps_0" Role="user defined" Unit="tbd">5.0E-4</Parameter><Parameter Name="a0_tr" Role="user defined" Unit="tbd">(60.0 * ps_0)</Parameter></ModelParameters><Compound Name="PX"><Annotation>PX</Annotation></Compound><Compound Name="PZ"><Annotation>PZ</Annotation></Compound><Compound Name="X"><Annotation>X</Annotation></Compound><Feature Name="cell" KeyValue="161438789" /><LocalizedCompound Name="LacI" SbmlName="LacI protein" CompoundRef="PX" Structure="cell" OverrideName="true" KeyValue="161438791"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="LacI" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><LocalizedCompound Name="cI" SbmlName="cI protein" CompoundRef="PZ" Structure="cell" OverrideName="true" KeyValue="161438792"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="cI" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><LocalizedCompound Name="LacI_mRNA" SbmlName="LacI mRNA" CompoundRef="X" Structure="cell" OverrideName="true" KeyValue="161438793"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="LacI_mRNA" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><SimpleReaction Structure="cell" Name="degradation of  LacI mRNA" Reversible="false" FluxOption="MolecularOnly" KeyValue="161438794"><Reactant LocalizedCompoundRef="LacI_mRNA" Stoichiometry="1" KeyValue="161438795" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.min-1">(kd_mRNA * LacI_mRNA)</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="LacI protein production" Reversible="false" FluxOption="MolecularOnly" KeyValue="161438796"><Product LocalizedCompoundRef="LacI" Stoichiometry="1" KeyValue="161438797" /><Modifier LocalizedCompoundRef="LacI_mRNA" KeyValue="161438798" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.min-1">(k_tl * LacI_mRNA)</Parameter><Parameter Name="k_tl" Role="user defined" Unit="um3.min-1">(eff / t_ave)</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="LacI protein degradation" Reversible="false" FluxOption="MolecularOnly" KeyValue="161438799"><Reactant LocalizedCompoundRef="LacI" Stoichiometry="1" KeyValue="161438800" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.min-1">(kd_prot * LacI)</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="LacI mRNA transcription" Reversible="false" FluxOption="MolecularOnly" KeyValue="161438801"><Product LocalizedCompoundRef="LacI_mRNA" Stoichiometry="1" KeyValue="161438802" /><Modifier LocalizedCompoundRef="cI" KeyValue="161438803" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="molecules.min-1">(a0_tr + (a_tr * pow(KM,n) / (pow(KM,n) + pow(cI,n))))</Parameter></Kinetics></SimpleReaction><RbmModelContainer><MolecularTypeList><MolecularType Name="LacI" AnchorAll="true" /><MolecularType Name="tetR" AnchorAll="true" /><MolecularType Name="cI" AnchorAll="true" /><MolecularType Name="LacI_mRNA" AnchorAll="true" /><MolecularType Name="tetR_mRNA" AnchorAll="true" /><MolecularType Name="cI_mRNA" AnchorAll="true" /></MolecularTypeList><RbmObservableList><Observable Name="O0_LacI_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="cell"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="LacI" /></MolecularTypePattern></SpeciesPattern></Observable><Observable Name="O0_cI_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="cell"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="cI" /></MolecularTypePattern></SpeciesPattern></Observable><Observable Name="O0_LacI_mRNA_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="cell"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="LacI_mRNA" /></MolecularTypePattern></SpeciesPattern></Observable></RbmObservableList></RbmModelContainer><Diagram Name="cell" Structure="cell"><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="LacI_mRNA" LocationX="180" LocationY="103" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="LacI protein degradation" LocationX="364" LocationY="65" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="LacI" LocationX="304" LocationY="63" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="cI" LocationX="66" LocationY="149" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="degradation of  LacI mRNA" LocationX="182" LocationY="151" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="LacI mRNA transcription" LocationX="104" LocationY="106" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="LacI protein production" LocationX="256" LocationY="80" /></Diagram><Version Name="unnamed" KeyValue="161438784" BranchId="160103752" Archived="0" Date="08-Jul-2019 16:15:27" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><ModelUnitSystem VolumeSubstanceUnit="molecules" MembraneSubstanceUnit="molecules" LumpedReactionSubstanceUnit="molecules" VolumeUnit="um3" AreaUnit="m2" LengthUnit="m" TimeUnit="min" /></Model><SimulationSpec Name="stochastic_approach" Stochastic="false" UseConcentration="true" RuleBased="false" InsufficientIterations="false" InsufficientMaxMolecules="false"><NetworkConstraints RbmMaxIteration="3" RbmMaxMoleculesPerSpecies="10" RbmSpeciesLimit="800" RbmReactionsLimit="2500"><MaxStoichiometry MolecularType="LacI" Integer="100" /><MaxStoichiometry MolecularType="tetR" Integer="100" /><MaxStoichiometry MolecularType="cI" Integer="100" /><MaxStoichiometry MolecularType="LacI_mRNA" Integer="100" /><MaxStoichiometry MolecularType="tetR_mRNA" Integer="100" /><MaxStoichiometry MolecularType="cI_mRNA" Integer="100" /></NetworkConstraints><Geometry Name="Compartmental821941919" Dimension="0"><Extent X="10.0" Y="10.0" Z="10.0" /><Origin X="0.0" Y="0.0" Z="0.0" /><SubVolume Name="Compartment" Handle="0" Type="Compartmental" KeyValue="160103747" /><Version Name="Compartmental821941919" KeyValue="160103743" BranchId="160103744" Archived="0" Date="21-Jun-2019 15:40:23" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Geometry><GeometryContext><FeatureMapping Feature="cell" GeometryClass="Compartment" SubVolume="Compartment" Size="1.0"><BoundariesTypes Xm="Flux" Xp="Flux" Ym="Flux" Yp="Flux" Zm="Flux" Zp="Flux" /></FeatureMapping></GeometryContext><ReactionContext><LocalizedCompoundSpec LocalizedCompoundRef="LacI" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><LocalizedCompoundSpec LocalizedCompoundRef="cI" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>150.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><LocalizedCompoundSpec LocalizedCompoundRef="LacI_mRNA" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.0</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><ReactionSpec ReactionStepRef="degradation of  LacI mRNA" ReactionMapping="included" /><ReactionSpec ReactionStepRef="LacI protein production" ReactionMapping="included" /><ReactionSpec ReactionStepRef="LacI protein degradation" ReactionMapping="included" /><ReactionSpec ReactionStepRef="LacI mRNA transcription" ReactionMapping="included" /></ReactionContext><MathDescription Name="unnamed_generated"><Constant Name="_F_">96480.0</Constant><Constant Name="_F_nmol_">9.648E-5</Constant><Constant Name="_K_GHK_">1.0E-9</Constant><Constant Name="_N_pmol_">6.02E11</Constant><Constant Name="_PI_">3.141592653589793</Constant><Constant Name="_R_">8314.0</Constant><Constant Name="_T_">300.0</Constant><Constant Name="cI_init_molecules_um_3">150.0</Constant><Constant Name="eff">20.0</Constant><Constant Name="K_millivolts_per_volt">1000.0</Constant><Constant Name="KM">40.0</Constant><Constant Name="KMOLE">(1.0 / 602.0)</Constant><Constant Name="LacI_init_molecules_um_3">0.0</Constant><Constant Name="LacI_mRNA_init_molecules_um_3">0.0</Constant><Constant Name="n">2.0</Constant><Constant Name="ps_0">5.0E-4</Constant><Constant Name="ps_a">0.5</Constant><Constant Name="Size_cell">1.0</Constant><Constant Name="tau_mRNA">2.0</Constant><Constant Name="tau_prot">10.0</Constant><VolumeVariable Name="LacI" Domain="Compartment" /><VolumeVariable Name="LacI_mRNA" Domain="Compartment" /><Function Name="a0_tr">(60.0 * ps_0)</Function><Function Name="a_tr">(60.0 * (ps_a - ps_0))</Function><Function Name="alpha">(a_tr * eff * tau_prot / (0.6931471805599453 * KM))</Function><Function Name="alpha0">(a0_tr * eff * tau_prot / (0.6931471805599453 * KM))</Function><Function Name="beta">(tau_mRNA / tau_prot)</Function><Function Name="cI" Domain="Compartment">(K_cI_total / Size_cell)</Function><Function Name="K_cI_total" Domain="Compartment">(Size_cell * cI_init_molecules_um_3)</Function><Function Name="k_tl">(eff / t_ave)</Function><Function Name="k_tl_LacI_protein_production" Domain="Compartment">(eff / t_ave)</Function><Function Name="kd_mRNA">(0.6931471805599453 / tau_mRNA)</Function><Function Name="kd_prot">(0.6931471805599453 / tau_prot)</Function><Function Name="LumpedJ_degradation_of__LacI_mRNA" Domain="Compartment">(kd_mRNA * LacI_mRNA)</Function><Function Name="LumpedJ_LacI_mRNA_transcription" Domain="Compartment">(a0_tr + (a_tr * pow(KM,n) / (pow(KM,n) + pow(cI,n))))</Function><Function Name="LumpedJ_LacI_protein_degradation" Domain="Compartment">(kd_prot * LacI)</Function><Function Name="LumpedJ_LacI_protein_production" Domain="Compartment">(k_tl_LacI_protein_production * LacI_mRNA)</Function><Function Name="t_ave">(1.4426950408889634 * tau_mRNA)</Function><CompartmentSubDomain Name="Compartment"><BoundaryType Boundary="Xm" Type="Value" /><BoundaryType Boundary="Xp" Type="Value" /><BoundaryType Boundary="Ym" Type="Value" /><BoundaryType Boundary="Yp" Type="Value" /><BoundaryType Boundary="Zm" Type="Value" /><BoundaryType Boundary="Zp" Type="Value" /><OdeEquation Name="LacI" SolutionType="Unknown"><Rate>((LumpedJ_LacI_protein_production / Size_cell) - (LumpedJ_LacI_protein_degradation / Size_cell))</Rate><Initial>LacI_init_molecules_um_3</Initial></OdeEquation><OdeEquation Name="LacI_mRNA" SolutionType="Unknown"><Rate>( - (LumpedJ_degradation_of__LacI_mRNA / Size_cell) + (LumpedJ_LacI_mRNA_transcription / Size_cell))</Rate><Initial>LacI_mRNA_init_molecules_um_3</Initial></OdeEquation></CompartmentSubDomain><Version Name="unnamed_generated" KeyValue="161438782" BranchId="160103749" Archived="0" Date="08-Jul-2019 16:15:27" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></MathDescription><Simulation Name="Simulation0"><SolverTaskDescription TaskType="Unsteady" UseSymbolicJacobian="false" Solver="Combined Stiff Solver (IDA/CVODE)"><TimeBound StartTime="0.0" EndTime="200.0" /><TimeStep DefaultTime="0.1" MinTime="1.0E-8" MaxTime="1.0" /><ErrorTolerance Absolut="1.0E-9" Relative="1.0E-9" /><OutputOptions KeepEvery="1" KeepAtMost="1000" /><NumberProcessors>1</NumberProcessors></SolverTaskDescription><MathOverrides /><Version Name="Simulation0" KeyValue="161438816" BranchId="160628391" Archived="0" Date="08-Jul-2019 16:15:28" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Simulation><Version Name="stochastic_approach" KeyValue="161438883" BranchId="160635076" Archived="0" Date="08-Jul-2019 16:16:24" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><MicroscopeMeasurement Name="fluor"><ConvolutionKernel Type="ProjectionZKernel" /></MicroscopeMeasurement></SimulationSpec><Version Name="CM_PM10659856_MB1" KeyValue="161438893" BranchId="161096963" Archived="0" Date="08-Jul-2019 16:16:24" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><pathwayModel><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" version="3.0"><DiagramObjectsID xmlns="">BIOMODEL_PX</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_Z</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_PY</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_Y</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_X</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_PZ</DiagramObjectsID><bp:PhysicalEntity rdf:nodeID="BIOMODEL_Z"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Z</bp:name><bp:xref rdf:nodeID="kegg.compound_C00046" /><bp:xref rdf:nodeID="chebi_33699" /><bp:xref rdf:nodeID="uniprot_P03034" /></bp:PhysicalEntity><bp:PublicationXref rdf:nodeID="kegg.compound_C00046"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG.COMPOUND</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C00046</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="uniprot_P03034"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P03034</bp:id></bp:PublicationXref><bp:PhysicalEntity rdf:nodeID="BIOMODEL_X"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</bp:name><bp:xref rdf:nodeID="chebi_33699" /><bp:xref rdf:nodeID="kegg.compound_C00046" /><bp:xref rdf:nodeID="uniprot_P03023" /></bp:PhysicalEntity><bp:SmallMolecule rdf:nodeID="BIOMODEL_Y"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</bp:name><bp:xref rdf:nodeID="chebi_33699" /><bp:xref rdf:nodeID="kegg.compound_P04483" /></bp:SmallMolecule><bp:PublicationXref rdf:nodeID="kegg.compound_P04483"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG.COMPOUND</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P04483</bp:id></bp:PublicationXref><bp:PublicationXref rdf:nodeID="uniprot_P03023"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P03023</bp:id></bp:PublicationXref><bp:PhysicalEntity rdf:nodeID="BIOMODEL_PZ"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PZ</bp:name><bp:xref rdf:nodeID="uniprot_P03034" /></bp:PhysicalEntity><bp:PhysicalEntity rdf:nodeID="BIOMODEL_PX"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PX</bp:name><bp:xref rdf:nodeID="uniprot_P03023" /></bp:PhysicalEntity><bp:PublicationXref rdf:nodeID="chebi_33699"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33699</bp:id></bp:PublicationXref><bp:PhysicalEntity rdf:nodeID="BIOMODEL_PY"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PY</bp:name><bp:xref rdf:nodeID="uniprot_P04483" /></bp:PhysicalEntity><bp:PublicationXref rdf:nodeID="uniprot_P04483"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P04483</bp:id></bp:PublicationXref></rdf:RDF></pathwayModel><relationshipModel><RMNS version="3.0"><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_PX)" bioModelObjectID="SpeciesContext(LacI)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_PZ)" bioModelObjectID="SpeciesContext(cI)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_X)" bioModelObjectID="SpeciesContext(LacI_mRNA)" /></RMNS></relationshipModel><vcmetadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1245017243"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node0"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P04483" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/2006968402"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node1"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P03023" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/2020230821"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node2"><rdf:_1><rdf:Description rdf:about="urn:miriam:kegg.compound:C00046" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/41508408"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node3"><rdf:_1><rdf:Description rdf:about="urn:miriam:kegg.compound:C00046" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/629401335"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node4"><rdf:_1><rdf:Description rdf:about="urn:miriam:kegg.compound:C00046" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/943340567"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node5"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P03034" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version3/PX"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node6"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P03023" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version3/PY"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node7"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P04483" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version3/PZ"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node8"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P03034" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version3/_000001"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node9"><rdf:_1><rdf:Description rdf:about="urn:miriam:pubmed:10659856" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node10"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1038%2F35002125" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node11"><rdf:_1><rdf:Description rdf:about="urn:miriam:biomodels.db:BIOMD0000000012" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version3/_905769"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node12"><rdf:_1><rdf:Description rdf:about="urn:miriam:kegg.compound:C00046" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node13"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P03023" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node14"><rdf:_1><rdf:Description rdf:about="urn:miriam:chebi:33699" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version3/_905781"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node15"><rdf:_1><rdf:Description rdf:about="urn:miriam:chebi:33699" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node16"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P04483" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node17"><rdf:_1><rdf:Description rdf:about="urn:miriam:kegg.compound:P04483" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version3/_905802"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node18"><rdf:_1><rdf:Description rdf:about="urn:miriam:chebi:33699" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node19"><rdf:_1><rdf:Description rdf:about="urn:miriam:kegg.compound:C00046" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node20"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P03034" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description></rdf:RDF><nonrdfAnnotationList><nonrdfAnnotation vcid="SpeciesContext(LacI_mRNA)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      LacI mRNA&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="Structure(cell)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      The reaction diagram represent a synthetic network using three repressor &#xD;
+      systems, no linked to notural circadian cycles. Ellowitz et al. (2000) &#xD;
+      called this system the Repressilator and used it to better understand &#xD;
+      biological networks.&#xD;
+    &lt;/p&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      &#xD;
+    &lt;/p&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      LacI is a repressor protein that will inhibit the transcription of tetR, &#xD;
+      tetR protein in turn represses the transcription of cI, and finally cI &#xD;
+      inhibits the transcription of LacI. Closing the cycle. This mechanism &#xD;
+      creates oscilation in the protein Concentration of the tree proteins as &#xD;
+      seen in the simulation.&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="Species(PZ)"><notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">
+        lambda repressor</p>
+          
+        </notes><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="Species(X)"><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(LacI protein production)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      translation of LacI&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="Species(PX)"><notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">
+        lacI inhibitor</p>
+          
+        </notes><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(LacI)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      Lactose Operon Repressor (LacI)&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(cI)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      Repressor Protein cI&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="MolecularType(LacI_mRNA)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(LacI mRNA transcription)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      LacI gene transcription is represed by cI&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(degradation of  LacI mRNA)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      LacI mRNA degradation&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(LacI protein degradation)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      degradation of LacI&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="BioModel(CM_PM10659856_MB1)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    This brick is based in the curated Model BIOMD0000000012 and the &#xD;
+    publication by Elowitz and Leibler. &amp;quot; A Synthetic oscillatory Network of &#xD;
+    transcriptional regulators&amp;quot;. Nature 403, 335-338 (200) The simulation &#xD;
+    consider a change in the species concentration compare to original Model &#xD;
+    to better represent the activity of the protein repressor cI over the &#xD;
+    transcription, and translation of LacI.Where cI was set at 150 &#xD;
+    molecules/um3.&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <div class="dc:title">Elowitz2000 - Repressilator</div>
+            <div class="dc:description">      <p>This model describes the deterministic version of the repressilator system.</p>
+                <p>The authors of this model (see reference) use three transcriptional repressor systems that are not part of any natural biological clock to build an oscillating network that they called the repressilator. The model system was induced in Escherichia coli.</p>
+                <p>In this system, LacI (variable X is the mRNA, variable PX is the protein) inhibits the tetracycline-resistance transposon tetR (Y, PY describe mRNA and protein). Protein tetR inhibits the gene Cl from phage Lambda (Z, PZ: mRNA, protein),and protein Cl inhibits lacI expression. With the appropriate parameter values this system oscillates.</p>
+                </div>
+            <div class="dc:bibliographicCitation">      <p>This model is described in the article:</p>
+                <div class="bibo:title">        <a href="http://identifiers.org/pubmed/10659856" title="Access to this publication">A synthetic oscillatory network of transcriptional regulators.</a>
+                    </div>
+                <div class="bibo:authorList">Elowitz MB, Leibler S.</div>
+                <div class="bibo:Journal">Nature. 2000 Jan; 403(6767):335-338</div>
+                <p>Abstract:</p>
+                <div class="bibo:abstract">        <p>Networks of interacting biomolecules carry out many essential functions in living cells, but the 'design principles' underlying the functioning of such intracellular networks remain poorly understood, despite intensive efforts including quantitative analysis of relatively simple systems. Here we present a complementary approach to this problem: the design and construction of a synthetic network to implement a particular function. We used three transcriptional repressor systems that are not part of any natural biological clock to build an oscillating network, termed the repressilator, in Escherichia coli. The network periodically induces the synthesis of green fluorescent protein as a readout of its state in individual cells. The resulting oscillations, with typical periods of hours, are slower than the cell-division cycle, so the state of the oscillator has to be transmitted from generation to generation. This artificial clock displays noisy behaviour, possibly because of stochastic fluctuations of its components. Such 'rational network design may lead both to the engineering of new cellular behaviours and to an improved understanding of naturally occurring networks.</p>
+                    </div>
+                </div>
+            <div class="bm:curation">      <p>The model is based upon the equations in Box 1 of the paper; however, these equations as printed are dimensionless, and the correct dimensions have been returned to the equations, and the parameters set to reproduce Figure 1C (left).</p>
+                </div>
+            <div class="bm:modification">      <p>The original model was generated by B.E. Shapiro using Cellerator version 1.0 update 2.1127 using Mathematica 4.2 for Mac OS X (June 4, 2002), November 27, 2002 12:15:32, using (PowerMac,PowerPC, Mac OS X,MacOSX,Darwin).</p>
+                <p>Nicolas Le Novere provided a corrected version generated by SBMLeditor on Sun Aug 20 00:44:05 BST 2006. This removed the EmptySet species. Ran fine on COPASI 4.0 build 18.</p>
+                <p>Bruce Shapiro revised the model with SBMLeditor on 23 October 2006 20:39 PST. This defines default units and correct reactions. The original Cellerator reactions while being mathematically correct did not accurately reflect the intent of the authors. The original notes were mostly removed because they were mostly incorrect in the revised version. Tested with MathSBML 2.6.0.</p>
+                <p>Nicolas Le Novere changed the volume to 1 cubic micrometre, to allow for stochastic simulation.</p>
+                <p>Changed by Lukas Endler to use the average livetime of mRNA instead of its halflife and a corrected value of alpha and alpha0.</p>
+                <p>Moreover, the equations used in this model were clarified, cf. below.</p>
+                <p>The equations given in        <b>box 1</b>
+            of the original publication are rescaled in three respects (lowercase letters denote the rescaled, uppercase letters the unscaled number of molecules per cell):        </p>
+                <ul>        <li>the time is rescaled to the average mRNA lifetime,          <em>t_ave: ? = t/t_ave</em>
+                        </li>
+                    <li>the mRNA concentration is rescaled to the translation efficiency          <em>eff: m = M/eff</em>
+                        </li>
+                    <li>the protein concentration is rescaled to          <em>Km: p = P/Km</em>
+                        </li>
+                    </ul>
+                <p>        <em>?</em>
+            in the equations should be in units of rescaled proteins per promotor and cell, and        <em>?</em>
+            is the ratio of the protein to the mRNA decay rates or the ratio of the mRNA to the protein halflife.        </p>
+                <p>In this version of the model        <em>?</em>
+            and        <em>?</em>
+            are calculated correspondingly to the article, while        <em>p</em>
+            and        <em>m</em>
+            where just replaced by        <em>P/Km</em>
+            resp.        <em>M/eff</em>
+            and all equations multiplied by        <em>1/t_ave</em>
+            . Also, to make the equations easier to read, commonly used variables derived from the parameters given in the article by simple rules were introduced.        </p>
+                <p>The parameters given in the article were:</p>
+                <table>        <tr>          <td>promotor strength (repressed) (            <em>tps_repr</em>
+                ):            </td>
+                        <td>5*10            <sup>-4</sup>
+                            </td>
+                        <td>transcripts/(promotor*s)</td>
+                        </tr>
+                    <tr>          <td>promotor strength (full) (            <em>tps_active</em>
+                ):            </td>
+                        <td>0.5</td>
+                        <td>transcripts/(promotor*s)</td>
+                        </tr>
+                    <tr>          <td>mRNA half life, ?            <sub>1/2,mRNA</sub>
+                :            </td>
+                        <td>2</td>
+                        <td>min</td>
+                        </tr>
+                    <tr>          <td>protein half life, ?            <sub>1/2,prot</sub>
+                :            </td>
+                        <td>10</td>
+                        <td>min</td>
+                        </tr>
+                    <tr>          <td>K            <sub>M</sub>
+                :            </td>
+                        <td>40</td>
+                        <td>monomers/cell</td>
+                        </tr>
+                    <tr>          <td>Hill coefficient n:</td>
+                        <td>2</td>
+                        <td />
+                        </tr>
+                    </table>
+                <p>From these the following constants can be derived:</p>
+                <table>        <tr>          <td>average mRNA lifetime (            <em>t_ave</em>
+                ):            </td>
+                        <td>            <em>?              <sub>1/2,mRNA</sub>
+                  /ln(2)              </em>
+                            </td>
+                        <td>= 2.89 min</td>
+                        </tr>
+                    <tr>          <td>mRNA decay rate (            <em>kd_mRNA</em>
+                ):            </td>
+                        <td>            <em>ln(2)/ ?              <sub>1/2,mRNA</sub>
+                                </em>
+                            </td>
+                        <td>= 0.347 min            <sup>-1</sup>
+                            </td>
+                        </tr>
+                    <tr>          <td>protein decay rate (            <em>kd_prot</em>
+                ):            </td>
+                        <td>            <em>ln(2)/ ?              <sub>1/2,prot</sub>
+                                </em>
+                            </td>
+                        </tr>
+                    <tr>          <td>transcription rate (            <em>a_tr</em>
+                ):            </td>
+                        <td>            <em>tps_active*60</em>
+                            </td>
+                        <td>= 29.97 transcripts/min</td>
+                        </tr>
+                    <tr>          <td>transcription rate (repressed) (            <em>a0_tr</em>
+                ):            </td>
+                        <td>            <em>tps_repr*60</em>
+                            </td>
+                        <td>= 0.03 transcripts/min</td>
+                        </tr>
+                    <tr>          <td>translation rate (            <em>k_tl</em>
+                ):            </td>
+                        <td>            <em>eff*kd_mRNA</em>
+                            </td>
+                        <td>= 6.93 proteins/(mRNA*min)</td>
+                        </tr>
+                    <tr>          <td>? :</td>
+                        <td>            <em>a_tr*eff*?              <sub>1/2,prot</sub>
+                  /(ln(2)*K              <sub>M</sub>
+                  )              </em>
+                            </td>
+                        <td>= 216.4 proteins/(promotor*cell*Km)</td>
+                        </tr>
+                    <tr>          <td>?            <sub>0</sub>
+                :            </td>
+                        <td>            <em>a0_tr*eff*?              <sub>1/2,prot</sub>
+                  /(ln(2)*K              <sub>M</sub>
+                  )              </em>
+                            </td>
+                        <td>= 0.2164 proteins/(promotor*cell*Km)</td>
+                        </tr>
+                    <tr>          <td>? :</td>
+                        <td>            <em>k_dp/k_dm</em>
+                            </td>
+                        <td>= 0.2</td>
+                        </tr>
+                    </table>
+                <br />
+                <p>Annotation by the Kinetic Simulation Algorithm Ontology (KiSAO):</p>
+                <p>To reproduce the simulations run published by the authors, the model has to be simulated with any of two different approaches. First, one could use a deterministic method (        <a href="http://identifiers.org/biomodels.kisao/KISAO_0000035" title="Access to: KISAO_0000035">KISAO_0000035</a>
+            ) with continuous variables (        <a href="http://identifiers.org/biomodels.kisao/KISAO_0000018" title="Access to: KISAO_0000018">KISAO_0000018</a>
+            ). One sample algorithm to use is the CVODE solver (        <a href="http://identifiers.org/biomodels.kisao/KISAO_0000019" title="Access to: KISAO_0000019">KISAO_0000019</a>
+            ). Second, one could simulate the system using Gillespie's direct method (        <a href="http://identifiers.org/biomodels.kisao/KISAO_0000029" title="Access to: KISAO_0000029">KISAO_0000029</a>
+            ), which is a stochastic method (        <a href="http://identifiers.org/biomodels.kisao/KISAO_0000036" title="Access to: KISAO_0000036">KISAO_0000036</a>
+            ) supporting adaptive timesteps (        <a href="http://identifiers.org/biomodels.kisao/KISAO_0000041" title="Access to: KISAO_0000041">KISAO_0000041</a>
+            ) and using discrete variables (        <a href="http://identifiers.org/biomodels.kisao/KISAO_0000016" title="Access to: KISAO_0000016">KISAO_0000016</a>
+            ).        </p>
+                </div>
+            <div class="dc:publisher">      <p>This model is hosted on        <a href="http://www.ebi.ac.uk/biomodels/">BioModels Database</a>
+            and identified by:        <a href="http://identifiers.org/biomodels.db/BIOMD0000000012">BIOMD0000000012</a>
+            .        </p>
+                <p>To cite BioModels Database, please use:        <a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>
+            .        </p>
+                </div>
+            <div class="dc:license">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication">CC0 Public Domain Dedication</a>
+            for more information.        </p>
+                </div>
+            </body>
+      
+    </notes><annotationList><annotation>
+      </annotation><annotation>
+    </annotation></annotationList></nonrdfAnnotation></nonrdfAnnotationList><uriBindingList><uriBinding uri="http://www.sbml.org/sbml/level2/version3/PX" vcid="Species(PX)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version3/_906002" vcid="ReactionStep(LacI mRNA transcription)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/943340567" vcid="MolecularType(cI)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/629401335" vcid="MolecularType(LacI_mRNA)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/41508408" vcid="MolecularType(cI_mRNA)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version3/_905882" vcid="ReactionStep(LacI protein production)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version3/_905823" vcid="ReactionStep(degradation of  LacI mRNA)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version3/_905943" vcid="ReactionStep(LacI protein degradation)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/2006968402" vcid="MolecularType(LacI)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/2020230821" vcid="MolecularType(tetR_mRNA)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1245017243" vcid="MolecularType(tetR)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version3/PZ" vcid="Species(PZ)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version3/_000002" vcid="Structure(cell)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version3/_000001" vcid="BioModel(CM_PM10659856_MB1)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version3/_905769" vcid="Species(X)" /></uriBindingList></vcmetadata></BioModel></vcml>

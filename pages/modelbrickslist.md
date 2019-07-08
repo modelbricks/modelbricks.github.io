@@ -34,7 +34,7 @@ permalink: /modelbrickslist/
      <td bgcolor="#D6EAF8">
           <ul>
           <li><a href="/CM_PM26027516_MB1/">Gs Activation</a></li>
-               <li><a href="/CM_PM26027516_MB2/">cAMP production and degradation</a></li>
+          <li><a href="/CM_PM26027516_MB2/">cAMP production and degradation</a></li>
           <li><a href="/CM_PM26027516_MB3/">PKA activation </a></li>
           <li><a href="/CM_PM26027516_MB4/">AKAP7 binds PLB</a></li>
           </ul>
@@ -67,7 +67,11 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">PMID:10659856</a>)
      </td>
      <td bgcolor="#EBF5FB">
-          <p><i> A Synthetic Oscillatory Network </i></p>
+          <ul>
+          <li><a href="/CM_PM10659856_MB1/">cI represses LacI</a></li>
+          <li><a href="/CM_PM10659856_MB2/">LacI represses TetR</a></li>
+          <li><!--<a href="/CM_PM26027516_MB3/"></a>--></li>
+          </ul>
      </td>
 </tr>
 <tr>

@@ -120,8 +120,9 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
-          <!--<li><a href="http://modelbricks.org/CM_PM18277380_MB1/">MB1</a></li>
-          <li><a href="http://modelbricks.org/CM_PM18628746_MB2/">MB2</a></li>-->
+          <li><a href="http://modelbricks.org/CM_PM18277380_MB1/">MB1</a></li>
+          <li><a href="http://modelbricks.org/CM_PM18628746_MB2/">MB2</a></li>
+          <li><a href="http://modelbricks.org/CM_PM18628746_MB3/">MB3</a></li>
           </ul>
      </td>
 </tr>

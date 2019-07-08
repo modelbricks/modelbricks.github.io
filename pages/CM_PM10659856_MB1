@@ -10,19 +10,19 @@ permalink: /CM_PM10659856_MB1/
 Elowitz, M., & Leibler, S. (2000). A synthetic oscillatory network of transcriptional regulators. Nature, 403(6767), 335-338. <br/>
 PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">10659856</a>&ensp; 
 DOI: <a href="https://doi: 10.1038/35002125"> 10.1038/msb.2008.45</a>&ensp;
-BioModels: <a href="https://www.ebi.ac.uk/biomodels/BIOMD0000000012"> BIOMD0000000012 </a><br/>
 
 ### Description
 
-This Model describes the oscillatory change in the concentration of tree repressor proteins. LacI is Repressor for the transcription of tetR which in turns is represor for the transcription of cI, finally cI is repressor for the transcription of LacI closing the cycling.
+This ModelBrick describes changes in the concentration of protein LacI under the transcriptional repressor activity of cI. The simulation consider a change in the species concentration compare to original Model to better represent the activity of the protein repressor cI over the transcription, and translation of LacI. The initial concentration of the repressor protein has been set at 150 molecules/um3 while the other two species were set at 0 molecules/um3.
 
 ### Images
 <center>
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CM_PM10659856_Vcell_diagram.PNG"><img align="center" src="/images/Vcellimages/CM_PM10659856_Vcell_diagram.PNG"/></a></td>
-    <td align="center"><a href="https://modelbricks.github.io/images/Vcellimages/CM_PM10659856_Vcell_sim.PNG"><img align="center" src="/images/Vcellimages/CM_PM10659856_Vcell_sim.PNG"/></a></td>
-   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/repressilator_SBGN.PNG"><img align="center" src="/images/SBGNfiles/repressilator_SBGN.PNG" height="180"> </a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CM_PM10659856_MB1
+_Vcell_diagram.PNG"><img align="center" src="/images/Vcellimages/CM_PM10659856_MB1_Vcell_diagram.PNG"/></a></td>
+    <td align="center"><a href="https://modelbricks.github.io/images/Vcellimages/CM_PM10659856_MB1_Vcell_sim.PNG"><img align="center" src="/images/Vcellimages/CM_PM10659856_MB1_Vcell_sim.PNG"/></a></td>
+   <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/CM_PM10659856_MB1_SBGN.PNG"><img align="center" src="/images/SBGNfiles/CM_PM10659856_MB1_SBGN.PNG" height="180"> </a></td>
  </tr>
  <tr>
   <td align="center"> Vcell: reaction diagram </td>
@@ -37,21 +37,21 @@ This Model describes the oscillatory change in the concentration of tree repress
 <center>
  <table>
   <td width="33%" bgcolor="#D6EAF8">VCell curated model </td>
-  <td width="33%" bgcolor="#D6EAF8"><a href="/modelbricks/VCML_SBMLfiles/CM_PM10659856.vcml">CM_PM10659856.vcml</a></td>
+  <td width="33%" bgcolor="#D6EAF8"><a href="/modelbricks/VCML_SBMLfiles/CM_PM10659856_MB1.vcml">CM_PM10659856.vcml</a></td>
   <td width="33%" bgcolor="#D6EAF8"> Designed with <a href="http://vcell.org"> VCell</a></td>
   <tr>
    <td bgcolor="#EBF5FB">SBML </td>
-   <td bgcolor="#EBF5FB"><a href="/modelbricks/VCML_SBMLfiles/BIOMD0000000012.xml">BIOMD0000000012.xml</a></td>
-   <td bgcolor="#EBF5FB"> Exported from <a href="https://www.ebi.ac.uk/biomodels/BIOMD0000000012">BioModels database</a></td>
+   <td bgcolor="#EBF5FB"><--!<a href="/modelbricks/VCML_SBMLfiles/CM_PM10659856_MB1.xml">CM_PM10659856_MB1.xml</a>--></td>
+   <td bgcolor="#EBF5FB"> Exported from <a href="http://vcell.org"> VCell</a></td>
   </tr>
   <tr>
    <td bgcolor="#D6EAF8">GraphML </td>
-   <td bgcolor="#D6EAF8"><a href="/modelbricks/SBGNexecutablefiles/CM_PM10659856.graphml">CM_PM10659856.graphml</a></td>
+   <td bgcolor="#D6EAF8"><--!<a href="/modelbricks/SBGNexecutablefiles/CM_PM10659856.graphml">CM_PM10659856_MB1.graphml</a>--></td>
    <td bgcolor="#D6EAF8"> Exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
   </tr>
   <tr>
    <td bgcolor="#EBF5FB">SBGN-ML </td>
-   <td bgcolor="#EBF5FB"><a href="/modelbricks/SBGNexecutablefiles/CM_PM10659856.sbgn">CM_PM10659856.sbgn</a></td>
+   <td bgcolor="#EBF5FB"><--!<a href="/modelbricks/SBGNexecutablefiles/CM_PM10659856.sbgn">CM_PM10659856_MB1.sbgn</a>--></td>
    <td bgcolor="#EBF5FB"> Exported from <a href="https://immersive-analytics.infotech.monash.edu/vanted/addons/sbgn-ed/">VANTED (SBGN-ED)</a></td>
   </tr>
  </table>

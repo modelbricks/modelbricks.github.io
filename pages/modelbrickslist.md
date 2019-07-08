@@ -119,11 +119,11 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/18277380">PMID: 18277380</a>)
      </td>
      <td bgcolor="#D6EAF8">
-          <ul>
+          <!--<ul>
           <li><a href="http://modelbricks.org/CM_PM18277380_MB1/">MB1</a></li>
           <li><a href="http://modelbricks.org/CM_PM18628746_MB2/">MB2</a></li>
           <li><a href="http://modelbricks.org/CM_PM18628746_MB3/">MB3</a></li>
-          </ul>
+          </ul>-->
      </td>
 </tr>
 </table>

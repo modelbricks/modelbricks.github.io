@@ -70,7 +70,7 @@ permalink: /modelbrickslist/
           <ul>
           <li><a href="/CM_PM10659856_MB1/">cI represses LacI</a></li>
           <li><a href="/CM_PM10659856_MB2/">LacI represses TetR</a></li>
-          <li><!--<a href="/CM_PM26027516_MB3/"></a>--></li>
+          <li><a href="/CM_PM10659856_MB3/">TetR represses cI</a></li>
           </ul>
      </td>
 </tr>

@@ -15,7 +15,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB">&nbsp; Dynamics of regulatory and signaling pathways in the cell <br>
-     (<a href="/CM_PM12648679/">Curated VCell model</a>, 
+     &nbsp;(<a href="/CM_PM12648679/">Curated VCell model</a>, 
       <a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -28,7 +28,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8">&nbsp; Phosphorylation of PLB by AKAP7 and PKA <br>
-          (<a href="http://modelbricks.org/CM_PM26027516/">Curated VCell model</a>,
+          &nbsp;(<a href="http://modelbricks.org/CM_PM26027516/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/26027516">PMID: 26027516</a>)
      </td>
      <td bgcolor="#D6EAF8">
@@ -42,7 +42,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB">&nbsp; PDGF regulated activation of Src <br>
-          (<a href="http://modelbricks.org/MB_PDGF_Src/">Curated VCell model</a>,
+          &nbsp;(<a href="http://modelbricks.org/MB_PDGF_Src/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/24034255 ">PMID: 24034255 </a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -51,7 +51,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8">&nbsp; Rho GTPase regulation by RhoGDI & GAP interactions <br>
-          (<a href="http://modelbricks.org/CM_PM25628036/">Curated VCell model</a>,
+          &nbsp;(<a href="http://modelbricks.org/CM_PM25628036/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/25628036">PMID: 25628036</a>)
      </td>
      <td bgcolor="#D6EAF8">
@@ -63,7 +63,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB">&nbsp; Repressilator: A Synthetic Oscillatory Network <br>
-               (<a href="http://modelbricks.org/CM_PM10659856/">Curated VCell model</a>,
+               &nbsp;(<a href="http://modelbricks.org/CM_PM10659856/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856">PMID: 10659856</a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -76,7 +76,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8">&nbsp; Cut out Switch: Rab5 to Rab7 convertion <br>
-          (<a href="http://modelbricks.org/CM_PM18628746/">Curated VCell model</a>,
+          &nbsp;(<a href="http://modelbricks.org/CM_PM18628746/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/18628746">PMID: 18628746</a>)
      </td>
      <td bgcolor="#D6EAF8">
@@ -88,7 +88,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB">&nbsp; Minimal model for mitotic oscillator <br>
-          (<a href="http://modelbricks.org/CM_PM1833774/">Curated VCell model</a>,
+         &nbsp;(<a href="http://modelbricks.org/CM_PM1833774/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/1833774">PMID: 1833774</a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -97,7 +97,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8">&nbsp; Methionine and Threonine Pathways: The Branch - Point <br>
-          (<a href="http://modelbricks.org/CM_PM14622248/">Curated VCell model</a>,
+          &nbsp;(<a href="http://modelbricks.org/CM_PM14622248/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID: 14622248</a>)
      </td>
      <td bgcolor="#D6EAF8">
@@ -106,7 +106,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB">&nbsp; HIV latency: Protein interactions & innate immune response <br>
-          (<a href="http://modelbricks.org/CM_PM24997239/">Curated VCell model</a>,
+         &nbsp;(<a href="http://modelbricks.org/CM_PM24997239/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/24997239">PMID: 24997239</a>)
      </td>
      <td bgcolor="#EBF5FB">
@@ -115,7 +115,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#D6EAF8">&nbsp; Circaidan clock control by short and long FRQ protein <br>
-          (<a href="http://modelbricks.org/CM_PM18277380/">Curated VCell model</a>,
+          &nbsp;(<a href="http://modelbricks.org/CM_PM18277380/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/18277380">PMID: 18277380</a>)
      </td>
      <td bgcolor="#D6EAF8">

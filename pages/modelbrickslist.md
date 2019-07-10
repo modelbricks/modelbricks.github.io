@@ -120,7 +120,7 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
-          <li><a href="http://modelbricks.org/CM_PM18277380_MB1/">Transcription of frq</a></li>
+          <li><a href="http://modelbricks.org/CM_PM18277380_MB1/">Transcription of frqA</a></li>
           <li><a href="http://modelbricks.org/CM_PM18277380_MB2/">Translation of FRQ</a></li>
           </ul>
      </td>

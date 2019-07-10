@@ -125,7 +125,7 @@ permalink: /modelbrickslist/
           </ul>
      </td>
 </tr>
-     <tr>
+<tr>
      <td bgcolor="#D6EAF8"> Coupled Ca2+ oscillators <br>
           (<a href="http://modelbricks.org/CM_PM12779457/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/12779457">PMID: 12779457</a>)
@@ -134,6 +134,15 @@ permalink: /modelbrickslist/
           <ul>
           <li><a href="http://modelbricks.org/CM_PM12779457_MB1/"> Cell Ca2+ oscillation</a></li>
           </ul>
+     </td>
+</tr>
+<tr>
+     <td bgcolor="#EBF5FB"> Positive feedback in mitosis <br>
+          (<a href="http://modelbricks.org/CM_PM27768873/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/27768873">PMID: 12779457</a>)
+     </td>
+     <td bgcolor="#EBF5FB">
+          <p><i> Positive feedback in mitosis </i></p>
      </td>
 </tr>
 </table>

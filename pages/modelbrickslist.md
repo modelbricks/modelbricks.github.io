@@ -125,4 +125,15 @@ permalink: /modelbrickslist/
           </ul>
      </td>
 </tr>
+     <tr>
+     <td bgcolor="#D6EAF8"> Coupled Ca2+ oscillators <br>
+          (<a href="http://modelbricks.org/CM_PM12779457/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/12779457">PMID: 12779457</a>)
+     </td>
+     <td bgcolor="#D6EAF8">
+          <ul>
+          <li><a href="http://modelbricks.org/CM_PM12779457/"> Cell Ca2+ oscillation</a></li>
+          </ul>
+     </td>
+</tr>
 </table>

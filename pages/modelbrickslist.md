@@ -132,7 +132,7 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
-          <li><a href="http://modelbricks.org/CM_PM12779457/"> Cell Ca2+ oscillation</a></li>
+          <li><a href="http://modelbricks.org/CM_PM12779457_MB1/"> Cell Ca2+ oscillation</a></li>
           </ul>
      </td>
 </tr>

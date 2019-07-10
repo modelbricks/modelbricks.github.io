@@ -6,7 +6,7 @@ permalink: /modelbrickslist/
 
 <h1 align="center"> Curated Models and Related ModelBricks </h1>
 
-<table border-left="15" style="padding: 0 0 0 2em;">
+<table border-left="15">
 <tr>
      <td bgcolor="#AED6F1" align="center"><strong>Publication</strong>
      </td>
@@ -120,7 +120,7 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#D6EAF8">
           <ul>
-          <li><a href="http://modelbricks.org/CM_PM18277380_MB1/">Transcription of frqA</a></li>
+          <li><a href="http://modelbricks.org/CM_PM18277380_MB1/">Transcription of frq</a></li>
           <li><a href="http://modelbricks.org/CM_PM18277380_MB2/">Translation of FRQ</a></li>
           </ul>
      </td>

@@ -145,4 +145,12 @@ permalink: /modelbrickslist/
           <p><i> Positive feedback in mitosis </i></p>
      </td>
 </tr>
+<tr>
+     <td bgcolor="#EBF5FB"> Auxin regulation of root gravitropism <br>
+          (<a href="http://modelbricks.org/CM_PM22393022/">Curated VCell model</a>,
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/22393022">PMID: 12779457</a>)
+     </td>
+     <td bgcolor="#EBF5FB">
+     </td>
+</tr>
 </table>

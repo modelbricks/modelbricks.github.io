@@ -155,7 +155,6 @@ permalink: /modelbrickslist/
           <li><a href="http://modelbricks.org/CM_PM18277380_MB1/">rgravitropism reduced model</a></li>
           <li><a href="http://modelbricks.org/CM_PM18277380_MB2/"></a></li>
           </ul>
-          
      </td>
 </tr>
 </table>

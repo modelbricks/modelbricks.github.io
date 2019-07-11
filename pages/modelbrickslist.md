@@ -152,8 +152,8 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
-          <li><a href="http://modelbricks.org/CM_PM18277380_MB1/">rgravitropism reduced model</a></li>
-          <li><a href="http://modelbricks.org/CM_PM18277380_MB2/"></a></li>
+          <li><a href="http://modelbricks.org/CM_PM22393022_MB1/">gravitropism reduced model</a></li>
+          <li><a href="http://modelbricks.org/CM_PM22393022_MB2/"></a></li>
           </ul>
      </td>
 </tr>

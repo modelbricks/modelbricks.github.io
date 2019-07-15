@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This biomodel was generated in VCML Version Alpha_Version_7.1.0_build_45--><vcml xmlns="http://sourceforge.net/projects/vcell/vcml" Version="Alpha_Version_7.1.0_build_45"><BioModel Name="CM_PM1833774"><Model Name="unnamed"><ModelParameters><Parameter Name="V1" Role="user defined" Unit="tbd">(cyclin * VM1 * pow((cyclin + Kc), - 1.0))</Parameter><Parameter Name="V3" Role="user defined" Unit="tbd">(cdc2_kinase * VM3)</Parameter><Parameter Name="VM1" Role="user defined" Unit="tbd">3.0</Parameter><Parameter Name="VM3" Role="user defined" Unit="tbd">1.0</Parameter><Parameter Name="Kc" Role="user defined" Unit="tbd">0.5</Parameter></ModelParameters><Compound Name="C"><Annotation>C</Annotation></Compound><Compound Name="M"><Annotation>M</Annotation></Compound><Compound Name="X"><Annotation>X</Annotation></Compound><Feature Name="cell" KeyValue="161429583" /><LocalizedCompound Name="cyclin" SbmlName="Cyclin" CompoundRef="C" Structure="cell" OverrideName="true" KeyValue="161429585"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="cyclin" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><LocalizedCompound Name="cdc2_kinase" SbmlName="CDC-2 Kinase" CompoundRef="M" Structure="cell" OverrideName="true" KeyValue="161429586"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="cdc2_kinase" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><LocalizedCompound Name="cyclin_protease" SbmlName="Cyclin Protease" CompoundRef="X" Structure="cell" OverrideName="true" KeyValue="161429587"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="cyclin_protease" /></MolecularTypePattern></SpeciesPattern></LocalizedCompound><SimpleReaction Structure="cell" Name="reaction1" Reversible="false" FluxOption="MolecularOnly" KeyValue="161429588"><Product LocalizedCompoundRef="cyclin" Stoichiometry="1" KeyValue="161429589" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="mole.s-1">(cell * vi)</Parameter><Parameter Name="vi" Role="user defined" Unit="mole.s-1.litre-1">0.025</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="reaction2" Reversible="false" FluxOption="MolecularOnly" KeyValue="161429590"><Reactant LocalizedCompoundRef="cyclin" Stoichiometry="1" KeyValue="161429591" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="mole.s-1">(cyclin * cell * kd)</Parameter><Parameter Name="kd" Role="user defined" Unit="s-1">0.01</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="reaction3" Reversible="false" FluxOption="MolecularOnly" KeyValue="161429592"><Reactant LocalizedCompoundRef="cyclin" Stoichiometry="1" KeyValue="161429593" /><Modifier LocalizedCompoundRef="cyclin_protease" KeyValue="161429594" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="mole.s-1">(cyclin * cell * vd * cyclin_protease * pow((cyclin + Kd), - 1.0))</Parameter><Parameter Name="Kd" Role="user defined" Unit="mole.litre-1">0.02</Parameter><Parameter Name="vd" Role="user defined" Unit="s-1">0.25</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="reaction4" Reversible="false" FluxOption="MolecularOnly" KeyValue="161429595"><Product LocalizedCompoundRef="cdc2_kinase" Stoichiometry="1" KeyValue="161429596" /><Modifier LocalizedCompoundRef="cyclin" KeyValue="161429597" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="mole.s-1">(cell * (1.0 + ( - 1.0 * cdc2_kinase)) * V1 * pow((K1 + ( - 1.0 * cdc2_kinase) + 1.0), - 1.0))</Parameter><Parameter Name="K1" Role="user defined" Unit="mole.litre-1">0.005</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="reaction5" Reversible="false" FluxOption="MolecularOnly" KeyValue="161429598"><Reactant LocalizedCompoundRef="cdc2_kinase" Stoichiometry="1" KeyValue="161429599" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="mole.s-1">(cell * cdc2_kinase * V2 * pow((K2 + cdc2_kinase), - 1.0))</Parameter><Parameter Name="K2" Role="user defined" Unit="mole.litre-1">0.005</Parameter><Parameter Name="V2" Role="user defined" Unit="mole.s-1.litre-1">1.5</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="reaction6" Reversible="false" FluxOption="MolecularOnly" KeyValue="161429600"><Product LocalizedCompoundRef="cyclin_protease" Stoichiometry="1" KeyValue="161429601" /><Modifier LocalizedCompoundRef="cdc2_kinase" KeyValue="161429602" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="mole.s-1">(cell * V3 * (1.0 + ( - 1.0 * cyclin_protease)) * pow((K3 + ( - 1.0 * cyclin_protease) + 1.0), - 1.0))</Parameter><Parameter Name="K3" Role="user defined" Unit="mole.litre-1">0.005</Parameter></Kinetics></SimpleReaction><SimpleReaction Structure="cell" Name="reaction7" Reversible="false" FluxOption="MolecularOnly" KeyValue="161429603"><Reactant LocalizedCompoundRef="cyclin_protease" Stoichiometry="1" KeyValue="161429604" /><Kinetics KineticsType="GeneralLumpedKinetics"><Parameter Name="LumpedJ" Role="lumped reaction rate" Unit="mole.s-1">(cell * V4 * cyclin_protease * pow((K4 + cyclin_protease), - 1.0))</Parameter><Parameter Name="K4" Role="user defined" Unit="mole.litre-1">0.005</Parameter><Parameter Name="V4" Role="user defined" Unit="mole.s-1.litre-1">0.5</Parameter></Kinetics></SimpleReaction><RbmModelContainer><MolecularTypeList><MolecularType Name="cyclin" AnchorAll="true" /><MolecularType Name="cdc2_kinase" AnchorAll="true" /><MolecularType Name="cyclin_protease" AnchorAll="true" /></MolecularTypeList><RbmObservableList><Observable Name="O0_cyclin_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="cell"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="cyclin" /></MolecularTypePattern></SpeciesPattern></Observable><Observable Name="O0_cdc2_kinase_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="cell"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="cdc2_kinase" /></MolecularTypePattern></SpeciesPattern></Observable><Observable Name="O0_cyclin_protease_tot" ObservableType="Molecules" Sequence="Multimolecular" LengthEqual="2" LengthGreater="1" Structure="cell"><SpeciesPattern><MolecularTypePattern Index="1"><MolecularType Name="cyclin_protease" /></MolecularTypePattern></SpeciesPattern></Observable></RbmObservableList></RbmModelContainer><Diagram Name="cell" Structure="cell"><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="reaction1" LocationX="139" LocationY="90" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="reaction3" LocationX="184" LocationY="151" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="reaction2" LocationX="140" LocationY="126" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="reaction4" LocationX="237" LocationY="109" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="cdc2_kinase" LocationX="290" LocationY="107" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="reaction6" LocationX="292" LocationY="149" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="cyclin" LocationX="181" LocationY="106" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="reaction5" LocationX="349" LocationY="109" /><SimpleReactionShape NodeReferenceModeAttrTag="full" SimpleReactionRef="reaction7" LocationX="237" LocationY="192" /><LocalizedCompoundShape NodeReferenceModeAttrTag="full" LocalizedCompoundRef="cyclin_protease" LocationX="235" LocationY="148" /></Diagram><Version Name="unnamed" KeyValue="161429578" BranchId="161080098" Archived="0" Date="08-Jul-2019 13:45:23" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><ModelUnitSystem VolumeSubstanceUnit="mole" MembraneSubstanceUnit="mole" LumpedReactionSubstanceUnit="mole" VolumeUnit="litre" AreaUnit="m2" LengthUnit="m" TimeUnit="s" /></Model><SimulationSpec Name="Minimal cascade model" Stochastic="false" UseConcentration="true" RuleBased="false" InsufficientIterations="false" InsufficientMaxMolecules="false"><NetworkConstraints RbmMaxIteration="3" RbmMaxMoleculesPerSpecies="10" RbmSpeciesLimit="800" RbmReactionsLimit="2500"><MaxStoichiometry MolecularType="cyclin" Integer="100" /><MaxStoichiometry MolecularType="cdc2_kinase" Integer="100" /><MaxStoichiometry MolecularType="cyclin_protease" Integer="100" /></NetworkConstraints><Annotation>This application shows sustained oscillations in the minimal cascade model involving cyclin and cdc2 kinase.</Annotation><Geometry Name="Compartmental756231691" Dimension="0"><Extent X="10.0" Y="10.0" Z="10.0" /><Origin X="0.0" Y="0.0" Z="0.0" /><SubVolume Name="Compartment" Handle="0" Type="Compartmental" KeyValue="161080093" /><Version Name="Compartmental756231691" KeyValue="161080089" BranchId="161080090" Archived="0" Date="03-Jul-2019 19:21:32" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Geometry><GeometryContext><FeatureMapping Feature="cell" GeometryClass="Compartment" SubVolume="Compartment" Size="1.0"><BoundariesTypes Xm="Flux" Xp="Flux" Ym="Flux" Yp="Flux" Zm="Flux" Zp="Flux" /></FeatureMapping></GeometryContext><ReactionContext><LocalizedCompoundSpec LocalizedCompoundRef="cyclin" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.01</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><LocalizedCompoundSpec LocalizedCompoundRef="cdc2_kinase" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.01</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><LocalizedCompoundSpec LocalizedCompoundRef="cyclin_protease" ForceConstant="false" WellMixed="false" ForceContinuous="false"><InitialConcentration>0.01</InitialConcentration><Diffusion>0.0</Diffusion></LocalizedCompoundSpec><ReactionSpec ReactionStepRef="reaction1" ReactionMapping="included" /><ReactionSpec ReactionStepRef="reaction2" ReactionMapping="included" /><ReactionSpec ReactionStepRef="reaction3" ReactionMapping="included" /><ReactionSpec ReactionStepRef="reaction4" ReactionMapping="included" /><ReactionSpec ReactionStepRef="reaction5" ReactionMapping="included" /><ReactionSpec ReactionStepRef="reaction6" ReactionMapping="included" /><ReactionSpec ReactionStepRef="reaction7" ReactionMapping="included" /></ReactionContext><MathDescription Name="unnamed_generated"><Constant Name="_F_">96480.0</Constant><Constant Name="_F_nmol_">9.648E-5</Constant><Constant Name="_K_GHK_">1.0E-9</Constant><Constant Name="_N_pmol_">6.02E11</Constant><Constant Name="_PI_">3.141592653589793</Constant><Constant Name="_R_">8314.0</Constant><Constant Name="_T_">300.0</Constant><Constant Name="cdc2_kinase_init_mole_litre_1">0.01</Constant><Constant Name="cyclin_init_mole_litre_1">0.01</Constant><Constant Name="cyclin_protease_init_mole_litre_1">0.01</Constant><Constant Name="K1">0.005</Constant><Constant Name="K2">0.005</Constant><Constant Name="K3">0.005</Constant><Constant Name="K4">0.005</Constant><Constant Name="K_millivolts_per_volt">1000.0</Constant><Constant Name="Kc">0.5</Constant><Constant Name="kd">0.01</Constant><Constant Name="Kd">0.02</Constant><Constant Name="KMOLE">(1.0 / 602.0)</Constant><Constant Name="Size_cell">1.0</Constant><Constant Name="V2">1.5</Constant><Constant Name="V4">0.5</Constant><Constant Name="vd">0.25</Constant><Constant Name="vi">0.025</Constant><Constant Name="VM1">3.0</Constant><Constant Name="VM3">1.0</Constant><VolumeVariable Name="cdc2_kinase" Domain="Compartment" /><VolumeVariable Name="cyclin" Domain="Compartment" /><VolumeVariable Name="cyclin_protease" Domain="Compartment" /><Function Name="LumpedJ_reaction1" Domain="Compartment">(Size_cell * vi)</Function><Function Name="LumpedJ_reaction2" Domain="Compartment">(cyclin * Size_cell * kd)</Function><Function Name="LumpedJ_reaction3" Domain="Compartment">(cyclin * Size_cell * vd * cyclin_protease * pow((cyclin + Kd), - 1.0))</Function><Function Name="LumpedJ_reaction4" Domain="Compartment">(Size_cell * (1.0 + ( - 1.0 * cdc2_kinase)) * V1 * pow((K1 + ( - 1.0 * cdc2_kinase) + 1.0), - 1.0))</Function><Function Name="LumpedJ_reaction5" Domain="Compartment">(Size_cell * cdc2_kinase * V2 * pow((K2 + cdc2_kinase), - 1.0))</Function><Function Name="LumpedJ_reaction6" Domain="Compartment">(Size_cell * V3 * (1.0 + ( - 1.0 * cyclin_protease)) * pow((K3 + ( - 1.0 * cyclin_protease) + 1.0), - 1.0))</Function><Function Name="LumpedJ_reaction7" Domain="Compartment">(Size_cell * V4 * cyclin_protease * pow((K4 + cyclin_protease), - 1.0))</Function><Function Name="V1">(cyclin * VM1 * pow((cyclin + Kc), - 1.0))</Function><Function Name="V3">(cdc2_kinase * VM3)</Function><CompartmentSubDomain Name="Compartment"><BoundaryType Boundary="Xm" Type="Value" /><BoundaryType Boundary="Xp" Type="Value" /><BoundaryType Boundary="Ym" Type="Value" /><BoundaryType Boundary="Yp" Type="Value" /><BoundaryType Boundary="Zm" Type="Value" /><BoundaryType Boundary="Zp" Type="Value" /><OdeEquation Name="cyclin" SolutionType="Unknown"><Rate>((LumpedJ_reaction1 / Size_cell) - (LumpedJ_reaction2 / Size_cell) - (LumpedJ_reaction3 / Size_cell))</Rate><Initial>cyclin_init_mole_litre_1</Initial></OdeEquation><OdeEquation Name="cdc2_kinase" SolutionType="Unknown"><Rate>((LumpedJ_reaction4 / Size_cell) - (LumpedJ_reaction5 / Size_cell))</Rate><Initial>cdc2_kinase_init_mole_litre_1</Initial></OdeEquation><OdeEquation Name="cyclin_protease" SolutionType="Unknown"><Rate>((LumpedJ_reaction6 / Size_cell) - (LumpedJ_reaction7 / Size_cell))</Rate><Initial>cyclin_protease_init_mole_litre_1</Initial></OdeEquation></CompartmentSubDomain><Version Name="unnamed_generated" KeyValue="161080094" BranchId="161080095" Archived="0" Date="03-Jul-2019 19:21:32" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></MathDescription><Simulation Name="Simulation0"><SolverTaskDescription TaskType="Unsteady" UseSymbolicJacobian="false" Solver="Combined Stiff Solver (IDA/CVODE)"><TimeBound StartTime="0.0" EndTime="100.0" /><TimeStep DefaultTime="0.1" MinTime="1.0E-8" MaxTime="1.0" /><ErrorTolerance Absolut="1.0E-9" Relative="1.0E-9" /><OutputOptions KeepEvery="1" KeepAtMost="1000" /><NumberProcessors>1</NumberProcessors></SolverTaskDescription><MathOverrides /><Version Name="Simulation0" KeyValue="161080866" BranchId="161080867" Archived="0" Date="03-Jul-2019 19:35:13" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version></Simulation><Version Name="Minimal cascade model" KeyValue="161430951" BranchId="161081402" Archived="0" Date="08-Jul-2019 14:05:17" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /><Annotation>This application shows sustained oscillations in the minimal cascade model involving cyclin and cdc2 kinase.</Annotation></Version><MicroscopeMeasurement Name="fluor"><ConvolutionKernel Type="ProjectionZKernel" /></MicroscopeMeasurement></SimulationSpec><Version Name="CM_PM1833774" KeyValue="161430964" BranchId="161080387" Archived="0" Date="08-Jul-2019 14:05:17" FromVersionable="false"><Owner Name="ModelBrick" Identifier="101222366" /><GroupAccess Type="1" /></Version><pathwayModel><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" version="3.0"><DiagramObjectsID xmlns="">BIOMODEL_M</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_X</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_reaction5</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_C</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_reaction3</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_reaction4</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_reaction1</DiagramObjectsID><DiagramObjectsID xmlns="">BIOMODEL_reaction2</DiagramObjectsID><bp:PhysicalEntity rdf:nodeID="BIOMODEL_M"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</bp:name><bp:xref rdf:nodeID="uniprot_P24033" /><bp:xref rdf:nodeID="uniprot_P35567" /></bp:PhysicalEntity><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_reaction4"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reaction4</bp:name><bp:xref rdf:nodeID="ec-code_3.1.3.16" /><bp:xref rdf:nodeID="GENE_ONTOLOGY_0045737" /><bp:xref rdf:nodeID="GENE_ONTOLOGY_0006470" /></bp:BiochemicalReaction><bp:UnificationXref rdf:nodeID="GENE_ONTOLOGY_0045737"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENE_ONTOLOGY</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0045737</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="uniprot_P35567"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P35567</bp:id></bp:UnificationXref><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_reaction2"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reaction2</bp:name><bp:xref rdf:nodeID="GENE_ONTOLOGY_0008054" /></bp:BiochemicalReaction><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_reaction3"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reaction3</bp:name><bp:xref rdf:nodeID="GENE_ONTOLOGY_0008054" /></bp:BiochemicalReaction><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_reaction5"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reaction5</bp:name><bp:xref rdf:nodeID="ec-code_2.7.10.2" /><bp:xref rdf:nodeID="GENE_ONTOLOGY_0006468" /><bp:xref rdf:nodeID="GENE_ONTOLOGY_0045736" /></bp:BiochemicalReaction><bp:UnificationXref rdf:nodeID="GENE_ONTOLOGY_0045736"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENE_ONTOLOGY</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0045736</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="GENE_ONTOLOGY_0006468"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENE_ONTOLOGY</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006468</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="GENE_ONTOLOGY_0006470"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENE_ONTOLOGY</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006470</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="ec-code_3.1.3.16"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC-CODE</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.1.3.16</bp:id></bp:UnificationXref><bp:PhysicalEntity rdf:nodeID="BIOMODEL_C"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</bp:name><bp:xref rdf:nodeID="interpro_IPR006670" /><bp:xref rdf:nodeID="uniprot_Q4KLA0" /></bp:PhysicalEntity><bp:UnificationXref rdf:nodeID="interpro_IPR006670"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INTERPRO</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPR006670</bp:id></bp:UnificationXref><bp:PhysicalEntity rdf:nodeID="BIOMODEL_X"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X</bp:name><bp:xref rdf:nodeID="GENE_ONTOLOGY_0005680" /><bp:xref rdf:nodeID="reactome_REACT_7165.1" /></bp:PhysicalEntity><bp:UnificationXref rdf:nodeID="reactome_REACT_7165.1"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REACTOME</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REACT_7165.1</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="GENE_ONTOLOGY_0005680"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENE_ONTOLOGY</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005680</bp:id></bp:UnificationXref><bp:BiochemicalReaction rdf:nodeID="BIOMODEL_reaction1"><bp:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reaction1</bp:name><bp:xref rdf:nodeID="GENE_ONTOLOGY_0006412" /></bp:BiochemicalReaction><bp:UnificationXref rdf:nodeID="GENE_ONTOLOGY_0006412"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENE_ONTOLOGY</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006412</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="uniprot_P24033"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P24033</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="GENE_ONTOLOGY_0008054"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENE_ONTOLOGY</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0008054</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="ec-code_2.7.10.2"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC-CODE</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.7.10.2</bp:id></bp:UnificationXref><bp:UnificationXref rdf:nodeID="uniprot_Q4KLA0"><bp:db rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UNIPROT</bp:db><bp:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q4KLA0</bp:id></bp:UnificationXref></rdf:RDF></pathwayModel><relationshipModel><RMNS version="3.0"><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_reaction3)" bioModelObjectID="ReactionStep(reaction3)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_reaction2)" bioModelObjectID="ReactionStep(reaction2)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_reaction4)" bioModelObjectID="ReactionStep(reaction4)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_C)" bioModelObjectID="SpeciesContext(cyclin)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_X)" bioModelObjectID="SpeciesContext(cyclin_protease)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_reaction1)" bioModelObjectID="ReactionStep(reaction1)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_reaction5)" bioModelObjectID="ReactionStep(reaction5)" /><RelationshipObject bioPaxObjectID="BioPaxObject(BIOMODEL_M)" bioModelObjectID="SpeciesContext(cdc2_kinase)" /></RMNS></relationshipModel><vcmetadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1563978890"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node0"><rdf:_1><rdf:Description rdf:about="urn:miriam:obo.go:GO%3A0005680" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1821845547"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node1"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:Q4KLA0" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/966276159"><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node2"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P35567" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node3"><rdf:_1><rdf:Description rdf:about="urn:miriam:uniprot:P24033" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_180340"><bqbiol:hasTaxon xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node4"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/taxonomy/8292" /></rdf:_1></rdf:Bag></bqbiol:hasTaxon><bqbiol:isHomologTo xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node5"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/reactome/REACT_152" /></rdf:_1></rdf:Bag></bqbiol:isHomologTo><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node6"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/kegg.pathway/hsa04110" /></rdf:_1><rdf:_2><rdf:Description rdf:about="http://identifiers.org/go/GO:0000278" /></rdf:_2></rdf:Bag></bqbiol:isVersionOf><bqmodel:is xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node7"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/biomodels.db/MODEL6614271263" /></rdf:_1></rdf:Bag></bqmodel:is><bqmodel:is xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node8"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/biomodels.db/BIOMD0000000003" /></rdf:_1></rdf:Bag></bqmodel:is><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node9"><rdf:_1><rdf:Description rdf:about="urn:miriam:doi:10.1073%2Fpnas.88.20.9107" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/"><rdf:Bag rdf:nodeID="node10"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/pubmed/1833774" /></rdf:_1></rdf:Bag></bqmodel:isDescribedBy><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Bag rdf:nodeID="node11"><rdf:_1><rdf:Description rdf:nodeID="node24"><vcard:EMAIL xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">bshapiro@jpl.nasa.gov</vcard:EMAIL><vcard:N xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node26"><vcard:Family>Shapiro</vcard:Family><vcard:Given>Bruce</vcard:Given></rdf:Description></vcard:N><vcard:ORG xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node27"><vcard:Orgname>NASA Jet Propulsion Laboratory</vcard:Orgname></rdf:Description></vcard:ORG></rdf:Description></rdf:_1><rdf:_2><rdf:Description rdf:nodeID="node25"><vcard:EMAIL xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">viji@ebi.ac.uk</vcard:EMAIL><vcard:N xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node28"><vcard:Family>Chelliah</vcard:Family><vcard:Given>Vijayalakshmi</vcard:Given></rdf:Description></vcard:N><vcard:ORG xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"><rdf:Description rdf:nodeID="node29"><vcard:Orgname>EMBL-EBI</vcard:Orgname></rdf:Description></vcard:ORG></rdf:Description></rdf:_2></rdf:Bag></dc:creator><dcterms:created xmlns:dcterms="http://purl.org/dc/terms/"><rdf:Description rdf:nodeID="node12"><dcterms:W3CDTF>2005-02-06T23:39:40Z</dcterms:W3CDTF></rdf:Description></dcterms:created><dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/"><rdf:Description rdf:nodeID="node13"><dcterms:W3CDTF>2013-05-16T14:38:01Z</dcterms:W3CDTF></rdf:Description></dcterms:modified></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230461"><bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node14"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0005623" /></rdf:_1></rdf:Bag></bqbiol:is></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230475"><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node15"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/uniprot/Q4KLA0" /></rdf:_1><rdf:_2><rdf:Description rdf:about="http://identifiers.org/interpro/IPR006670" /></rdf:_2></rdf:Bag></bqbiol:isVersionOf></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230495"><bqbiol:hasVersion xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node16"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/uniprot/P24033" /></rdf:_1><rdf:_2><rdf:Description rdf:about="http://identifiers.org/uniprot/P35567" /></rdf:_2></rdf:Bag></bqbiol:hasVersion></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230515"><bqbiol:hasVersion xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node17"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/reactome/REACT_7165.1" /></rdf:_1></rdf:Bag></bqbiol:hasVersion><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node18"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0005680" /></rdf:_1></rdf:Bag></bqbiol:isVersionOf></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230535"><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node19"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0006412" /></rdf:_1></rdf:Bag></bqbiol:isVersionOf></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230555"><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node20"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0008054" /></rdf:_1></rdf:Bag></bqbiol:isVersionOf></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230575"><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node21"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/go/GO:0008054" /></rdf:_1></rdf:Bag></bqbiol:isVersionOf></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230595"><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node22"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/ec-code/3.1.3.16" /></rdf:_1><rdf:_2><rdf:Description rdf:about="http://identifiers.org/go/GO:0045737" /></rdf:_2><rdf:_3><rdf:Description rdf:about="http://identifiers.org/go/GO:0006470" /></rdf:_3></rdf:Bag></bqbiol:isVersionOf></rdf:Description><rdf:Description rdf:about="http://www.sbml.org/sbml/level2/version4/_230615"><bqbiol:isVersionOf xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"><rdf:Bag rdf:nodeID="node23"><rdf:_1><rdf:Description rdf:about="http://identifiers.org/ec-code/2.7.10.2" /></rdf:_1><rdf:_2><rdf:Description rdf:about="http://identifiers.org/go/GO:0045736" /></rdf:_2><rdf:_3><rdf:Description rdf:about="http://identifiers.org/go/GO:0006468" /></rdf:_3></rdf:Bag></bqbiol:isVersionOf></rdf:Description></rdf:RDF><nonrdfAnnotationList><nonrdfAnnotation vcid="Species(C)"><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="MolecularType(cyclin)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      &#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(reaction7)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      deactivation of cyclin protease&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(reaction5)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      deactivation of cdc2 kinase&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(reaction4)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      activation of cdc2 kinase&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(reaction1)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      creation of cyclin&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(reaction6)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      activation of cyclin protease&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="Structure(cell)"><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(cdc2_kinase)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+&#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      &#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(reaction2)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      default degradation of cyclin&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="MolecularType(cyclin_protease)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="ReactionStep(reaction3)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+    &lt;p style="margin-top: 0"&gt;&#xD;
+      cdc2kinase triggered degradation of cyclin&#xD;
+    &lt;/p&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="BioModel(CM_PM1833774)"><freetext>&lt;html&gt;
+  &lt;head&gt;
+    
+  &lt;/head&gt;
+  &lt;body xmlns="http://www.w3.org/1999/xhtml"&gt;
+    &lt;div class="dc:title"&gt;
+      Goldbeter1991 - Min Mit Oscil
+    &lt;/div&gt;
+    &lt;div class="dc:description"&gt;
+      &lt;p&gt;
+        Minimal cascade model for the mitotic oscillator involving cyclin and 
+        cdc2 kinase.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="dc:provenance"&gt;
+      &lt;p&gt;
+        This model has been generated by MathSBML 2.4.6 (14-January-2005) 
+        14-January-2005 18:33:39.806932.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="dc:bibliographicCitation"&gt;
+      &lt;p&gt;
+        This model is described in the article:
+      &lt;/p&gt;
+      &lt;div class="bibo:title"&gt;
+        &lt;a href="http://identifiers.org/pubmed/1833774" title="Access to this publication"&gt;A 
+        minimal cascade model for the mitotic oscillator involving cyclin and 
+        cdc2 kinase.&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="bibo:authorList"&gt;
+        Goldbeter A.
+      &lt;/div&gt;
+      &lt;div class="bibo:Journal"&gt;
+        Proc. Natl. Acad. Sci. U.S.A. 1991; 88(20):9107-11
+      &lt;/div&gt;
+      &lt;p&gt;
+        Abstract:
+      &lt;/p&gt;
+      &lt;div class="bibo:abstract"&gt;
+        &lt;p&gt;
+          A minimal model for the mitotic oscillator is presented. The model, 
+          built on recent experimental advances, is based on the cascade of 
+          post-translational modification that modulates the activity of cdc2 
+          kinase during the cell cycle. The model pertains to the situation 
+          encountered in early amphibian embryos, where the accumulation of 
+          cyclin suffices to trigger the onset of mitosis. In the first cycle 
+          of the bicyclic cascade model, cyclin promotes the activation of 
+          cdc2 kinase through reversible dephosphorylation, and in the second 
+          cycle, cdc2 kinase activates a cyclin protease by reversible 
+          phosphorylation. That cyclin activates cdc2 kinase while the kinase 
+          triggers the degradation of cyclin has suggested that oscillations 
+          may originate from such a negative feedback loop [F&amp;#239;&amp;#191;&amp;#189;lix, M. A., 
+          Labb&amp;#239;&amp;#191;&amp;#189;, J. C., Dor&amp;#239;&amp;#191;&amp;#189;e, M., Hunt, T. &amp;amp; Karsenti, E. (1990) Nature 
+          (London) 346, 379-382]. This conjecture is corroborated by the 
+          model, which indicates that sustained oscillations of the limit 
+          cycle type can arise in the cascade, provided that a threshold 
+          exists in the activation of cdc2 kinase by cyclin and in the 
+          activation of cyclin proteolysis by cdc2 kinase. The analysis shows 
+          how miototic oscillations may readily arise from time lags 
+          associated with these thresholds and from the delayed negative 
+          feedback provided by cdc2-induced cyclin degradation. A mechanism 
+          for the origin of the thresholds is proposed in terms of the 
+          phenomenon of zero-order ultrasensitivity previously described for 
+          biochemical systems regulated by covalent modification.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="dc:publisher"&gt;
+      &lt;p&gt;
+        This model is hosted on &lt;a href="http://www.ebi.ac.uk/biomodels/"&gt;BioModels 
+        Database&lt;/a&gt; and identified by: &lt;a href="http://identifiers.org/biomodels.db/BIOMD0000000003"&gt;BIOMD0000000003&lt;/a&gt; 
+        .
+      &lt;/p&gt;
+      &lt;p&gt;
+        To cite BioModels Database, please use: &lt;a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication"&gt;BioModels 
+        Database: An enhanced, curated and annotated resource for published 
+        quantitative kinetic models&lt;/a&gt; .
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="dc:license"&gt;
+      &lt;p&gt;
+        To the extent possible under law, all copyright and related or 
+        neighbouring rights to this encoded model have been dedicated to the 
+        public domain worldwide. Please refer to &lt;a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication"&gt;CC0 
+        Public Domain Dedication&lt;/a&gt; for more information.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</freetext><annotationList><annotation>
+      </annotation><annotation>
+    </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="Species(M)"><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="Species(X)"><annotationList><annotation>
+          </annotation><annotation>
+        </annotation></annotationList></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(cyclin_protease)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation><nonrdfAnnotation vcid="SpeciesContext(cyclin)"><freetext>&lt;html&gt;&#xD;
+  &lt;head&gt;&#xD;
+    &#xD;
+  &lt;/head&gt;&#xD;
+  &lt;body&gt;&#xD;
+  &lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</freetext></nonrdfAnnotation></nonrdfAnnotationList><uriBindingList><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230535" vcid="ReactionStep(reaction1)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230475" vcid="Species(C)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230595" vcid="ReactionStep(reaction4)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230461" vcid="Structure(cell)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230635" vcid="ReactionStep(reaction6)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230515" vcid="Species(X)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230495" vcid="Species(M)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_180340" vcid="BioModel(CM_PM1833774)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1821845547" vcid="MolecularType(cyclin)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230575" vcid="ReactionStep(reaction3)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230615" vcid="ReactionStep(reaction5)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230655" vcid="ReactionStep(reaction7)" /><uriBinding uri="http://www.sbml.org/sbml/level2/version4/_230555" vcid="ReactionStep(reaction2)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/966276159" vcid="MolecularType(cdc2_kinase)" /><uriBinding uri="http://sourceforge.net/projects/vcell/vcml/org.vcell.model.rbm.MolecularType/1563978890" vcid="MolecularType(cyclin_protease)" /></uriBindingList></vcmetadata></BioModel></vcml>

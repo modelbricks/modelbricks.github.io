@@ -37,6 +37,11 @@ permalink: /egfrlist/
      <td bgcolor="#EBF5FB">
           <ul>
           <li><a href="/CM_PM12648679_Y998"> Interactions related to Y998 tyrosine residue (VAV2, ...)</a></li>
+          <li><a href="/CM_PM12648679_Y1016"> Interactions related to Y1016 tyrosine residue (VAV2, ...)</a></li>    
+          <li><a href="/CM_PM12648679_Y1092"> Interactions related to Y1092 tyrosine residue (VAV2, ...)</a></li>  
+          <li><a href="/CM_PM12648679_Y1110"> Interactions related to Y1110 tyrosine residue (VAV2, ...)</a></li>
+          <li><a href="/CM_PM12648679_Y1172"> Interactions related to Y1172 tyrosine residue (VAV2, ...)</a></li>     
+          <li><a href="/CM_PM12648679_Y1197"> Interactions related to Y1197 tyrosine residue (VAV2, ...)</a></li>     
           <li><a href="/CM_PM12648679_/"> Protein phosphorylation</a></li>
           <li><a href="/CM_PM12648679_MB3/"> Perfectly adapted signal response</a></li>
           </ul>

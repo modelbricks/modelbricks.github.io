@@ -8,15 +8,14 @@ permalink: /CM_PM25863072_Y1016/
 ### Publication 
 
 Edward C.Stites, Meraj Aziz, Matthew S. Creamer, Daniel D. Von Hoff, Richard G. Posner, William S. Hlavacek. Use of mechanistic models to integrate and analyze multiple proteomic datasets, Volume 108, Issue 7, 7 April 2015, Pages 1819-1829 
+ 
  PMID:<a href="https://www.ncbi.nlm.nih.gov/pubmed/25863072">25863072</a>&ensp; 
  DOI: <a href="https://doi.org/10.1016/j.bpj.2015.02.030">10.1016/j.bpj.2015.02.030 </a><br />
 
 ### Description
-
 This model describes the binding and phosphorilation of EGFR by many different proteins which can bind to six different receptors. This ModelBrick describes the binding of proteins to the 1092 receptor. A complete description can be found in the paper linked at the publication section.  
 
 ### The curated model
-
 <center>
  <table> 
  <tr>
@@ -31,7 +30,6 @@ This model describes the binding and phosphorilation of EGFR by many different p
 </center>
 
 ### Downloads
-
 <center>
 <table> 
  <td align="center"><a href="/modelbricks/VCML_SBMLfiles/AKAP7_PLB_Binding_2PKA_links.vcml">VCML</a> designed with <a href="http://vcell.org"> VCell</a>  </td> 
@@ -54,5 +52,7 @@ This model describes the binding and phosphorilation of EGFR by many different p
  </li>
 </ol>  
 
+
 ### Contributors
 Bushrah Khan, Riley Steinberg, Michael Blinov
+

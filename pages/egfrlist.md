@@ -46,3 +46,6 @@ permalink: /egfrlist/
      </td>
 </tr>
 </table>
+
+### Contributors
+Bushrah Khan, Riley Steinberg, Michael Blinov

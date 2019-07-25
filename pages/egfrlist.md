@@ -20,7 +20,7 @@ permalink: /egfrlist/
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
-          <li><a href="/pages/CM_PM25863072_Y998.md/"> Interactions related to Y998 tyrosine residue</a></li>
+          <li><a href="/pages/CM_Stites_EGFR.md/"> Curated Model by Stites et al.</a></li>
           <li><a href="/CM_PM25863072_/"> Protein phosphorylation</a></li>
           <li><a href="/CM_PM25863072_MB3/"> Perfectly adapted signal response</a></li>
           </ul>
@@ -42,8 +42,6 @@ permalink: /egfrlist/
           <li><a href="/pages/CM_PM25863072_Y1110.md"> Interactions related to Y1110 tyrosine residue </a></li>
           <li><a href="/pages/CM_PM25863072_Y1172.md"> Interactions related to Y1172 tyrosine residue </a></li>     
           <li><a href="/pages/CM_PM25863072_Y1197.md"> Interactions related to Y1197 tyrosine residue </a></li>     
-          <li><a href="/pages/CM_PM25863072_/"> Protein phosphorylation</a></li>
-          <li><a href="/pages/CM_PM25863072_MB3/"> Perfectly adapted signal response</a></li>
           </ul>
      </td>
 </tr>

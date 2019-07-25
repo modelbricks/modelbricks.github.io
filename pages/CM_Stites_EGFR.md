@@ -19,7 +19,7 @@ This model describes the binding and phosphorilation of EGFR by many different p
 <center>
  <table> 
  <tr>
-  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/CM_AKAP_complete.PNG"><img align="center" src="/images/Vcellimages/CM_AKAP_complete.PNG"/></a></td>
+  <td align="center" width="280"><a href="https://modelbricks.github.io/images/Vcellimages/Stites%20EGFR.PNG"><img align="center" src="/images/Vcellimages/Stites%20EGFR.PNG"/></a></td>
     <td align="center" width="280"><a href="https://modelbricks.github.io/images/SBGNfiles/AKAP_PKA_cAMP_SBGN.PNG"><img align="center" src="/images/SBGNfiles/AKAP_PKA_cAMP_SBGN.PNG" height="230"/></a></td>
  </tr>
  <tr>

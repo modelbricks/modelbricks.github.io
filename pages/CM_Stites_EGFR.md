@@ -13,7 +13,7 @@ Edward C. Stites, Meraj Aziz, Matthew S. Creamer, Daniel D. Von Hoff, Richard G.
  DOI: <a href="https://doi.org/10.1016/j.bpj.2015.02.030">10.1016/j.bpj.2015.02.030 </a><br />
 
 ### Description
-This model describes the binding and phosphorilation of EGFR by many different proteins which can bind to six different receptors. A complete description can be found in the paper linked at the publication section. This completed and curated model has been broken into the # model bricks listed under <li> <a href="http://modelbricks.org/pages/egfrlist.md/"> EGFR Rule-Based ModelBricks.</a>  
+This model describes the binding and phosphorilation of EGFR by many different proteins which can bind to six different receptors. A complete description can be found in the paper linked at the publication section. This completed and curated model has been broken into the # model bricks listed under <a href="http://modelbricks.org/egfrlist/"> EGFR Rule-Based ModelBricks.</a>  
 
 ### The curated model
 <center>

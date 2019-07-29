@@ -46,7 +46,9 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/24034255 ">PMID: 24034255 </a>)
      </td>
      <td bgcolor="#EBF5FB">
-          <p><i> PDGF regulated activation of Src </i></p>
+          <ul>
+          <li><a href="http://modelbricks.org/MB_PDGF_Src/">PDGF regulated activation of Src</a></li>
+          </ul>
      </td>
 </tr>
 <tr>

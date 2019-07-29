@@ -96,7 +96,9 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/1833774">PMID: 1833774</a>)
      </td>
      <td bgcolor="#EBF5FB">
-          <p><i> mitotic oscillator </i></p>
+          <ul>
+          <li><a href="http://modelbricks.org/CM_PM1833774/">Mitotic oscillator</a></li>
+          </ul>
      </td>
 </tr>
 <tr>
@@ -105,7 +107,9 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/14622248">PMID: 14622248</a>)
      </td>
      <td bgcolor="#D6EAF8">
-          <p><i> Methionine and Threonine Pathways </i></p>
+          <ul>
+          <li><a href="http://modelbricks.org/CM_PM14622248/">Methionine and Threonine Pathways</a></li>
+          </ul>
      </td>
 </tr>
 <tr>
@@ -114,7 +118,9 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/24997239">PMID: 24997239</a>)
      </td>
      <td bgcolor="#EBF5FB">
-          <p><i> HIV latency </i></p>
+          <ul>
+          <li><a href="http://modelbricks.org/CM_PM24997239/"> HIV latency </i></p>
+          </ul>
      </td>
 </tr>
 <tr>
@@ -146,7 +152,9 @@ permalink: /modelbrickslist/
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/27768873">PMID: 27768873</a>)
      </td>
      <td bgcolor="#D6EAF8">
-          <p><i> Positive feedback in mitosis </i></p>
+          <ul>
+          <li><a href="http://modelbricks.org/CM_PM27768873/"> Positive feedback in mitosis</a></li>
+          </ul>
      </td>
 </tr>
 <tr>

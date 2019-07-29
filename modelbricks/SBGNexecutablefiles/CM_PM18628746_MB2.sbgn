@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph id="glyph5" class="source and sink">
+            <bbox y="505.0" x="1330.0" h="40.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph8" class="source and sink">
+            <bbox y="345.0" x="1320.0" h="50.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph11" class="process">
+            <bbox y="358.0" x="1188.0" h="24.0" w="24.0"/>
+            <port y="370.0" x="1176.0" id="glyph11.1"/>
+            <port y="370.0" x="1224.0" id="glyph11.2"/>
+        </glyph>
+        <glyph id="glyph2" class="process">
+            <bbox y="208.0" x="1108.0" h="24.0" w="24.0"/>
+            <port y="220.0" x="1144.0" id="glyph2.2"/>
+            <port y="220.0" x="1096.0" id="glyph2.1"/>
+        </glyph>
+        <glyph id="glyph4" class="macromolecule">
+            <label text="Rab7"/>
+            <bbox y="190.0" x="736.0" h="60.0" w="108.0"/>
+            <glyph id="glyph4a" class="state variable">
+                <state value="GTP"/>
+                <bbox y="176.0" x="739.0" h="28.0" w="48.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph2" class="macromolecule">
+            <label text="Rab5"/>
+            <bbox y="505.0" x="586.0" h="60.0" w="108.0"/>
+            <glyph id="glyph2a" class="state variable">
+                <state value="GTP"/>
+                <bbox y="491.0" x="589.0" h="28.0" w="48.0"/>
+            </glyph>
+        </glyph>
+        <glyph id="glyph2" class="process">
+            <bbox y="453.0" x="803.0" h="24.0" w="24.0"/>
+            <port y="465.0" x="839.0" id="glyph2.2"/>
+            <port y="465.0" x="791.0" id="glyph2.1"/>
+        </glyph>
+        <glyph id="glyph2" class="process">
+            <bbox y="338.0" x="963.0" h="24.0" w="24.0"/>
+            <port y="350.0" x="951.0" id="glyph2.1"/>
+            <port y="350.0" x="999.0" id="glyph2.2"/>
+        </glyph>
+        <glyph id="glyph1" class="macromolecule">
+            <label text="Rab7"/>
+            <bbox y="435.0" x="1091.0" h="60.0" w="108.0"/>
+            <glyph id="glyph1a" class="state variable">
+                <state value="GDP"/>
+                <bbox y="421.0" x="1093.5" h="28.0" w="49.0"/>
+            </glyph>
+        </glyph>
+        <arc target="glyph1" source="glyph11.1" id="arc12" class="production">
+            <start y="370.0" x="1176.0"/>
+            <end y="435.0" x="1162.3684"/>
+        </arc>
+        <arc target="glyph11.2" source="glyph8" id="arc17" class="consumption">
+            <start y="370.0" x="1320.0"/>
+            <end y="370.0" x="1224.0"/>
+        </arc>
+        <arc target="glyph2.1" source="glyph4" id="arc1" class="consumption">
+            <start y="250.0" x="827.1539"/>
+            <end y="350.0" x="951.0"/>
+        </arc>
+        <arc target="glyph2.2" source="glyph1" id="arc2" class="consumption">
+            <start y="435.0" x="1144.8776"/>
+            <end y="220.0" x="1144.0"/>
+        </arc>
+        <arc target="glyph2.2" source="glyph1" id="arc3" class="consumption">
+            <start y="465.0" x="1091.0"/>
+            <end y="465.0" x="839.0"/>
+        </arc>
+        <arc target="glyph4" source="glyph2.1" id="arc4" class="production">
+            <start y="220.0" x="1096.0"/>
+            <end y="220.0" x="844.0"/>
+        </arc>
+        <arc target="glyph4" source="glyph2.1" id="arc5" class="production">
+            <start y="465.0" x="791.0"/>
+            <end y="250.0" x="793.0612"/>
+        </arc>
+        <arc target="glyph2" source="glyph2" id="arc6" class="stimulation">
+            <start y="513.4" x="694.0"/>
+            <end y="469.8" x="803.0"/>
+        </arc>
+        <arc target="glyph1" source="glyph2.2" id="arc7" class="production">
+            <start y="350.0" x="999.0"/>
+            <end y="435.0" x="1100.6522"/>
+        </arc>
+    </map>
+</sbgn>

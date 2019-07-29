@@ -119,7 +119,7 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
-          <li><a href="http://modelbricks.org/CM_PM24997239/"> HIV latency </i></p>
+          <li><a href="http://modelbricks.org/CM_PM24997239/"> HIV latency</a></li>
           </ul>
      </td>
 </tr>

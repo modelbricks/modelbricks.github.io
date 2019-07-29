@@ -15,7 +15,7 @@ permalink: /egfrlist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB" > Stites... <br>
-     (<a href="/pages/CM_Stites_EGFR/">Curated VCell model</a>, 
+     (<a href="/pages/CM_PM25863072/">Curated VCell model</a>, 
       <a href="https://www.ncbi.nlm.nih.gov/pubmed/25863072">PMID:25863072</a>)
      </td>
      <td bgcolor="#EBF5FB">

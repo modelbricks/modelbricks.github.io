@@ -29,6 +29,33 @@ The creation of ModelBricks begins with a full model. As an example, we can take
 
 In this publication, the authors are investigating possible positive regulation of Rho GTPase activity by RhoGDIs. Rho family GTPases act as molecular switches, controlling processes including actin cytoskeletal organization, microtubule dynamics, and vesicle trafficking. Guanine nucleotide exchange factors (GEFs) activate small G proteins by promoting the exchange of GDP for GTP. GTPase activating proteins (GAPs) inactivate small G proteins by promoting GTP hydrolysis. GDP-dissociation inhibitors (GDIs) have both a negative and a positive role in the Rho GTPase cycle. The negative role is to suppress overall Rho activity by inhibiting GEFs, while the positive role is to sustain Rho activation by inhibiting GAPs.
 
+The SBML file provided in the publication was first imported into VCell. Simulations were run in VCell and confirmed to replicate those from the publication. As the concentration of intracellular free GDIs increases, Rho activation is prolonged, despite the overall decrease in Rho activity over time.
+
+<center>
+  <table>
+    <td align="center" width="300">
+      <a href="https://modelbricks.github.io/images/publications/CM_PM25628036_Sim2B.PNG">
+        <img width="250" style="vertical-align:middle" src="/images/publications/CM_PM25628036_Sim2B.PNG"/>
+      </a>
+    </td>
+    <td align="center" width="300">
+      <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_Sim2B_VCell.png">
+        <img width="250" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_Sim2B_VCell.png"/>
+      </a>
+    </td>
+    <tr>
+      <td align="center"> 
+        Simulation: Publication
+        <br />
+        Figure 2B
+      </td>
+      <td align="center">
+        VCell: Simulation
+      </td>
+    </tr>
+  </table>
+</center>
+
 ## Annotating the model
 
 <center>
@@ -46,7 +73,7 @@ In this publication, the authors are investigating possible positive regulation 
   </table>
 </center>
 
-The SBML file provided in the publication was first imported into VCell. The model was then fully annotated to yield a more thorough understanding of the model for the viewer. Both textual and database annotations were added. 
+The model was then fully annotated to yield a more thorough understanding of the model for the viewer. Both textual and database annotations were added. 
 
 <center>
   <table>
@@ -75,33 +102,6 @@ Species were modified so that they were constructed of individual molecules. By 
     <tr>
       <td align="center"> 
         Species composed of individual molecules
-      </td>
-    </tr>
-  </table>
-</center>
-
-Once the model was fully annotated, simulations were run in VCell and confirmed to replicate those from the publication.
-
-<center>
-  <table>
-    <td align="center" width="300">
-      <a href="https://modelbricks.github.io/images/publications/CM_PM25628036_Sim2B.PNG">
-        <img width="250" style="vertical-align:middle" src="/images/publications/CM_PM25628036_Sim2B.PNG"/>
-      </a>
-    </td>
-    <td align="center" width="300">
-      <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_Sim2B_VCell.png">
-        <img width="250" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_Sim2B_VCell.png"/>
-      </a>
-    </td>
-    <tr>
-      <td align="center"> 
-        Simulation: Publication
-        <br />
-        Figure 2B
-      </td>
-      <td align="center">
-        VCell: Simulation
       </td>
     </tr>
   </table>

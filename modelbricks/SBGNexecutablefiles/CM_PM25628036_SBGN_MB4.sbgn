@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="process" orientation="horizontal" id="pnre6">
+            <bbox w="10.0" h="10.0" x="274.0" y="350.9"/>
+            <port id="pnre6.L" x="274.0" y="355.9"/>
+            <port id="pnre6.R" x="284.0" y="355.9"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnre7">
+            <bbox w="10.0" h="10.0" x="473.5" y="298.4"/>
+            <port id="pnre7.L" x="473.5" y="303.4"/>
+            <port id="pnre7.R" x="483.5" y="303.4"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa6">
+            <label text="GDI"/>
+            <bbox w="80.0" h="40.0" x="337.41666" y="310.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa7">
+            <label text="GTP-Rho"/>
+            <bbox w="80.0" h="40.0" x="532.4167" y="310.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa8">
+            <label text="GDP-Rho"/>
+            <bbox w="80.0" h="40.0" x="143.25" y="310.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa10">
+            <label text="GTP-Rho"/>
+            <bbox w="80.0" h="40.0" x="439.25" y="191.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa11">
+            <label text="GDI"/>
+            <bbox w="80.0" h="40.0" x="439.25" y="231.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa14">
+            <label text="GDP-Rho"/>
+            <bbox w="80.0" h="40.0" x="239.25" y="387.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa15">
+            <label text="GDI"/>
+            <bbox w="80.0" h="40.0" x="239.25" y="427.0"/>
+        </glyph>
+        <glyph class="complex" id="csa1">
+            <label text="GDI·GTP-Rho"/>
+            <bbox w="90.0" h="90.0" x="434.25" y="187.0"/>
+        </glyph>
+        <glyph class="complex" id="csa3">
+            <label text="GDI·GDP-Rho"/>
+            <bbox w="93.0" h="93.0" x="233.25" y="380.0"/>
+        </glyph>
+        <arc class="consumption" id="re6-react0" source="sa8" target="pnre6.L">
+            <start x="223.25" y="330.0"/>
+            <next x="278.75" y="332.0"/>
+            <end x="274.0" y="355.9"/>
+        </arc>
+        <arc class="production" id="re6-product0" source="pnre6.R" target="csa3">
+            <start x="284.0" y="355.9"/>
+            <end x="279.5" y="380.0"/>
+        </arc>
+        <arc class="consumption" id="re6-react1" source="sa6" target="pnre6.L">
+            <start x="337.41666" y="330.0"/>
+            <next x="278.75" y="332.0"/>
+            <end x="274.0" y="355.9"/>
+        </arc>
+        <arc class="consumption" id="re7-react0" source="sa6" target="pnre7.L">
+            <start x="417.41666" y="330.0"/>
+            <next x="478.25" y="330.0"/>
+            <end x="473.5" y="303.4"/>
+        </arc>
+        <arc class="production" id="re7-product0" source="pnre7.R" target="csa1">
+            <start x="483.5" y="303.4"/>
+            <end x="479.0" y="277.0"/>
+        </arc>
+        <arc class="consumption" id="re7-react1" source="sa7" target="pnre7.L">
+            <start x="532.4167" y="330.0"/>
+            <next x="478.25" y="330.0"/>
+            <end x="473.5" y="303.4"/>
+        </arc>
+    </map>
+</sbgn>

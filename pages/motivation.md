@@ -33,7 +33,7 @@ identifiable, (3) association with model specific numerical parameters as well a
   <table>
    <tr>
     <td align="center"><a href="https://modelbricks.github.io/images/solution_loop1.gif">
-      <image src="/images/solution_loop1"/></a></td> 
+      <image src="/images/solution_loop1.gif"/></a></td> 
    </tr>
    <tr>
      <td align="center"> <strong> Figure 2 </strong></td>

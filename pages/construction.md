@@ -109,7 +109,15 @@ Once the model was fully annotated, simulations were run in VCell and confirmed 
 
 ## ModelBrick creation
 
-daigram of first two modelbricks splitting HERE
+<center>
+  <table>
+    <td align="center" width="500">
+      <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_bricks1.png">
+        <img width="450" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_bricks1.png"/>
+      </a>
+    </td>
+  </table>
+</center>
 
 The first ModelBrick derived from the full model describes the activation of GEF and the degradation of the activator. The remaining large and complex ModelBrick can be further broken down into additional ModelBricks.
 

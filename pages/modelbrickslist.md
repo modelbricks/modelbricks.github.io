@@ -43,7 +43,7 @@ permalink: /modelbrickslist/
 <tr>
      <td bgcolor="#EBF5FB"> PDGF regulated activation of Src <br>
           (<a href="http://modelbricks.org/MB_PDGF_Src/">Curated VCell model</a>,
-          <a href="https://www.ncbi.nlm.nih.gov/pubmed/24034255 ">PMID: 24034255 </a>)
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/24034255 ">PMID: 24034255</a>)
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
@@ -164,7 +164,7 @@ permalink: /modelbrickslist/
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
-          <li><a href="http://modelbricks.org/CM_PM22393022_MB1/">gravitropism reduced model</a></li>
+          <li><a href="http://modelbricks.org/CM_PM22393022_MB1/">Gravitropism reduced model</a></li>
           <li><a href="http://modelbricks.org/CM_PM22393022_MB2/">Auxin/TIR1 binding</a></li>
           </ul>
      </td>

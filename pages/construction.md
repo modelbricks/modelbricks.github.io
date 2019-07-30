@@ -13,12 +13,12 @@ The creation of ModelBricks begins with a full model. As an example, we can take
 <center>
   <table>
     <td align="center" width="500">
-      <a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG">
-        <img width="450" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"/>
+      <a href="https://modelbricks.github.io/images/publications/CM_PM25628036_SBGN.PNG">
+        <img width="450" style="vertical-align:middle" src="/images/publications/CM_PM25628036_SBGN.PNG"/>
       </a>
     </td>
     <tr>
-      <td> 
+      <td align="center"> 
         SBGN visualization
         <br />
         Figure 1B from publication

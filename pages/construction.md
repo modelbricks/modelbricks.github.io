@@ -68,8 +68,8 @@ Species were modified so that they were constructed of individual molecules. By 
 <center>
   <table>
     <td align="center" width="600">
-      <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_molecularization.PNG">
-        <img width="550" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_molecularization.PNG"/>
+      <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_molecularization.png">
+        <img width="550" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_molecularization.png"/>
       </a>
     </td>
     <tr>

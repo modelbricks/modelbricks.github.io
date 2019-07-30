@@ -10,15 +10,14 @@ Most computational models in biology are built and intended for “single-use”
 where the assumptions are unknown, and molecules and pathways are not uniquely identified. As shown in figure 1, simply recreating a simulation result from a publication can be daunting; extending and expanding models to new and more complex situations is a Herculean task. As a result, new models are almost always created anew from scratch, repeating literature searches for kinetic parameters, 
 initial conditions and modeling specifics.  It is akin to building a brick house starting with a pile of clay.
 <br>
-<table>
-  <center>
+<center>
+  <table>
   <td> 
-  <tr><image src="/images/problems1loop.gif"/></tr> 
-  <tr> Figure 1 </tr>
+  <tr><image src="/images/problems_1loop.gif"/></tr> 
+  <tr align="center"> Figure 1 </tr>
   </td> 
-  </center>
- </table>
-
+  </table>
+</center>
 <br>
 Here we introduce a new concept for building annotated, reusable models, by starting with small well-annotated modules we 
 call ModelBricks.  Curated ModelBricks, accessible through an open database, could be used to construct new models that will 

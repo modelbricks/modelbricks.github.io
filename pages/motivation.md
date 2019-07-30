@@ -12,10 +12,10 @@ initial conditions and modeling specifics.  It is akin to building a brick house
 <br>
 <center>
   <table>
-  <td> 
-  <tr><image src="/images/problems_1loop.gif"/></tr> 
-  <tr align="center"> Figure 1 </tr>
-  </td> 
+    <td> <image src="/images/problems_1loop.gif"/></td> 
+   <tr>
+    <td align="center"> <strong> Figure 1 </td>
+   </tr>
   </table>
 </center>
 <br>
@@ -23,12 +23,16 @@ Here we introduce a new concept for building annotated, reusable models, by star
 call ModelBricks.  Curated ModelBricks, accessible through an open database, could be used to construct new models that will 
 inherit ModelBricks annotations and thus be easier to understand and reuse.  Key features of ModelBricks include (1) reliance 
 on a commonly used standard language (SBML), (2) rule-based specification such that species consist of molecules that are uniquely 
-identifiable, (3) association with model specific numerical parameters as well as more common annotations.  The size, shape and 
-color of physical bricks can vary substantively; likewise, to be useful the structure of ModelBricks must be highly flexible – 
-methods to encapsulate mechanisms from single reactions to multiple reactions in a complex process must be able to be contained 
-within a ModelBrick. Ultimately, a modeler would be able to construct large models by using multiple ModelBricks, preserving 
-annotations and provenance of model elements, resulting in a highly annotated model.
+identifiable, (3) association with model specific numerical parameters as well as more common annotations,these and other chracteristics are found in Figure 2. The size, shape and color of physical bricks can vary substantively; likewise, to be useful the structure of ModelBricks must be highly flexible – methods to encapsulate mechanisms from single reactions to multiple reactions in a complex process must be able to be contained within a ModelBrick. Ultimately, a modeler would be able to construct large models by using multiple ModelBricks, preserving annotations and provenance of model elements, resulting in a highly annotated model.
 
+<center>
+  <table>
+    <td> <image src="/images/solution_1loop.gif"/></td> 
+   <tr>
+    <td align="center"> <strong> Figure 2 </td>
+   </tr>
+  </table>
+</center>
 <br><br>
 
 We present the library of ModelBricks to rapidly grow from community contributions. DOI registration can provide persistent 

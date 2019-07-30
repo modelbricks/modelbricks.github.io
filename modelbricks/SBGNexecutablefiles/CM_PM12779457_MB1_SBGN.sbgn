@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph compartmentOrder="-13.0" id="glyph2" class="compartment">
+            <label text="Cell_1">
+                <bbox y="348.0" x="298.0" h="25.0" w="64.0"/>
+            </label>
+            <bbox y="340.0" x="95.0" h="350.0" w="470.0"/>
+        </glyph>
+        <glyph id="glyph13" class="source and sink">
+            <bbox y="495.0" x="30.0" h="50.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph19" class="process">
+            <bbox y="508.0" x="498.0" h="24.0" w="24.0"/>
+            <port y="520.0" x="534.0" id="glyph19.2"/>
+        </glyph>
+        <glyph id="glyph15" class="source and sink">
+            <bbox y="500.0" x="695.0" h="40.0" w="30.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph2" id="glyph14" class="source and sink">
+            <bbox y="390.0" x="105.0" h="40.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph22" class="process">
+            <bbox y="398.0" x="373.0" h="24.0" w="24.0"/>
+            <port y="410.0" x="361.0" id="glyph22.1"/>
+            <port y="410.0" x="409.0" id="glyph22.2"/>
+        </glyph>
+        <glyph compartmentRef="glyph2" id="glyph11" class="source and sink">
+            <bbox y="390.0" x="445.0" h="40.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph20" class="process">
+            <bbox y="398.0" x="168.0" h="24.0" w="24.0"/>
+            <port y="410.0" x="156.0" id="glyph20.1"/>
+            <port y="410.0" x="204.0" id="glyph20.2"/>
+        </glyph>
+        <glyph compartmentRef="glyph2" id="glyph4" class="macromolecule">
+            <label text="IP3R"/>
+            <bbox y="380.0" x="236.0" h="60.0" w="108.0"/>
+        </glyph>
+        <glyph compartmentRef="glyph2" id="glyph6" class="simple chemical">
+            <label text="Ca2+"/>
+            <bbox y="480.0" x="359.0" h="80.0" w="80.0"/>
+        </glyph>
+        <glyph id="glyph7" class="source and sink">
+            <bbox y="615.0" x="35.0" h="40.0" w="30.0"/>
+        </glyph>
+        <glyph id="glyph25" class="process">
+            <bbox y="623.0" x="278.0" h="24.0" w="24.0"/>
+            <port y="635.0" x="314.0" id="glyph25.2"/>
+            <port y="635.0" x="266.0" id="glyph25.1"/>
+        </glyph>
+        <arc target="glyph19" source="glyph6" id="arc1" class="logic arc">
+            <start y="520.0" x="439.0"/>
+            <end y="520.0" x="498.0"/>
+        </arc>
+        <arc target="glyph15" source="glyph19.2" id="arc2" class="production">
+            <start y="520.0" x="534.0"/>
+            <end y="520.0" x="695.0"/>
+        </arc>
+        <arc target="glyph20.1" source="glyph14" id="arc9" class="consumption">
+            <start y="410.0" x="135.0"/>
+            <end y="410.0" x="156.0"/>
+        </arc>
+        <arc target="glyph22.1" source="glyph4" id="arc10" class="consumption">
+            <start y="410.0" x="344.0"/>
+            <end y="410.0" x="361.0"/>
+        </arc>
+        <arc target="glyph11" source="glyph22.2" id="arc11" class="production">
+            <start y="410.0" x="409.0"/>
+            <end y="410.0" x="445.0"/>
+        </arc>
+        <arc target="glyph4" source="glyph20.2" id="arc12" class="production">
+            <start y="410.0" x="204.0"/>
+            <end y="410.0" x="236.0"/>
+        </arc>
+        <arc target="glyph6" source="glyph25.2" id="arc17" class="production">
+            <start y="635.0" x="314.0"/>
+            <end y="549.0315" x="371.48322"/>
+        </arc>
+        <arc target="glyph25.1" source="glyph7" id="arc18" class="consumption">
+            <start y="635.0" x="65.0"/>
+            <end y="635.0" x="266.0"/>
+        </arc>
+    </map>
+</sbgn>

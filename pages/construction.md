@@ -31,11 +31,28 @@ In this publication, the authors are investigating possible positive regulation 
 
 ## Annotating the model
 
-diagram from VCell here (after annotations so no s1,s2,s3?)
+<center>
+  <table>
+    <td align="center" width="500">
+      <a href="https://modelbricks.github.io/images/Vcellimages/CM_RhoGTP_VCellDiagram.PNG">
+        <img width="450" style="vertical-align:middle" src="/images/Vcellimages/CM_RhoGTP_VCellDiagram.PNG"/>
+      </a>
+    </td>
+    <tr>
+      <td align="center"> 
+        VCell reaction diagram
+      </td>
+    </tr>
+  </table>
+</center>
 
 The SBML file provided in the publication was first imported into VCell. The model was then fully annotated to yield a more thorough understanding of the model for the viewer. Both textual and database annotations were added. 
 
-diagram of original to annotated HERE
+<center>
+  <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_annotation.PNG">
+    <img width="450" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_annotation.PNG"/>
+  </a>
+</center>
 
 Species were modified so that they were constructed of individual molecules. By completing this step, each species became much more comprehensive and the constituent parts are clearly shown. 
 

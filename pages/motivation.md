@@ -12,9 +12,11 @@ initial conditions and modeling specifics.  It is akin to building a brick house
 
 <center>
   <table border="1px solid black">
-    <td> <image src="/images/problems_1loop.gif"/></td> 
+    <tr>
+    <td align="center"> <a href="https://modelbricks.github.io/images/problems_1loop.gif">
+      <image src="/images/problems_1loop.gif"/> </a></td> 
    <tr>
-    <td align="center"> <strong> Figure 1 </td>
+     <td align="center"> <strong> Figure 1 </strong></td>
    </tr>
   </table>
 </center>
@@ -30,7 +32,7 @@ identifiable, (3) association with model specific numerical parameters as well a
   <table>
     <td> <image src="/images/solution_loop1.gif"/></td> 
    <tr>
-    <td align="center"> <strong> Figure 2 </td>
+    <td align="center"> <strong> Figure 2  </strong></td>
    </tr>
   </table>
 </center>

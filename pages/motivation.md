@@ -11,8 +11,12 @@ where the assumptions are unknown, and molecules and pathways are not uniquely i
 initial conditions and modeling specifics.  It is akin to building a brick house starting with a pile of clay.
 <br>
 <table>
-  <td> <image src="/images/problems.gif"/> </td>
+  <center>
+  <td> 
+  <tr><image src="/images/problems1loop.gif"/></tr> 
   <tr> Figure 1 </tr>
+  </td> 
+  </center>
  </table>
 
 <br>

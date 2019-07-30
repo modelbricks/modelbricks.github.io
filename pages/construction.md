@@ -84,14 +84,14 @@ Once the model was fully annotated, simulations were run in VCell and confirmed 
 
 <center>
   <table>
-    <td align="center" width="400">
-      <a href="https://modelbricks.github.io/images/publications/CM_PM25628036_Sim2B.png">
-        <img width="350" style="vertical-align:middle" src="/images/publications/CM_PM25628036_Sim2B.png"/>
+    <td align="center" width="300">
+      <a href="https://modelbricks.github.io/images/publications/CM_PM25628036_Sim2B.PNG">
+        <img width="250" style="vertical-align:middle" src="/images/publications/CM_PM25628036_Sim2B.PNG"/>
       </a>
     </td>
-    <td align="center" width="400">
+    <td align="center" width="300">
       <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_Sim2B_VCell.png">
-        <img width="350" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_Sim2B_VCell.png"/>
+        <img width="250" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_Sim2B_VCell.png"/>
       </a>
     </td>
     <tr>

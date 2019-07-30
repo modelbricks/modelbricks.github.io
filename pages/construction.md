@@ -10,7 +10,7 @@ permalink: construction
 
 The creation of ModelBricks begins with a full model. As an example, we can take a model of a Rho GTPase cycle which was created by Ota et al. in 2015 (PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25628036">25628036</a>). 
 
-SBGN from publication HERE
+<a href="https://modelbricks.github.io/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"><img width="300" style="vertical-align:middle" src="/images/SBGNfiles/RhoGTP_Fig1b_SBGN.PNG"/></a>
 
 In this publication, the authors are investigating possible positive regulation of Rho GTPase activity by RhoGDIs. Rho family GTPases act as molecular switches, controlling processes including actin cytoskeletal organization, microtubule dynamics, and vesicle trafficking. Guanine nucleotide exchange factors (GEFs) activate small G proteins by promoting the exchange of GDP for GTP. GTPase activating proteins (GAPs) inactivate small G proteins by promoting GTP hydrolysis. GDP-dissociation inhibitors (GDIs) have both a negative and a positive role in the Rho GTPase cycle. The negative role is to suppress overall Rho activity by inhibiting GEFs, while the positive role is to sustain Rho activation by inhibiting GAPs.
 

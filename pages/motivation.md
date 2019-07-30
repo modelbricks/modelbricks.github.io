@@ -15,6 +15,7 @@ initial conditions and modeling specifics.  It is akin to building a brick house
     <tr>
     <td align="center"> <a href="https://modelbricks.github.io/images/problems_1loop.gif">
       <image src="/images/problems_1loop.gif"/> </a></td> 
+   </tr>
    <tr>
      <td align="center"> <strong> Figure 1 </strong></td>
    </tr>
@@ -28,11 +29,14 @@ inherit ModelBricks annotations and thus be easier to understand and reuse.  Key
 on a commonly used standard language (SBML), (2) rule-based specification such that species consist of molecules that are uniquely 
 identifiable, (3) association with model specific numerical parameters as well as more common annotations,these and other chracteristics are found in Figure 2. The size, shape and color of physical bricks can vary substantively; likewise, to be useful the structure of ModelBricks must be highly flexible – methods to encapsulate mechanisms from single reactions to multiple reactions in a complex process must be able to be contained within a ModelBrick. Ultimately, a modeler would be able to construct large models by using multiple ModelBricks, preserving annotations and provenance of model elements, resulting in a highly annotated model. 
 
-<center>
+<<center>
   <table>
-    <td> <image src="/images/solution_loop1.gif"/></td> 
    <tr>
-    <td align="center"> <strong> Figure 2  </strong></td>
+    <td align="center"> <a href="https://modelbricks.github.io/images/solution_loop1.gif">
+      <image src="/images/solution_loop1"/> </a></td> 
+   </tr>
+   <tr>
+     <td align="center"> <strong> Figure 1 </strong></td>
    </tr>
   </table>
 </center>

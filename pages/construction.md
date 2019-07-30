@@ -49,14 +49,36 @@ In this publication, the authors are investigating possible positive regulation 
 The SBML file provided in the publication was first imported into VCell. The model was then fully annotated to yield a more thorough understanding of the model for the viewer. Both textual and database annotations were added. 
 
 <center>
-  <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_annotation.PNG">
-    <img width="450" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_annotation.PNG"/>
-  </a>
+  <table>
+    <td align="center" width="600">
+      <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_annotation.PNG">
+        <img width="550" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_annotation.PNG"/>
+      </a>
+    </td>
+    <tr>
+      <td align="center"> 
+        Annotation of original model in VCell
+      </td>
+    </tr>
+  </table>
 </center>
 
 Species were modified so that they were constructed of individual molecules. By completing this step, each species became much more comprehensive and the constituent parts are clearly shown. 
 
-diagram of original species to molecularized species HERE
+<center>
+  <table>
+    <td align="center" width="600">
+      <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_molecularization.PNG">
+        <img width="550" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_molecularization.PNG"/>
+      </a>
+    </td>
+    <tr>
+      <td align="center"> 
+        Species composed of individual molecules
+      </td>
+    </tr>
+  </table>
+</center>
 
 Once the model was fully annotated, simulations were run in VCell and confirmed to replicate those from the publication.
 

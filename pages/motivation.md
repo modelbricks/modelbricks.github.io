@@ -27,7 +27,7 @@ identifiable, (3) association with model specific numerical parameters as well a
 
 <center>
   <table>
-    <td> <image src="/images/solution_1loop.gif"/></td> 
+    <td> <image src="/images/solution_loop1.gif"/></td> 
    <tr>
     <td align="center"> <strong> Figure 2 </td>
    </tr>

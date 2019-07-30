@@ -137,7 +137,7 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB"> Coupled Ca2+ oscillators <br>
-          (<a href="http://modelbricks.org/CM_PM12779457/">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/CM_PM12779457.md/">Curated VCell model</a>, 
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/12779457">PMID: 12779457</a>)
      </td>
      <td bgcolor="#EBF5FB">

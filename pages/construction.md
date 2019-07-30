@@ -111,9 +111,9 @@ Once the model was fully annotated, simulations were run in VCell and confirmed 
 
 <center>
   <table>
-    <td align="center" width="500">
+    <td align="center" width="700">
       <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_bricks1.png">
-        <img width="450" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_bricks1.png"/>
+        <img width="650" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_bricks1.png"/>
       </a>
     </td>
   </table>
@@ -121,7 +121,15 @@ Once the model was fully annotated, simulations were run in VCell and confirmed 
 
 The first ModelBrick derived from the full model describes the activation of GEF and the degradation of the activator. The remaining large and complex ModelBrick can be further broken down into additional ModelBricks.
 
-diagram of further breakdown HERE
+<center>
+  <table>
+    <td align="center" width="700">
+      <a href="https://modelbricks.github.io/images/Vcellimages/CM_PM25628036_bricks2.png">
+        <img width="650" style="vertical-align:middle" src="/images/Vcellimages/CM_PM25628036_bricks2.png"/>
+      </a>
+    </td>
+  </table>
+</center>
 
 Two additional ModelBricks were then created. One of these ModelBricks describes a much simpler Rho GTPase cycle, while the other ModelBrick describes GDI and G protein complex formation.
 

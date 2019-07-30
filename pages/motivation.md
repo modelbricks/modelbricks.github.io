@@ -7,14 +7,16 @@ permalink: motivation
 # The need for ModelBricks 
 
 Most computational models in biology are built and intended for “single-use”; the lack of appropriate annotation creates models 
-where the assumptions are unknown, and molecules and pathways are not uniquely identified.  Simply recreating a simulation result
-from a publication can be daunting; extending and expanding models to new and more complex situations is a Herculean task.  
-As a result, new models are almost always created anew from scratch, repeating literature searches for kinetic parameters, 
+where the assumptions are unknown, and molecules and pathways are not uniquely identified. As shown in figure 1, simply recreating a simulation result from a publication can be daunting; extending and expanding models to new and more complex situations is a Herculean task. As a result, new models are almost always created anew from scratch, repeating literature searches for kinetic parameters, 
 initial conditions and modeling specifics.  It is akin to building a brick house starting with a pile of clay.
+<br>
+<table>
+  <td> <image src="/images/problems.gif"/> </td>
+  <tr> Figure 1 </tr>
+ </table>
 
 <br>
-<br>
-Here weintroduce a new concept for building annotated, reusable models, by starting with small well-annotated modules we 
+Here we introduce a new concept for building annotated, reusable models, by starting with small well-annotated modules we 
 call ModelBricks.  Curated ModelBricks, accessible through an open database, could be used to construct new models that will 
 inherit ModelBricks annotations and thus be easier to understand and reuse.  Key features of ModelBricks include (1) reliance 
 on a commonly used standard language (SBML), (2) rule-based specification such that species consist of molecules that are uniquely 

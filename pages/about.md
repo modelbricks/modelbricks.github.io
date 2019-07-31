@@ -4,13 +4,11 @@ title: About
 permalink: /about/
 ---
 
-# About
-
-ModelkBricks are defined as ... The dictionary of ModelBricks aligns mathematical and biological concepts with the published mathematical models they were used.
 
 ## How to cite ModelBricks
 
-....
+Ann E Cowan, Pedro Mendes, Michael L Blinov (2019) ModelBricks - Modules for reproducible modeling improving model annotation and provenance. Available at http://ModelBricks.org
+
 
 ## Contact
 

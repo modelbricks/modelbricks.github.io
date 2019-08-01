@@ -8,7 +8,7 @@ permalink: construction
 
 ## The original model 
 
-The creation of ModelBricks begins with a full model. As an example, we can take this model of a Rho GTPase cycle, which was created by Ota et al. in 2015 (PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25628036">25628036</a>). 
+The creation of ModelBricks begins with a full model. As an example, we can take this model of a Rho GTPase cycle, which was published by Ota et al. in 2015 (PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25628036">25628036</a>). 
 
 <center>
   <table>
@@ -33,7 +33,7 @@ In this publication, the authors are investigating possible positive regulation 
   <li><b>Guanine nucleotide exchange factors</b> (GEFs): Activate small G proteins by promoting the exchange of GDP for GTP</li>
   <li><b>GTPase activating proteins</b> (GAPs): Inactivate small G proteins by promoting GTP hydrolysis</li>
   <li><b>GDP-dissociation inhibitors</b> (GDIs): Negative role is to suppress overall Rho activity by inhibiting GEFs, while positive role is to sustain Rho activation by inhibiting GAPs.</li>
-  </ul>
+</ul>
 
 The SBML file provided in the publication was first imported into VCell. Simulations were run in VCell and confirmed to replicate those from the publication. As the concentration of intracellular free GDIs increases, Rho activation is prolonged, despite the overall decrease in Rho activity over time.
 
@@ -79,7 +79,7 @@ The SBML file provided in the publication was first imported into VCell. Simulat
   </table>
 </center>
 
-The model was then fully annotated to yield a more thorough understanding of the model for the viewer. Both textual and database annotations were added. 
+The model was then fully annotated to give the viewer a more thorough understanding of the model. Both textual and database annotations were added. 
 
 <center>
   <table>
@@ -96,7 +96,7 @@ The model was then fully annotated to yield a more thorough understanding of the
   </table>
 </center>
 
-Species were modified so that they were constructed of individual molecules. By completing this step, each species became much more comprehensive and the constituent parts are clearly shown. 
+Species were modified so that they were constructed of individual molecules. By completing this step, each species became much more comprehensive and the constituent parts were clearly displayed. 
 
 <center>
   <table>
@@ -125,7 +125,7 @@ Species were modified so that they were constructed of individual molecules. By 
   </table>
 </center>
 
-The first ModelBrick derived from the full model describes the activation of GEF and the degradation of the activator. The remaining large and complex ModelBrick can be further broken down into additional ModelBricks.
+The first ModelBrick derived from the full model describes the activation of GEF and the degradation of the activator. The remaining portion of the model is its own ModelBrick, but it was further broken into two additional ModelBricks as well.
 
 <center>
   <table>
@@ -137,6 +137,6 @@ The first ModelBrick derived from the full model describes the activation of GEF
   </table>
 </center>
 
-Two additional ModelBricks were then created. One of these ModelBricks describes a much simpler Rho GTPase cycle, while the other ModelBrick describes GDI and G protein complex formation.
+The two additional ModelBricks were created with one of them describing a much simpler Rho GTPase cycle and the other describing complex formation with GDIs and G proteins.
 
-All of these ModelBricks can have simulations completed in VCell on their own. Therefore, they are independent entities that can be combined to construct full models that are fully annotated and computable. 
+All ModelBricks are independent entities that can be combined to construct full models that are fully annotated and computable. 

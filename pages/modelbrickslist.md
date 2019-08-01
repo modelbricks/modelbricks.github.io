@@ -42,12 +42,12 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB"> PDGF regulated activation of Src <br>
-          (<a href="http://modelbricks.org/MB_PDGF_Src/">Curated VCell model</a>,
+          (<a href="http://modelbricks.org/CM_PM24034255/">Curated VCell model</a>,
           <a href="https://www.ncbi.nlm.nih.gov/pubmed/24034255 ">PMID: 24034255</a>)
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
-          <li><a href="http://modelbricks.org/MB_PDGF_Src/">PDGF regulated activation of Src</a></li>
+          <li><a href="http://modelbricks.org/CM_PM24034255/">PDGF regulated activation of Src</a></li>
           </ul>
      </td>
 </tr>

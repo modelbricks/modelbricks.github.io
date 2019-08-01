@@ -15,12 +15,12 @@ permalink: /egfrlist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB" > Stites... <br>
-     (<a href="/pages/CM_PM25863072/">Curated VCell model</a>, 
+     (<a href="/CM_PM25863072/">Curated VCell model</a>, 
       <a href="https://www.ncbi.nlm.nih.gov/pubmed/25863072">PMID:25863072</a>)
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
-          <li><a href="/pages/CM_Stites_EGFR/"> Curated Model by Stites et al.</a></li>
+          <li><a href="/CM_Stites_EGFR/"> Curated Model by Stites et al.</a></li>
           <li><a href="/CM_PM25863072_/"> Protein phosphorylation</a></li>
           <li><a href="/CM_PM25863072_MB3/"> Perfectly adapted signal response</a></li>
           </ul>

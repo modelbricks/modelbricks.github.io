@@ -15,12 +15,12 @@ permalink: /modelbrickslist/
 </tr>
 <tr>
      <td bgcolor="#EBF5FB"> Dynamics of regulatory and signaling pathways in the cell <br>
-     (<a href="/CM_PM12648679/">Curated VCell model</a>, 
+     (<a href="http://modelbricks.org/CM_PM12648679/">Curated VCell model</a>, 
       <a href="https://www.ncbi.nlm.nih.gov/pubmed/12648679">PMID: 12648679</a>)
      </td>
      <td bgcolor="#EBF5FB">
           <ul>
-          <li><a href="/CM_PM12648679_MB1"> Protein synthesis and degradation</a></li>
+          <li><a href="/CM_PM12648679_MB1/"> Protein synthesis and degradation</a></li>
           <li><a href="/CM_PM12648679_MB2/"> Protein phosphorylation</a></li>
           <li><a href="/CM_PM12648679_MB3/"> Perfectly adapted signal response</a></li>
           <li><a href="/CM_PM12648679_MB5/"> Activator-inhibitor oscillator</a></li>

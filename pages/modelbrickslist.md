@@ -23,6 +23,12 @@ permalink: /modelbrickslist/
           <li><a href="/CM_PM12648679_MB1"> Protein synthesis and degradation</a></li>
           <li><a href="/CM_PM12648679_MB2/"> Protein phosphorylation</a></li>
           <li><a href="/CM_PM12648679_MB3/"> Perfectly adapted signal response</a></li>
+          <li><a href="/CM_PM12648679_MB5/"> Activator-inhibitor oscillator</a></li>
+          <li><a href="/CM_PM12648679_MB6/"> Mutual activation</a></li>
+          <li><a href="/CM_PM12648679_MB7/"> Mutual inhibition</a></li>
+          <li><a href="/CM_PM12648679_MB8/"> Negative feedback: homeostasis</a></li>
+          <li><a href="/CM_PM12648679_MB9/"> Negative feedback: oscillator</a></li>
+          <li><a href="/CM_PM12648679_MB10/"> Substrate depletion oscillator</a></li>
           </ul>
      </td>
 </tr>

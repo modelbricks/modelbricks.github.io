@@ -21,7 +21,8 @@ permalink: /modelbrickslist/
      <td bgcolor="#EBF5FB">
           <ul>
           <li><a href="/CM_PM12648679_MB1/"> Protein synthesis and degradation</a></li>
-          <li><a href="/CM_PM12648679_MB2/"> Protein phosphorylation</a></li>
+          <li><a href="/CM_PM12648679_MB2/"> Protein phosphorylation: hyperbolic</a></li>
+          <li><a href="/CM_PM12648679_MB3/"> Protein phosphorylation: sigmoidal</a></li>
           <li><a href="/CM_PM12648679_MB4/"> Perfectly adapted signal response</a></li>
           <li><a href="/CM_PM12648679_MB5/"> Activator-inhibitor oscillator</a></li>
           <li><a href="/CM_PM12648679_MB6/"> Mutual activation</a></li>

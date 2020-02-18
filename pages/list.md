@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Model Bricks
+title: List of Model Bricks
 permalink: /list/
 ---
 

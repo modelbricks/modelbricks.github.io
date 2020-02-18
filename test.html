@@ -43,22 +43,7 @@
                       <a class="nav-link" target="_blank" href="http://copasi.org/">COPASI</a>
                 </li>
               
-              <ul class="collapsibleList">
-  <li>
-    Parent item
-    <ul>
-      <li>Child item</li>
-      <li>Child item</li>
-    </ul>
-  </li>
-  <li>
-    Parent item
-    <ul>
-      <li>Child item</li>
-      <li>Child item</li>
-    </ul>
-  </li>
-</ul>
+
               
             </div>
           </div>
@@ -98,7 +83,22 @@
                                   Membrane Channels
                               </div>
                              
-                              
+                      <ul class="collapsibleList">
+  <li>
+    Parent item
+    <ul>
+      <li>Child item</li>
+      <li>Child item</li>
+    </ul>
+  </li>
+  <li>
+    Parent item
+    <ul>
+      <li>Child item</li>
+      <li>Child item</li>
+    </ul>
+  </li>
+</ul>                      
                              
                               
         
@@ -124,6 +124,9 @@
             .line('<h1>Welcome to my digital home!</h1>')
             .cursor({block: false, blink: 'hard', color: 'red'});
 
+    </script>
+  <script>
+      runOnLoad(function(){ CollapsibleLists.apply(); });
     </script>
     <script>
     $(function () {

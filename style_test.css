@@ -124,7 +124,6 @@ div i{
 
 
 .collapsible {
-  background-color: #777;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -136,12 +135,11 @@ div i{
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #777;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
 }

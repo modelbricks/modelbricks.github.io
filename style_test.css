@@ -121,3 +121,19 @@ div i{
     padding-bottom: 40px;
     padding-top: 40px;
 }
+
+
+.collapsibleList li{
+  list-style-image : url('button.png');
+  cursor           : auto;
+}
+
+li.collapsibleListOpen{
+  list-style-image : url('button-open.png');
+  cursor           : pointer;
+}
+
+li.collapsibleListClosed{
+  list-style-image : url('button-closed.png');
+  cursor           : pointer;
+}

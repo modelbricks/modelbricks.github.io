@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Model Bricks
-permalink: /modelbrickslist/
+permalink: /list/
 ---
 
 <h1 align="center"> Curated Models and Related ModelBricks </h1>

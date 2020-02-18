@@ -6,6 +6,23 @@ permalink: /modelbrickslist/
 
 <h1 align="center"> Curated Models and Related ModelBricks </h1>
 
+<ul class="collapsibleList">
+  <li>
+    Parent item
+    <ul>
+      <li>Child item</li>
+      <li>Child item</li>
+    </ul>
+  </li>
+  <li>
+    Parent item
+    <ul>
+      <li>Child item</li>
+      <li>Child item</li>
+    </ul>
+  </li>
+</ul>
+
 <table border-left="15" style="padding:5px">
 <tr>
      <td bgcolor="#AED6F1" align="center"><strong>Publication</strong>

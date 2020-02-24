@@ -12,10 +12,8 @@
 }
 
 .content-box{
-    text-align: center;
-    
+    text-align: center;    
 }
-
 
 
 .section{
@@ -23,8 +21,7 @@
     padding-bottom: 20px;
 }
 
-.headings{
-    
+.headings{    
     margin-bottom: 40px;
     text-align: center;
     color:rgb(42, 119, 60);
@@ -40,7 +37,6 @@
 .intro-text{
     padding-top: 50px;
     padding-bottom: 40px;
-
     }
 }
 
@@ -52,20 +48,6 @@ body{
     background-color:green;
 }
 
-/* --------------------------------------------------Portfolio styles----------------------------------------------- */
-.portfolio-img-container{
-    
-}
-
-.portfolio-img-container img{
-    box-shadow: 0 10px 6px -6px #777;
-    
-    width: 100%;
-    opacity: 1;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    transition: 0.5s ease;
-}
 
 .middle{
     transform: translate(-50%, -50%);
@@ -78,13 +60,6 @@ body{
     text-align: center;
 }
 
-.portfolio-img-container:hover .middle{
-    opacity: 1;
-}
-
-.portfolio-img-container:hover .portolio-img{
-    opacity: 0.5;
-}
 
 .modal-footer{
     display: block;

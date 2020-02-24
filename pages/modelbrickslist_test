@@ -55,27 +55,9 @@
             </div>
           </div>
         </nav>
-        <div id="one" class="banner-area">
-          <div class="intro-text container">
-
-              <h1 class="banner-area-headline">Model Bricks: small well-annoted modules used to build annotated, reusable models</h1>
-              <h3> Key features of ModelBricks include reliance on a commonly used standard language (SBML), 
-                rule-based specification describing species as a collection of uniquely identifiable molecules, 
-                association with model specific numerical parameters, and more common annotations.</h3>
-          </div>
-        </div>
-  
                   <div id="three"  class="dark-theme container-fluid section">
                       <div class="intro-box" id="one">
-                            Complex molecular networks often can be constructed from simpler modules that we call bricks. 
-                            The adaptive behaviour of living cells is shown to be represented as a combination of 
-                            functional motifs that reproduce different patterns of cell response to a signal – 
-                            from simple linear and sigmoidal responses to more complex behaviours like toggle switches 
-                            and oscillators. The topology of these modules can be captured in graphical form and 
-                            represented as a wiring diagram in SBGN. However, to understand why these models work 
-                            the way they do, one must develop a precise mathematical description of molecular circuitry 
-                            and describe it in a different type of multiplex brick, that we call an executable brick 
-                            or a model brick. 
+                            Each ModelBrick is used in at least one publication. 
                         </div>
                               
       <br><br>                       
@@ -84,7 +66,8 @@
 <button type="button" class="collapsible">Generic Signal Response</button>
 <div class="collapse navbar-collapse ">
     <ul class="ml-md-auto nav nav-pills navbar-nav">
-    <li class="nav-item"><a class="nav-link" href=CM_PM12648679_MB1>Protein Synthesis and Degradation</a></li>
+    <li class="nav-item"><a class="nav-link" href=CM_PM12648679_MB1>Protein Synthesis and Degradation</a> 
+    (from Repressilator: A Synthetic Oscillatory Network <a href="https://www.ncbi.nlm.nih.gov/pubmed/10659856>PMID:10659856</a></li>
     <li class="nav-item"><a class="nav-link" href=CM_PM12648679_MB6>Mutual activation</a></li>
     <li class="nav-item"><a class="nav-link" href=CM_PM12648679_MB8>Negative feedback: homeostasis</a></li>
     <li class="nav-item"><a class="nav-link" href=modelbrickslist_test>More...</a></li>
